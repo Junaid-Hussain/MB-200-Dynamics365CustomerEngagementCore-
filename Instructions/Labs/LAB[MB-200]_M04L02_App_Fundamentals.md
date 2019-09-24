@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: App fundamentals'
+    module: 'Module 4: Building Canvas Applications'
+---
+
 Module 4: Building Canvas Applications
 ======================================
 
