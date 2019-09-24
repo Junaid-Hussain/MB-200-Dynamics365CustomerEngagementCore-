@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Modifying views'
+    module: 'Module 3: Building Model-Driven Applications'
+---
+
 Module 3: Building Model-Driven Applications
 ============================================
 
