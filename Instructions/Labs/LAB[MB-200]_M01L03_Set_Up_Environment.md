@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Set up environment'
+    module: 'Module 1: Power Platform Overview'
+---
+
 Module 1: Power Platform Overview
 =================================
 ## Practice Lab – Set up environment
