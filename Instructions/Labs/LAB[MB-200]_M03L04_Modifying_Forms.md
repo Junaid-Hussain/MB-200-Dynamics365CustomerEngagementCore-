@@ -1,7 +1,13 @@
+---
+lab:
+    title: 'Lab: Modifying forms'
+    module: 'Module 3: Building Model-Driven Applications'
+---
+
 Module 3: Building Model-Driven Applications
 ============================================
 
-## Lesson 4: Practice Lab – Modifying Forms
+## Lesson 4: Practice Lab – Modifying forms
 
 Scenario
 --------
