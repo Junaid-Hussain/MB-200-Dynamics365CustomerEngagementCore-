@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Create security role'
+    module: 'Module 5: Security'
+---
+
 Module 5: Security
 ==================
 ## Practice Lab - Create security role
