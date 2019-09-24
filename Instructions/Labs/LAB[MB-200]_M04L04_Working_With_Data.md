@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Working with data and services'
+    module: 'Module 4: Building Canvas Applications'
+---
+
 Module 4: Building Canvas Applications
 ======================================
 
