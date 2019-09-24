@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: User experience'
+    module: 'Module 4: Building Canvas Applications'
+---
+
 Module 4: Building Canvas Applications
 ======================================
 
