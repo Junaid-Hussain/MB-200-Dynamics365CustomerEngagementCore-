@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Create users'
+    module: 'Module 5: Security'
+---
+
 Module 5: Security
 ==================
 
