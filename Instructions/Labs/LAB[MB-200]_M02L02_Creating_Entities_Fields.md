@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Creating entities and fields'
+    module: 'Module 2: Data Model'
+---
+
 Module 2: Data Model
 ====================
 
