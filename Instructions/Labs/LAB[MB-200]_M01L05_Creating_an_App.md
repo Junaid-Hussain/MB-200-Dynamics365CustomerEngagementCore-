@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Creating an app'
+    module: 'Module 1: Power Platform Overview'
+---
+
 Module 1: Power Platform Overview
 =================================
 
