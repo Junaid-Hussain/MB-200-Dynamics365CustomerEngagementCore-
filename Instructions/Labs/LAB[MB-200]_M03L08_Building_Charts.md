@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Building charts'
+    module: 'Module 3: Building Model-Driven Applications'
+---
+
 Module 3: Building Model-Driven Applications
 ============================================
 
