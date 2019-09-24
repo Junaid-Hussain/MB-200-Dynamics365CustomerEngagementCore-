@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Create teams'
+    module: 'Security'
+---
+
 Module 5: Security
 ==================
 ### Practice Lab – Create teams
