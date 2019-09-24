@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Additional entity options'
+    module: 'Module 2: Data Model'
+---
+
 Module 2: Data Model
 ====================
 
