@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Building dashboards'
+    module: 'Module 3: Building Model-Driven Applications'
+---
+
 Module 3: Building Model-Driven Applications
 ============================================
 
