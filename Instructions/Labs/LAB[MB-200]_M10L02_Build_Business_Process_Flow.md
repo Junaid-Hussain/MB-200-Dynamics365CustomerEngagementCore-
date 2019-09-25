@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Build a business process flow'
+    module: 'Module 10: Business Process Flows'
+---
+
 Module 10: Business Process Flows
 ================================
 
