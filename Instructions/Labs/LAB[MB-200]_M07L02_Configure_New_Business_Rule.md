@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Configure a new business rule'
+    module: 'Module 7: Business rules'
+---
+
 Module 7: Business Rules
 ========================
 
