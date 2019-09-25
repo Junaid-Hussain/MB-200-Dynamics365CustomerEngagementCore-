@@ -1,7 +1,14 @@
+---
+lab:
+    title: 'Lab: Adding branching to business process flows'
+    module: 'Module 10: Business Process Flows'
+---
+
+
 Module 10: Business Process Flows
 ================================
 
-Lesson 4: Practice Lab – Adding branching to business process flow
+Lesson 4: Practice Lab – Adding branching to business process flows
 
 Scenario
 --------
