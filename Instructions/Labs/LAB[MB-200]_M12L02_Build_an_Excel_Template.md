@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab: Build an Excel template'
+    module: 'Module 12: Integration with Office'
+---
+
+
 Module 12: Integration with Office
 =================================
 
