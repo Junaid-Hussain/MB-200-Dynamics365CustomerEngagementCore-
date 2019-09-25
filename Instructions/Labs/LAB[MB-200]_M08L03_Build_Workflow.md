@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Build a workflow'
+    module: 'Module 8: Workflows'
+---
+
 Module 8: Workflows
 ===================
 
