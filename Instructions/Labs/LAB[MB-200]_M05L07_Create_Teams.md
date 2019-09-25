@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Create teams'
-    module: 'Security'
+    module: 'Module 5: Security'
 ---
 
 Module 5: Security
