@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Advanced business rules'
+    module: 'Module 7: Business rules'
+---
+
 Module 7: Business Rules
 ========================
 
