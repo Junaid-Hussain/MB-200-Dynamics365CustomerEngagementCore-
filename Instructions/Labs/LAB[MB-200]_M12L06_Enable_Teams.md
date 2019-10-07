@@ -1,4 +1,10 @@
-Module 2: Integration with Office
+---
+lab:
+    title: 'Lab: Enable Teams'
+    module: 'Module 12: Integration with Office'
+---
+
+Module 12: Integration with Office
 =================================
 
 ## Lesson 6: Practice Lab - Enable Teams
