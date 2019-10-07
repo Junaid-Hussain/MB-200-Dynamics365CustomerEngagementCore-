@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Configure document sharing'
+    module: 'Module 12: Integration with Office'
+---
+
 Module 12: Integration with Office
 =================================
 
