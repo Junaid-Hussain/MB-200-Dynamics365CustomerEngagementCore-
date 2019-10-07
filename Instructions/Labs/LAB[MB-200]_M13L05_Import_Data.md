@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Import data'
+    module: 'Module 13: Managing Data'
+---
+
 Module 13: Managing Data
 =======================
 
