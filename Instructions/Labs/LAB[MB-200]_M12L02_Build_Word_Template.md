@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Build a World template'
+    module: 'Module 12: Integration with Office'
+---
+
 Module 12: Integration with Office
 =================================
 
