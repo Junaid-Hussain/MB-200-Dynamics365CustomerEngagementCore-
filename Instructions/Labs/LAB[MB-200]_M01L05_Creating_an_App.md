@@ -80,31 +80,30 @@ data templates to see how quickly that can get a basic canvas app started.
 If you have time, you can choose any of these and select Make It and explore on
 your own.
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>
 
 2.  Make sure you are in the **Practice** environment you created.
 
 3.  Select **+ Create** from the left-hand navigation.
 
 4.  Review the different apps that are available to use as both samples and
-    starting templates
+    starting templates.
 
-5.  If you have time choose any of these and select make it, when you are done
-    proceed to Task 2
+5.  If you have time, choose any of these and select **Make it.** When you are done
+    proceed to Task 2.
 
 ### Task 2 – Create an App over data for Account
 
 Starting a canvas app from data is a quick way to start a canvas app when the
 goal is to have a list of data from an entity. 
 
-1.  Select **Home**.
+1.  Select **+ Create** again.
 
-2.  Click **Start from Data**. If it is not on the home screen, select it from
-    **Create.**
+2.  Click **Start from Data**. 
 
-3.  Click **Make this App**.
+3.  Click **Create** in the dialog.
 
-4.  Select your **Region** and click **Get Started**.
+4.  If prompted, select your **Region** and click **Get Started**.
 
 5.  From the **Start with Data** section, locate the **Common Data Service**
     tile.
@@ -115,7 +114,7 @@ goal is to have a list of data from an entity.
 
 8.  Select **Accounts** and click **Connect**.
 
-9.  Your app should open in the designer. Click **Play** (Preview the App).
+9.  Your app should open in the designer. Click **Play (Preview the App)**.
 
 10.  The application will load list of the accounts. View one of the
     **Accounts**.
@@ -134,7 +133,7 @@ goal is to have a list of data from an entity.
 
 16.  Click **File** and select **Save**.
 
-17.  Select the **Cloud** and enter **Fabrikam Accounts** for in the **Name**
+17.  Select the **Cloud** and enter **Fabrikam Accounts** in the **Name**
     box.
 
 18.  Click **Save**.
@@ -154,17 +153,18 @@ started will be easy.
 
 ### Task 1 – Create a model-driven app
 
-1.  Go back to <https://web.powerapps.com> and make sure you are in the
+1.  Go back to <https://make.powerapps.com> and make sure you are in the
     **Practice** environment.
 
 2.  Select **Solutions** and open **Common Data Service Default Solution**.
 
-3.  Click in the upper right-hand area for **New \| App \| Model-Driven App**.
+3.  Click in the upper right-hand area for **New | App | Model-Driven App**.
 
 4.  Enter **Knowledge Admin** for Name and click **Done**.
 
-5.  Click **Edit Site Map**. Note: When you start a new app, you must edit the
-    site map before you can run it otherwise you will get an error. You need to
+5.  Click **Edit Site Map**. 
+    *Note:* When you start a new app, you must edit the
+    site map before you can run it - otherwise you will get an error. You need to
     add at least one item to the navigation.
 
 6.  Click on the **New Area**.
@@ -179,7 +179,7 @@ started will be easy.
 
 11. Select **Entity** for **Type**.
 
-12. Select **User** for **Entity**
+12. Select **User** for **Entity**.
 
 13. Click **Save**.
 
@@ -210,18 +210,17 @@ started will be easy.
 Exercise 4 – Create the Knowledge canvas App
 --------------------------------------------
 
-In this exercise, you will be creating the Fabrikam Knowledge canvas app. This
-will be just to setup the basic app, we will build out the user experience in
-the canvas app module.
+In this exercise, you will be creating the Fabrikam Knowledge canvas app. We will build out the detailed user experience in
+the upcoming canvas app module.
 
 ### Task 1 – Create a canvas app
 
-1.  Go back to <https://web.powerapps.com> and make sure you are in the
+1.  Go back to <https://make.powerapps.com> and make sure you are in the
     **Practice** environment.
 
 2.  Select **Solutions** and open **Common Data Service Default Solution**.
 
-3.  Click **New \| App \| Canvas App \| Tablet Form Factor**.
+3.  Click **New | App | Canvas App | Tablet Form Factor**.
 
 4.  Click **Skip** if you see a prompt before the designer loads.
 
@@ -230,23 +229,23 @@ the canvas app module.
 
 6.  Select **Rename**.
 
-7.  Enter **mainScreen** and press the [Enter] key. Note: It is always a good
+7.  Enter **mainScreen** and press the [Enter] key. 
+    *Note:* It is always a good
     idea to give components meaningful names, it makes them easier to use as
     your application gets more complex.
 
 ### Task 2 – Add Header to the App
-
-Part of making a good app is giving it a personality, we are going to keep
+Part of making a good app is giving it a personality. We are going to keep
 things simple here and just add a basic header to the app.
 
 1.  Select the **Insert** tab.
 
 2.  Click **Label**.
 
-3.  A label will be added to the screen. Select the Label.
+3.  A label will be added to the screen. Select the label.
 
-4.  Rename the label **headerLabel** by clicking the … Rename in the control
-    tree on the left side of the screen
+4.  Rename the label **headerLabel** by clicking the **… Rename** in the control
+    tree on the left side of the screen.
 
 5.  Select the **Home** tab.
 
@@ -267,7 +266,7 @@ things simple here and just add a basic header to the app.
 
 13. Enter **1365** for **Width** and **60** for **Height**.
 
-14. Double click on the **Text** of the **label**.
+14. Double click on the **Text** of the label.
 
 15. Replace **Text** with **Fabrikam Assessment**.
 
@@ -282,10 +281,10 @@ of the current user to the header.
 
 3.  Rename the label **userLabel**.
 
-4.  Make sure text **Text** property is select and the function value is now
+4.  Make sure text **Text** property is selected and the function value is now
     **“Text”.**
 
-5.  Replace **“Text”** with *User().FullName*
+5.  Replace **“Text”** with *User().FullName*.
 
 6.  The user’s Full Name will now be displayed on the label. Select the **Home**
     tab.
@@ -312,7 +311,7 @@ of the current user to the header.
 
 17. Click on the **Back** button.
 
-18. Click **Play** (Preview the App).
+18. Click **Play (Preview the App)**.
 
 19. Your application will load.
 
