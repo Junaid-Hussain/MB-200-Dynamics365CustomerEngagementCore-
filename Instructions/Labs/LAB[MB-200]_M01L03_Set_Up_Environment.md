@@ -60,7 +60,7 @@ Common Data Model entities configured.
 
 ### Task 1 – Create an environment
 
-1.  Click either **Show Al**l or **Admin Centers** to expand **Admin Centers**
+1.  Click either **Show All** or **Admin Centers** to expand **Admin Centers**
     and select **PowerApps**.
 
 2.  Click **New Environment** in the upper right corner.
@@ -89,19 +89,21 @@ Dynamics 365 for Sales app installed.
 
 2.  Expand **Admin Centers** and select **Dynamics 365**.
 
-3.  Select **Sales** and enter **SalesPractice** for **URL** if available or
-    enter a different **URL**.
+3.  Select **Instance to Configure** from the list and click **Configure.**
 
-4.  Click **Configure**.  
-      
-    It will take few minutes to create the environment. You may proceed to
-    exercise four while the environment is being created.
+4.  Select only the **Sales app** in the "Choose which applications you want to preinstall" section.
+
+5.  Enter **SalesPractice** for URL if available (or enter a different URL).
+
+6.  Click **Configure**.  
+
+It will take few minutes to create the environment. You may proceed to exercise four while the environment is being created.
 
 Exercise 4 – Review Settings and Configure
 ------------------------------------------
 
 In this exercise, you will be reviewing settings, enabling an additional
-currency, and auditing.
+currency, and enabling auditing.
 
 ### Task 1 – Verify CDS has finished provisioning
 
@@ -112,7 +114,7 @@ currency, and auditing.
 2.  Locate the **Practice** environment you created previously.
 
 3.  Your environment was successfully created if you see (orgxxxxxx) added to
-    the end of your environment name, if not wait for the environment to be
+    the end of your environment name. If not, wait for the environment to be
     created.
 
 ### Task 2 – Explore the settings
@@ -120,8 +122,8 @@ currency, and auditing.
 1.  Go back to <https://admin.Powerplatform.microsoft.com> and select
     **Environments**.
 
-2.  Select the **Practice** environment by clicking on its name when it is
-    underlined and click **Settings** in the upper right-hand corner.
+2.  Select the **Contoso** environment (that does not say **(Default)**) by clicking on its name when it is
+    underlined and click **Settings** in the upper right-hand corner. T
 
 3.  Explore the different areas in **Settings** that you are interested in but
     **do not make any changes.**
@@ -147,9 +149,9 @@ currency, and auditing.
 
 1.  Locate the **Product** section of the **Settings** and click **Features**.
 
-2.  Locate the **Auditing** section and turn on **Audit Entities**.
+2.  Locate the **Auditing** section and turn on **Start Auditing.**
 
-3.  Click **Save**.
+3.  Click **Save** in the lower left corner. You may have to scroll to see it.
 
 
 Exercise 5 – Explore the environments
@@ -160,9 +162,9 @@ them.
 
 ### Task 1 – Explore the Practice environment
 
-1.  Navigate to <https://web.powerapps.com/>
+1.  Navigate to <https://make.powerapps.com/>
 
-2.  Make sure you are in the **Practice** environment.
+2.  Make sure you are in the **Practice** environment by checking the environment selector. It is probably currently set to **Contoso (default)** and needs to be changed to **Practice.**
 
 3.  Select **Apps**.
 
@@ -176,31 +178,29 @@ them.
 
 ### Task 2 – Explore the Dynamics 365 environment
 
-1.  Go back to <https://web.powerapps.com/>
+1.  Go back to <https://make.powerapps.com/>
 
-2.  Make sure you are not in the default or practice environments.
+2.  Change your environemtn to the Sales environment. It should be named **Contoso (salespractice)**.
 
-3.  Select the gear icon in the upper menu. In the dropdown menu, select
-    **Advanced Settings.**
+3.  Select **Apps.**
 
-4.  Your Business Settings will open (usually in a new window). Click the drop
-    down menu by **Settings** in the top menu to expand the entire Settings
-    options.
+4.  Click on the **Sales Hub** application.
 
-5.  Open **Data Management.**
+5. In the upper right corner, select the **Gear Icon** and choose **Advanced Settings.**
 
-6.  Click **Sample Data**.
+6.  Navigate to **Settings | Data Management.**
 
-7.  You can confirm that sample data is already installed if you have the option
-    to **Remove Sample Data.** If sample data is not installed, click **Install
-    Sample Data**.
+7.  Click **Sample Data**.
 
-8.  Wait for the installation to start and click **Close**.
+8.  You can confirm that sample data is already installed if you have the option
+    to **Remove Sample Data.** If sample data is not installed, click **Install Sample Data**.
 
-9.  Close the Sales application.
+9.  If installing, wait for the installation to start and click **Close**.
 
-10.  Click to open the **Sales Hub** application.
+10.  Close the **Advanced Settings** tab.
 
-11.  The **Sales Hub** application will load.
+11.  Return to the tab with the **Sales Hub** application and refresh your browser.
 
-12.  Explore and familiarize yourself with the application.
+12. Click on **Accounts** in the left navigation. If you don't see data, wait for a short time and refresh again. The sample data install can sometimes take a few minutes.
+
+13. Explore and familiarize yourself with the application. 
