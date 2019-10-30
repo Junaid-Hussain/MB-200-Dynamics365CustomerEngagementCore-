@@ -98,60 +98,49 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 6.  Enter **Knowledge Assessment** for **Display Name**.
 
-7.  The **Plural Display Name**, and the **Name** fields will get set
-    automatically. You can change the **Plural Display Name** and **Name** field
-    values if you are not happy with the default values.
+7.  Edit the **Plural Display Name** and **Name** if appropriate.
 
-8.  Click **Next**.
+8.  Click **Create**.
 
-9.  The entity will be created, and it will have one field with the **Display
-    Primary Name**.
-
-10. You will want to rename the Primary Name field. Do this by clicking on the
-    **Primary Name** filed.
-
-11. Change the **Display Name** to **Title**, **Name** to **Title**, and click
-    **Done**.
-
-12. You will now add two additional new fields for **Start** and **End Date**.
+9. You will now add two additional new fields for **Start** and **End Date**.
     With **Fields** tab still selected, click **Add Field**.
 
-13. Enter **Start Date** for **Display Name** and select **Date Only** for
+10. Enter **Start Date** for **Display Name** and select **Date Only** for
     **Data Type**.
 
-14. Click **Advanced Options** and make sure **User Local** is selected for
+11. Click **Advanced Options** and make sure **User Local** is selected for
     **Behavior**.
 
-15. Click **Done**.
+12. Click **Done**.
 
-16. Click **Add Field** again.
+13. Click **Add Field** again.
 
-17. Enter **End Date** for **Display Name** and select **Date Only** for **Data
+14. Enter **End Date** for **Display Name** and select **Date Only** for **Data
     Type**.
 
-18. Click **Advanced Options** and make sure **User Local** is selected for
+15. Click **Advanced Options** and make sure **User Local** is selected for
     **Behavior**.
 
-19. Click **Done.**
+16. Click **Done.**
 
-20. You will add an **Option Set** type filed. Click **Add Field**.
+17. You will add an **Option Set** type filed. Click **Add Field**.
 
-21. Enter **Difficulty** for **Display Name** and select **Option Set** for
+18. Enter **Difficulty** for **Display Name** and select **Option Set** for
     **Data Type**.
 
-22. Click on the **Option Set** dropdown and select **New Option Set**.
+19. Click on the **Option Set** dropdown and select **New Option Set**.
 
-23. Enter **Beginner** for **Item 1** and click **Add New Item**.
+20. Enter **Beginner** for **Item 1** and click **Add New Item**.
 
-24. Enter **Intermediate** for **Item 2** and click **Add New Item**.
+21. Enter **Intermediate** for **Item 2** and click **Add New Item**.
 
-25. Enter **Advanced** for **Item 3** and click **Save**.
+22. Enter **Advanced** for **Item 3** and click **Save**.
 
-26. Select **Beginner** for the **Default Value** and click **Done**.
+23. Select **Beginner** for the **Default Value** and click **Done**.
 
-27. The **Knowledge Assessment** entity will now have 4 fields.
+24. The **Knowledge Assessment** entity will now have 4 fields.
 
-28. Click **Save Entity**.
+25. Click **Save Entity**.
 
 ### Task 2 – Create a calculated field
 
