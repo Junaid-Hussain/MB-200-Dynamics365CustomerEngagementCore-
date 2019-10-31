@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Set up Exchange'
+    module: 'Module 11: Introduction to Integration'
+---
+
 Module 11: Introduction to Integration
 =====================================
 
