@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Solution components'
+    module: 'Module 15: Manage Solutions'
+---
+
 Module 15: Manage Solutions
 ==========================
 ## Practice Lab – Solution components
