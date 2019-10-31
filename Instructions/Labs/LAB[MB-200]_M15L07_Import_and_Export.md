@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Import and export solutions'
+    module: 'Module 15: Manage Solutions'
+---
+
 Module 15: Manage Solutions
 ==========================
 ## Practice Lab – Import and export solutions
