@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Install app'
+    module: 'Module 14: Manage Instances and Applications'
+---
+
 Module 14: Manage Instances and Applications
 ===========================================
 ## Practice Lab – Install app
