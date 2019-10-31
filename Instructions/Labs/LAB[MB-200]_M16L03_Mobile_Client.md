@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Install the mobile client'
+    module: 'Module 16: Additional Considerations'
+---
+
 Module 16: Additional Considerations
 ===================================
 ## Practice Lab – Install the mobile client
