@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Create publisher and solution'
+    module: 'Module 15: Manage Solutions'
+---
+
 Module 15: Manage Solutions
 ====================================================================================
 ## Practice Lab - Create publisher and solution
