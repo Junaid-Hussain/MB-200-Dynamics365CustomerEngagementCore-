@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Build a selected record flow'
+    module: 'Module 9: Microsoft Flow'
+---
+
 Module 9: Microsoft Flow
 ========================
 
