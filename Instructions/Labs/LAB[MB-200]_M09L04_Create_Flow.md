@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Microsoft Flow'
+    module: 'Module 9: Create a Flow'
+---
+
 Module 9: Microsoft Flow
 ========================
 
