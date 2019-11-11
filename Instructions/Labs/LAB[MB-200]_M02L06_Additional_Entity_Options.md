@@ -130,8 +130,8 @@ upload a web resource containing the SVG icon.
 
 9.  Select **English** for **Language** and click **Browse**.
 
-10. Locate the **Knowledge Assessment Icon.svg** image located in the course
-    resources and click **Open**.
+10. Locate the image located in the course
+    resources. It will be the only file under the **Web Resources** folder and will have "assessmenticon" in the name. Click **Open**.
 
 11. Click **Save**.
 
