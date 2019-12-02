@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab: Build a selected record flow'
-    module: 'Module 9: Microsoft Flow'
+    module: 'Module 9: Microsoft Power Automate'
 ---
 
-Module 9: Microsoft Flow
+Module 9: Microsoft Power Automate
 ========================
 
 ## Lesson 8: Practice Lab – Build a selected record flow
@@ -14,7 +14,7 @@ Scenario
 
 Your client Fabrikam needs the ability to create new knowledge assessments from
 existing assessments without duplicating effort to populate data. In this lab,
-you will create a Microsoft Flow to create a new assessment from an existing
+you will create a Microsoft Power Automate to create a new assessment from an existing
 assessment.
 
 **Important Note:** This lab will provide you with an actual Office 365 tenant
@@ -51,10 +51,10 @@ case you can skip ahead to exercise two and resume.
 4.  Navigate in the browser to the Power platform admin portal at
     [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
 
-Exercise 2 – Create Flow 
+Exercise 2 – Create flow 
 -------------------------
 
-### Task 1 – Create Flow
+### Task 1 – Create flow
 
 1.  Navigate to <https://web.powerapps.com>
 
@@ -90,7 +90,7 @@ Exercise 2 – Create Flow
 
 16. Rename the step **When Assessment is Selected**.
 
-17. Change the Flow name to **Create Assessment from Existing**.
+17. Change the flow name to **Create Assessment from Existing**.
 
 ### Task 2 – Create New Assessment
 
@@ -124,7 +124,7 @@ Exercise 2 – Create Flow
 13. Click on then **Start Date** field and select **Start Date** from the
     **Dynamic Content** pane.
 
-14. Click **Save** to save the Flow.
+14. Click **Save** to save the flow.
 
 ### Task 3 – Add Questions Condition
 
@@ -139,7 +139,7 @@ Exercise 2 – Create Flow
 5.  Select on the second **Choose Value** field of the **Condition** and type
     **true**.
 
-6.  Click Save to save the Flow.
+6.  Click Save to save the flow.
 
 ### Task 4 – Get Questions
 
@@ -177,7 +177,7 @@ Exercise 2 – Create Flow
 
 4.  Rename the step **Questions**.
 
-5.  Click **Save** to save the Flow.
+5.  Click **Save** to save the flow.
 
 ### Task 5 – Create Questions
 
@@ -236,9 +236,9 @@ Exercise 2 – Create Flow
 
 21. Select **Knowledge Assessment** from the **Create New Assessment** group.
 
-22. Click **Save** to save the Flow.
+22. Click **Save** to save the flow.
 
-### Task 6 – Test Flow
+### Task 6 – Test flow
 
 1.  Navigate to <https://web.powerapps.com>
 
