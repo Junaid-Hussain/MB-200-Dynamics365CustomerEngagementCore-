@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab: Build approval flow'
-    module: 'Module 9: Microsoft Flow'
+    module: 'Module 9: Microsoft Power Automate
 ---
 
-Module 9: Microsoft Flow
+Module 9: Microsoft Power Automate
 ========================
 
 ## Lesson 6: Practice Lab – Build approval flow
@@ -15,7 +15,7 @@ Scenario
 Your client Fabrikam needs an approval process added to the model-driven
 Knowledge Admin app you are building. The approval process will interact with
 the user's manager to obtain an approval or rejection and handle the knowledge
-assessment appropriately. In this lab, you will create a Microsoft Flow to
+assessment appropriately. In this lab, you will create a Microsoft Power Automate to
 retrieve the appropriate manager, seek their approval and handle the record
 after the manager's decision is entered.
 
@@ -281,7 +281,7 @@ Exercise 3 – Create Flow
     https://practice.crm.dynamics.com/main.aspx?appid=97595509-8a00-458d-856d-1569b42d6282&pagetype=entityrecord&etn=cre7f_knowledgeassessment&id=
 
 
-26.  Go back to the Flow and select the Item Link field.
+26.  Go back to the flow and select the Item Link field.
 
 27.  Paste the **URL** you copied.
 
@@ -347,7 +347,7 @@ Exercise 3 – Create Flow
 
 9.  Click **Save** to save the flow.
 
-### Task 10 – Test Flow
+### Task 10 – Test flow
 
 1.  Navigate to <https://web.powerapps.com>
 
