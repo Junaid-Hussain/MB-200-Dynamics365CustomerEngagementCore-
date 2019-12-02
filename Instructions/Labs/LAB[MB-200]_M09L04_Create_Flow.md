@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab: Microsoft Flow'
-    module: 'Module 9: Create a Flow'
+    title: 'Lab: Microsoft Power Automate'
+    module: 'Module 9: Create a flow'
 ---
 
-Module 9: Microsoft Flow
+Module 9: Microsoft Power Automate 
 ========================
 
-## Lesson 4: Practice Lab – Create a Flow
+## Lesson 4: Practice Lab – Create a flow
 
 Scenario
 --------
@@ -16,8 +16,8 @@ As a functional consultant at Contoso, you are you continuing to work on a
 model-driven Knowledge Admin app for your client Fabrikam. Your client has
 requested an automation that should run weekly without user involvement. You
 can’t schedule a workflow without custom code so you will need to use a
-Microsoft Flow. In this lab, you will create a Microsoft Flow to run weekly and
-test the Microsoft Flow.
+Microsoft Power Automate. In this lab, you will create a flow to run weekly and
+test the flow.
 
 **Important Note:** This lab will provide you with an actual Office 365 tenant
 and licenses for the Power Platform applications you will be using in this
@@ -53,14 +53,14 @@ case you can skip ahead to exercise two and resume.
 4.  Navigate in the browser to the Power platform admin portal at
     [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
 
-Exercise 2 – Create Microsoft Flow 
+Exercise 2 – Create Microsoft Power Automate
 -----------------------------------
 
-In this exercise, you will create a Flow that will run once a week, this Flow
+In this exercise, you will create a flow that will run once a week. This flow
 will check if there are Knowledge Assessment with End Date of today or older and
 deactivate them.
 
-### Task 1 – Create Flow
+### Task 1 – Create a flow
 
 1.  Navigate to <https://web.powerapps.com>
 
@@ -70,7 +70,7 @@ deactivate them.
     Solution**.
 
 4.  Locate the Name column and make a note of the name **Prefix**. The prefix
-    will look like **cre7f\_**
+    will look like **cre7f_**
 
 5.  Expand **Business Logic** and select **Flows**.
 
@@ -125,13 +125,13 @@ deactivate them.
 
 28. Rename the step **Deactivate Assessment**.
 
-29. Scroll up and click on the **Name** of the Flow.
+29. Scroll up and click on the **Name** of the flow.
 
-30. Rename the Flow **Deactivate Old Assessments**.
+30. Rename the flow **Deactivate Old Assessments**.
 
-31. Click **Save**. Don’t navigate away from the Flow.
+31. Click **Save**. Don’t navigate away from the flow.
 
-### Task 2 – Test Flow
+### Task 2 – Test your flow
 
 1.  Start a new Browser window and navigate to <https://web.powerapps.com>
 
@@ -145,7 +145,7 @@ deactivate them.
 
 6.  Click **Save**.
 
-7.  Go back to the Flow you created.
+7.  Go back to the flow you created.
 
 8.  Click **Test**.
 
@@ -153,7 +153,7 @@ deactivate them.
 
 10. Select the latest run and click **Save & Test**.
 
-11. The Flow should run and succeed.
+11. The flow should run and succeed.
 
 12. Go back to the **Knowledge Admin** application.
 
@@ -166,7 +166,7 @@ deactivate them.
 
 16. The deactivated record will now be in this view.
 
-17. Go back to Flow and click **Edit**.
+17. Go back to flow and click **Edit**.
 
 18. Click on the Recurrence step.
 
