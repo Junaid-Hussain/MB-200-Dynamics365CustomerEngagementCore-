@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Lab: Microsoft Power Automate'
-    module: 'Module 9: Create a flow'
+    title: 'Lab: Create a flow'
+    module: 'Module 9: Microsoft Power Automate'
 ---
 
 Module 9: Microsoft Power Automate 
