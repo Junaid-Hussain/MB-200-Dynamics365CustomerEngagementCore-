@@ -61,34 +61,8 @@ case you can skip ahead to exercise two and resume.
 
 4.  Navigate in the browser to the Power platform admin portal at
     [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
-    .
 
-Exercise 2 – Create a Power platform environment
-------------------------------------------------
-
-In this exercise, you will be creating a new environment with just the “core”
-Common Data Model entities configured.
-
-### Task 1 – Create an environment
-
-1.  Click either **Show All** or **Admin Centers** to expand **Admin Centers**
-    and select **PowerApps**.
-
-2.  Click **New Environment** in the upper right corner.
-
-3.  Enter **Practice** for **Name**, select your **Region**, select **Trial**,
-    and click **Create Environment**.
-
-4.  Click **Create Database**.
-
-5.  Select **USD** for **Currency**, select **English** for **Language**, check
-    the **Include Sample Apps and Data** checkbox, and click **Create
-    Database**.
-
-    It will take few minutes to create the environment. You may proceed to
-    exercise three while the environment is being created.
-
-Exercise 3 – Configure a Dynamics 365 Application
+Exercise 2 – Configure a Dynamics 365 Application
 -------------------------------------------------
 
 In this exercise, you will be making another new environment, one that has the
@@ -110,25 +84,13 @@ Dynamics 365 for Sales app installed.
 
 It will take few minutes to create the environment. You may proceed to exercise four while the environment is being created.
 
-Exercise 4 – Review Settings and Configure
+Exercise 3 – Review Settings and Configure
 ------------------------------------------
 
 In this exercise, you will be reviewing settings, enabling an additional
 currency, and enabling auditing.
 
-### Task 1 – Verify CDS has finished provisioning
-
-1.  Go to [https://admin.Power
-    platform.microsoft.com](https://admin.powerplatform.microsoft.com) expand
-    **Admin Center** and select **PowerApps**.
-
-2.  Locate the **Practice** environment you created previously.
-
-3.  Your environment was successfully created if you see (orgxxxxxx) added to
-    the end of your environment name. If not, wait for the environment to be
-    created.
-
-### Task 2 – Explore the settings
+### Task 1 – Explore the settings
 
 1.  Go back to <https://admin.Powerplatform.microsoft.com> and select
     **Environments**.
@@ -139,7 +101,7 @@ currency, and enabling auditing.
 3.  Explore the different areas in **Settings** that you are interested in but
     **do not make any changes.**
 
-### Task 3 – Enable an additional currency
+### Task 2 – Enable an additional currency
 
 1.  Locate the **Business** section of the **Settings** and click
     **Currencies**.
@@ -156,7 +118,7 @@ currency, and enabling auditing.
 
 7.  Close the currencies tab. Do not close the Settings tab.
 
-### Task 4 – Enable auditing 
+### Task 3 – Enable auditing 
 
 1.  Locate the **Product** section of the **Settings** and click **Features**.
 
@@ -165,7 +127,7 @@ currency, and enabling auditing.
 3.  Click **Save** in the lower left corner. You may have to scroll to see it.
 
 
-Exercise 5 – Explore the environments
+Exercise 4 – Explore the environments
 -------------------------------------
 
 In this exercise, you will be exploring the environments you created and explore
@@ -175,23 +137,21 @@ them.
 
 1.  Navigate to <https://make.powerapps.com/>
 
-2.  Make sure you are in the **Practice** environment by checking the environment selector. It is probably currently set to **Contoso (default)** and needs to be changed to **Practice.**
+2.  Select **Apps**.
 
-3.  Select **Apps**.
+3.  You should see the sample applications.
 
-4.  You should see the sample applications.
+4.  Click the **Asset Checkout** sample application.
 
-5.  Click the **Asset Checkout** sample application.
+5.  The **Asset Checkout** application will load.
 
-6.  The **Asset Checkout** application will load.
-
-7.  Explore and familiarize yourself with the application.
+6.  Explore and familiarize yourself with the application.
 
 ### Task 2 – Explore the Dynamics 365 environment
 
 1.  Go back to <https://make.powerapps.com/>
 
-2.  Change your environemtn to the Sales environment. It should be named **Contoso (salespractice)**.
+2.  Change your environemnt to the Sales environment.
 
 3.  Select **Apps.**
 
