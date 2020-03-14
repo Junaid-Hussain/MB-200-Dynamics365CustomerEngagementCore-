@@ -76,9 +76,7 @@ Dynamics 365 for Sales app installed.
 
 3.  Select the **Edit** button. You will open the Contoso environment in the **Power Platform Admin center.**
 
-4.  Select only the **Sales app** in the "Choose which applications you want to preinstall" section.
-
-5.  Enter **SalesPractice** for URL if available (or enter a different URL).
+4.  Enter **SalesPractice** for Name and URL if available (or enter a different URL). We will refer to this environment throughout the labs as the **Practice** environment. 
 
 6.  Click **Save**.  
 
@@ -95,7 +93,7 @@ currency, and enabling auditing.
 1.  Go back to <https://admin.Powerplatform.microsoft.com> and select
     **Environments**.
 
-2.  Select the environment that is type **Trial**. The name of thte environment should start with **CRM.** Click on its name when it is underlined and click **Settings** in the upper right-hand corner. 
+2.  Select the **Practice** environment (this should be your **SalesPractice** environment with type **Trial**). Click on its name when it is underlined and click **Settings** in the upper right-hand corner. 
 
 3.  Explore the different areas in **Settings** that you are interested in but
     **do not make any changes.**
