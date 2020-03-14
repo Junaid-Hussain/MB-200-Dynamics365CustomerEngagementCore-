@@ -82,7 +82,7 @@ your own.
 
 1.  Navigate to <https://make.powerapps.com>
 
-2.  Make sure you are in the **Practice** environment you created.
+2.  Make sure you are in the **CRM** environment.
 
 3.  Select **+ Create** from the left-hand navigation.
 
@@ -216,7 +216,7 @@ the upcoming canvas app module.
 ### Task 1 – Create a canvas app
 
 1.  Go back to <https://make.powerapps.com> and make sure you are in the
-    **Practice** environment.
+    **CRM** environment.
 
 2.  Select **Solutions** and open **Common Data Service Default Solution**.
 
