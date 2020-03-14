@@ -74,15 +74,15 @@ Dynamics 365 for Sales app installed.
 
 2.  Expand **Admin Centers** and select **Dynamics 365**.
 
-3.  Select **Instance to Configure** from the list and click **Configure.**
+3.  Select the **Edit** button. You will open the Contoso environment in the **Power Platform Admin center.**
 
 4.  Select only the **Sales app** in the "Choose which applications you want to preinstall" section.
 
 5.  Enter **SalesPractice** for URL if available (or enter a different URL).
 
-6.  Click **Configure**.  
+6.  Click **Save**.  
 
-It will take few minutes to create the environment. You may proceed to exercise four while the environment is being created.
+It will take few minutes to save the environment. 
 
 Exercise 3 – Review Settings and Configure
 ------------------------------------------
@@ -95,8 +95,7 @@ currency, and enabling auditing.
 1.  Go back to <https://admin.Powerplatform.microsoft.com> and select
     **Environments**.
 
-2.  Select the **Contoso** environment (that does not say **(Default)**) by clicking on its name when it is
-    underlined and click **Settings** in the upper right-hand corner. T
+2.  Select the environment that is type **Trial**. The name of thte environment should start with **CRM.** Click on its name when it is underlined and click **Settings** in the upper right-hand corner. 
 
 3.  Explore the different areas in **Settings** that you are interested in but
     **do not make any changes.**
@@ -110,11 +109,11 @@ currency, and enabling auditing.
 
 3.  Click on the **Currency Code** lookup.
 
-4.  Select **Germany Euro** and click **Add**.
+4.  Select **New Zealand tara** and click **Add**.
 
-5.  Enter **0.88** for **Currency Conversion** and click **Save and Close**.
+5.  Enter **0.61** for **Currency Conversion** and click **Save and Close**.
 
-6.  You should see both **USD** and **EUR** listed in your **Currencies**.
+6.  You should now see **NZD** listed in your **Currencies**.
 
 7.  Close the currencies tab. Do not close the Settings tab.
 
@@ -130,32 +129,29 @@ currency, and enabling auditing.
 Exercise 4 – Explore the environments
 -------------------------------------
 
-In this exercise, you will be exploring the environments you created and explore
-them.
+In this exercise, you will be exploring the environments.
 
 ### Task 1 – Explore the Practice environment
 
-1.  Navigate to <https://make.powerapps.com/>
+1.  Navigate to <https://make.powerapps.com/>. In the top menu, select your CRM trial environment.
 
 2.  Select **Apps**.
 
-3.  You should see the sample applications.
+3.  Click **Explore templates.**
 
-4.  Click the **Asset Checkout** sample application.
+4.  Scroll through the sample templates. 
 
-5.  The **Asset Checkout** application will load.
-
-6.  Explore and familiarize yourself with the application.
+5.  Explore and familiarize yourself with the applications.
 
 ### Task 2 – Explore the Dynamics 365 environment
 
 1.  Go back to <https://make.powerapps.com/>
 
-2.  Change your environemnt to the Sales environment.
+2.  Confirm that you are in your CRM environment.
 
 3.  Select **Apps.**
 
-4.  Click on the **Sales Hub** application.
+4.  Click on the **Sales Hub** application to open it.
 
 5. In the upper right corner, select the **Gear Icon** and choose **Advanced Settings.**
 
