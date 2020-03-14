@@ -169,31 +169,3 @@ In this task, you will create a new security role for the application manager.
 
 10. Close the Roles window.
 
-### Task 4 – Assign Roles
-
-In this task, you will assign the security roles you created. You will first
-assign the Knowledge Assessment User role to all the users you created and then
-assign the Application Manager role to the Manager user.
-
-1.  Navigate to https://admin.powerplatform.microsoft.com/
-
-2.  Select the **Environments**.
-
-3.  Select your **Production** environment and click **Settings**
-
-4.  Locate the **Users + Permissions** section and click **Users.**
-
-5.  Select all the users you create **Manager User**, **User One,** and **User
-    Two**.
-
-6.  Click **Manage Roles**.
-
-7.  Select the **Knowledge Assessment User** role and click **OK**.
-
-8.  Select only the **Manager User** and click **Manage Roles**.
-
-9.  Select the **Knowledge Application Manager** role and click **OK**. The
-    Manager User will get both the Knowledge Assessment User and Application
-    Manager security roles.
-
-10. Close the security roles list.
