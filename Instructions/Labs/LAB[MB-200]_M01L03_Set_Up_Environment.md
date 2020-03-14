@@ -24,9 +24,7 @@ Scenario
 
 You are a functional consultant for your organization Contoso. You have been
 asked to prepare an environment for a proof of concept your company is building
-for Fabrikam. You will be preparing two environments; one that has only Common
-Data Model core entities and another that has the Dynamics 365 for Sales
-application installed.
+for Fabrikam. 
 
 **Important Note:** This lab will provide you with an actual Office 365 tenant
 and licenses for the Power Platform applications you will be using in this
@@ -64,9 +62,6 @@ case you can skip ahead to exercise two and resume.
 
 Exercise 2 – Configure a Dynamics 365 Application
 -------------------------------------------------
-
-In this exercise, you will be making another new environment, one that has the
-Dynamics 365 for Sales app installed.
 
 ### Task 1 – Create a Dynamics 365 environment
 
