@@ -55,7 +55,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -70,7 +70,7 @@ case you can skip ahead to exercise two and resume.
     the previous step to login.
 
 4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+    [https://admin.Powerplatform.microsoft.com].
 
 Exercise 2 – Create the Knowledge Assessment Relationships
 ----------------------------------------------------------
@@ -83,7 +83,7 @@ Assessment entity.
 In this task, you will create a One-to-Many relationship between the Knowledge
 Assessment and Knowledge Question entities.
 
-1.  Navigate to <https://web.powerapps.com> and make sure you are in the
+1.  Navigate to <https://make.powerapps.com> and make sure you are in the
     **Practice** environment.
 
 2.  Select **Solutions** and open the **Common Data Service Default Solution.**
@@ -94,7 +94,7 @@ Assessment and Knowledge Question entities.
 
 5.  Click **Add Relationship** and select **One-to-Many**.
 
-6.  Select **Knowledge Question** for **Primary Entity** and click **Done**.
+6.  Select **Knowledge Question** for **Related Entity** and click **Done**.
 
 7.  Click **Save Entity**. It is a good idea to save your changes as you make
     them.
@@ -108,8 +108,7 @@ Assessment and Knowledge Test Result entities.
 
 2.  Click **Add Relationship** and select **One-to-Many**.
 
-3.  Select **Knowledge Test Result** for **Primary Entity** and click **More
-    Options**.
+3.  Select **Knowledge Test Result** for **Related Entity** and click **General**.
 
 4.  The relationship names must be unique. Change the **Relationship Name** to
     **KnowledgeAssessment_KnowledgeResult**.
@@ -118,7 +117,7 @@ Assessment and Knowledge Test Result entities.
 
 6.  Click **Save Entity**.
 
-7.  From the navigation breadcrumbs, click **Common Data Service Default
+7.  From the navigation menu, click **Common Data Service Default
     Solution**.
 
 8.  Click **Publish All Customizations**.
@@ -131,9 +130,9 @@ parental. You will be performing this change in the classic Solution Explorer.
 
 ### Task 1 – Change the relationship behavior
 
-1.  Make sure you still have the **Common Data Service Default Solution** open.
+1.  Make sure you still have the **Common Data Services Default Solution** open.
 
-2.  Click on the **…** button located next to **Publish All Customizations** and
+2.  Click on the ellipses located next to **Publish All Customizations** and
     select **Switch to Classic**.
 
 3.  Expand **Entities**.
