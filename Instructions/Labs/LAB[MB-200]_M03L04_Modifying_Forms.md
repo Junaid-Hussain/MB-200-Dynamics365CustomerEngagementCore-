@@ -35,7 +35,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -49,8 +49,8 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at
+    [https://admin.Powerplatform.microsoft.com].
 
 Exercise 2 – Edit the Knowledge Assessment Form 
 ------------------------------------------------
@@ -68,7 +68,7 @@ the form editor because it is the easier way to do so. The same is true, for
 example, if you need to add any fields: you should always try to add the fields
 before jumping into the editor.
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>
 
 2.  Make sure you are in the **Practice** environment you created.
 
@@ -78,7 +78,7 @@ before jumping into the editor.
 
 5.  Click on the **Knowledge Assessment** entity.
 
-6.  Click **Settings** in the command bar
+6.  Click **Settings** in the command bar.
 
 7.  Check the **Enable Attachments** checkbox, this enables notes and files for
     the entity.
@@ -105,7 +105,7 @@ To customize your form:
 
 4.  Open the **Common Data Service Default Solution**.
 
-5.  Select the **Knowledge Admin Model – Driven App**.
+5.  Select the **Knowledge Admin Model-Driven App**.
 
 6.  Click **Edit**.
 
@@ -123,13 +123,11 @@ To customize your form:
 
 12. Drag the **Days Remaining** filed to the left column of the **Header**.
 
-13. Select the **General** tab by double clicking on it.
-
-14. Double click on the **General** tab again.
+13. Select the **General** tab by double clicking on it. Enter **General** for name if it is not already entered.
 
 15. Select the **Formatting** tab.
 
-16. Select **Two Columns 50% Column 1 - 50% Column** and click **OK**.
+16. Select **Two Columns**. Click **Save** and then select **Switch to classic.**
 
 17. Select the new section of the **General** tab.
 
@@ -162,7 +160,7 @@ To customize your form:
 
 28. Double click on the new tab.
 
-29. Change the **Label** to **Questions** and click **OK**.
+29. Change the **Label** to **Questions** by clicking on **Properties.**
 
 30. Select the **Questions** tab.
 
@@ -170,7 +168,7 @@ To customize your form:
 
 32. Click **Sub-Grid**.
 
-33. Enter **KnowledgeQuestions** for **Name**.
+33. Enter **KnowledgeQuestions** for **Name** and **Knowledge Questions** for label.
 
 34. Select **Only Related Records** for **Records**.
 
@@ -211,15 +209,13 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 8.  Select the **General** tab by double clicking.
 
-9.  Select the **Insert** tab.
+9.  Select the **Add component** tab.
 
-10. Click **Section** and select **One Columns**.
+10. Click **1-Column section.**
 
 11. Double click on the new section.
 
-12. Enter **Answers** for Label and check the **Show Label** checkbox.
-
-13. Click **OK**.
+12. Enter **Answers** for Label.
 
 14. Add **Answer 1** field to the **Answers** section.
 
@@ -227,13 +223,11 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 16. Repeat the two steps above for each Answer and Points.
 
-17. Select the **Home** tab.
-
 18. Click **Save**.
 
 19. Click **Publish** and wait for the publish to complete.
 
-20. Click **Save and Close** to close the form editor.
+20. Close the form editor.
 
 21. Click **Save** to save the changes to the application.
 
@@ -253,7 +247,7 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 3.  Select the **Assessment** entity and click **+ New**.
 
-4.  The form should have two tabs **General** and **Questions**.
+4.  The form should have two tabs: **General** and **Questions**.
 
 5.  The General tab should have two sections **General** and **Timeline**.
 
