@@ -61,8 +61,8 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at
+    [https://admin.Powerplatform.microsoft.com].
 
 Exercise 2 – Enable Entity Options
 ----------------------------------
@@ -73,14 +73,14 @@ Assessment entity.
 
 ### Task 1 – Enable Feedback and Auditing Options for Knowledge Assessment
 
-1.  Navigate to <https://web.powerapps.com/> and make sure you are in the
+1.  Navigate to <https://make.powerapps.com/> and make sure you are in the
     **Practice** environment.
 
 2.  Select **Solutions**.
 
 3.  Click to open **Common Data Service Default Solutions**.
 
-4.  Click on the **…** button and select **Switch to Classic**.
+4.  Click on the ellipses and select **Switch to Classic**.
 
 5.  Expand **Entities**.
 
@@ -88,16 +88,13 @@ Assessment entity.
 
 7.  Scroll down to the to the **Communication and Collaboration** section.
 
-8.  Select the **Feedback** checkbox.  
-    Note: Enabling any option with a + can not be undone, so always confirm
+8.  Select the **Feedback** checkbox. *Note:* Enabling any option with a + can not be undone, so always confirm
     before you enable any of those features that you are on the right entity and
     need the feature.
 
 9.  Scroll down to the **Data Services** section.
 
-10. Check the **Auditing** checkbox.
-
-    Note: Remember auditing must be turned on at the environment settings,
+10. Check the **Auditing** checkbox. *Note:* Remember auditing must be turned on at the environment settings,
     entity and field to produce any audit data. By default, fields are enabled
     for auditing.
 
