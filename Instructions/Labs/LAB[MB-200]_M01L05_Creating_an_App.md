@@ -51,7 +51,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -66,7 +66,7 @@ case you can skip ahead to exercise two and resume.
     the previous step to login.
 
 4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+    [https://admin.Powerplatform.microsoft.com].
 
 Exercise 2 – Review Templates and Create App from Data
 ------------------------------------------------------
@@ -82,7 +82,7 @@ your own.
 
 1.  Navigate to <https://make.powerapps.com>
 
-2.  Make sure you are in the **CRM** environment.
+2.  Make sure you are in the **Practice** environment.
 
 3.  Select **+ Create** from the left-hand navigation.
 
@@ -99,37 +99,23 @@ goal is to have a list of data from an entity.
 
 1.  Select **+ Create** again.
 
-2.  Click **Start from Data**. 
+2.  Click **Canvas app from blank**. In the dialog box, name your app **Fabrikam Accounts** and select **Phone** layout.
 
-3.  Click **Create** in the dialog.
+3.  Click **Create** in the dialog. You may be required to sign in again; enter your tenant credentials.
 
-4.  If prompted, select your **Region** and click **Get Started**.
+9.  Your app should open in the designer. In the white space, click the **connect to data** link.
 
-5.  From the **Start with Data** section, locate the **Common Data Service**
-    tile.
+10. From the list of entities that appear in the left bar, select **Accounts.** The Accounts button will move to the **In your app** section of the window.
 
-6.  Click **Phone Layout**.
+10. Add a header to your app by selecting the **+ Insert** button on the left tab and selecting **Text label.** In the text value, enter **Fabrikam Accounts** and drag it to the top of the application. You can edit the size, font, and other attributes to customize the look and feel of the application.
 
-7.  Click **Create**.
+10. Add a list of accounts to your app by selecting the **+ Insert** button on the left tab and selecting **Vertical Gallery** from the **Layout** section.
 
-8.  Select **Accounts** and click **Connect**.
+10. A vertical gallery will be inserted into your app, and you will be prompted to select which data source it should pull from. Select **Accounts** from the pop-up.
 
-9.  Your app should open in the designer. Click **Play (Preview the App)**.
+10.  The application will load list of the accounts. Drag the gallery to fit the app or resize to your liking.
 
-10.  The application will load list of the accounts. View one of the
-    **Accounts**.
-
-11.  A detail view of the selected account will load. Click **Edit**.
-
-12.  An editable form of the selected account will load. Enter **Test Account**
-    in the **Description** field.
-
-13.  Click **Submit Item** checkbox.
-
-14.  Your changes will be saved, and the detail view will show your changes.
-    Click on the **Back** button.
-
-15.  The application will go back to the list of accounts. Close the preview.
+10. To preview your app, click **Play** (it will look like a Play button) in the upper right corner. 
 
 16.  Click **File** and select **Save**.
 
@@ -156,14 +142,11 @@ started will be easy.
 1.  Go back to <https://make.powerapps.com> and make sure you are in the
     **Practice** environment.
 
-2.  Select **Solutions** and open **Common Data Service Default Solution**.
-
-3.  Click in the upper right-hand area for **New | App | Model-Driven App**.
+2. Click on **+ Create** and select **Model-driven app from blank.** Select **Create** in the pop-up window.
 
 4.  Enter **Knowledge Admin** for Name and click **Done**.
 
-5.  Click **Edit Site Map**. 
-    *Note:* When you start a new app, you must edit the
+5.  Click the edit icon next to **Site Map**. *Note:* When you start a new app, you must edit the
     site map before you can run it - otherwise you will get an error. You need to
     add at least one item to the navigation.
 
@@ -189,15 +172,10 @@ started will be easy.
 
 16. Close the app designer by clicking **Save and Close** again.
 
-17. Click **Done**.
-
-18. Click **Publish All Customizations** and wait for the publishing to
-    complete.
-
 19. Select **Apps**.
 
 20. The **Knowledge Admin** application you created should be listed. Open the
-    **Knowledge Admin** application.
+    **Knowledge Admin** application by selecting the row and clicking **Play.**
 
 21. The **Model-Driven** application **Knowledge Admin** will load.
 
