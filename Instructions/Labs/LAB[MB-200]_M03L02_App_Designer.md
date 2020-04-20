@@ -49,8 +49,8 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at
+    [https://admin.Powerplatform.microsoft.com].
 
 Exercise 2 – Edit the site map 
 -------------------------------
@@ -60,18 +60,17 @@ to the app navigation.
 
 ### Task 1 – Edit the site map
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>
 
 2.  Make sure you are in the **Practice** environment you created.
 
 3.  Select **Solutions**.
 
-4.  Open **Common Data Service Default Solution**.
+4.  Open **Common Data Services Default Solution**.
 
-5.  Select the **Knowledge Admin**, make sure you are selecting the
-    **Model-Driven Application** and click **Edit**.
+5.  Select the **Knowledge Admin** model-driven application and click **Edit.**
 
-6.  Click **Open Site Map Designer**.
+6.  Click the edit button next to **Site Map.**
 
 7.  Drag **Area** from the **Components** tab and place it after the
     **Administration** area.
@@ -114,7 +113,7 @@ to the app navigation.
 
 26. Click on the **SKUs** and examine the options available.
 
-27. Examine the options available in **More Options** and **Privileges**.
+27. Examine the options available in **More Descriptions** and **Privileges**.
 
 28. Select the **Configuration** group.
 
@@ -133,7 +132,7 @@ to the app navigation.
 35. The entities you added to the sitemap are now referenced in the app
     designer.
 
-36. **DON’T** close the app designer.
+36. **Do not** close the app designer.
 
 Exercise 3 – Other app designer changes
 ---------------------------------------
@@ -150,7 +149,7 @@ app does not physically remove the entity.
 
 2.  Select **Entities**.
 
-3.  Select the **Account** entity. The Account will be added to the Application
+3.  Select the **Account** entity. The Account will be added to the app.
 
 4.  Uncheck the **Account** entity. The Account entity will be removed from the
     application.
@@ -168,9 +167,6 @@ do this for the other components as well.
 2.  By default, all available components are selected. Uncheck the **All**
     checkbox.
 
-3.  All but the Main form will be unchecked. You required to select at least one
-    form.
-
 4.  Check the **All** checkbox. Both forms will be selected.
 
 5.  Select the **Views** of the **Knowledge Test Result**.
@@ -186,7 +182,7 @@ do this for the other components as well.
 
 10. Click **Validate**.
 
-11. You will get a warning letting you know you that application users will see
+11. You will get warnings letting you know you that application users will see
     all forms and views.
 
 12. Click **Publish**.
@@ -195,7 +191,7 @@ do this for the other components as well.
 
 ### Task 3 – Run the Application
 
-1.  Make sure you still have the **Knowledge Admin Model – Driver App**
+1.  Make sure you still have the **Knowledge Admin Model-Driven App**
     selected.
 
 2.  Click **Play**.
@@ -213,9 +209,9 @@ do this for the other components as well.
 
 8.  Click **+ New** Again.
 
-9.  Enter Test **Assessment Two** for **Title** and click **Save and Close.**
+9.  Enter **Test Assessment Two** for **Title** and click **Save and Close.**
 
-10. Select on the **Assessments**.
+10. Select on the **Assessments** in the top menu.
 
 11. The two records you created will be visible in the view.
 
