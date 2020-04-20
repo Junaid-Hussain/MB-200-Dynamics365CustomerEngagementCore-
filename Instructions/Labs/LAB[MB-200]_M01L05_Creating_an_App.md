@@ -194,11 +194,11 @@ the upcoming canvas app module.
 ### Task 1 – Create a canvas app
 
 1.  Go back to <https://make.powerapps.com> and make sure you are in the
-    **CRM** environment.
+    **Practice** environment.
 
-2.  Select **Solutions** and open **Common Data Service Default Solution**.
+2.  Select **Solutions** and open **Common Data Services Default Solution**.
 
-3.  Click **New | App | Canvas App | Tablet Form Factor**.
+3.  Click **New, App, Canvas App,** and then **Tablet Form Factor**.
 
 4.  Click **Skip** if you see a prompt before the designer loads.
 
@@ -207,8 +207,7 @@ the upcoming canvas app module.
 
 6.  Select **Rename**.
 
-7.  Enter **mainScreen** and press the [Enter] key. 
-    *Note:* It is always a good
+7.  Enter **mainScreen** and press the enter key. *Note:* It is always a good
     idea to give components meaningful names, it makes them easier to use as
     your application gets more complex.
 
@@ -222,21 +221,18 @@ things simple here and just add a basic header to the app.
 
 3.  A label will be added to the screen. Select the label.
 
-4.  Rename the label **headerLabel** by clicking the **… Rename** in the control
+4.  Rename the label **headerLabel** by clicking the edit butto in the control
     tree on the left side of the screen.
-
-5.  Select the **Home** tab.
 
 6.  Change the **Font Size** to **28.**
 
-7.  Click **Color** and change the **Font Color** to **White**.
+7.  Click **Color** and change color to **White**.
 
 8.  Click **Align** and select **Center**.
 
-9.  Click **Fill** and change the **Fill Color** to **Blue**.
+9.  Click **Fill** from the top menu and change the **Fill Color** to **Blue**.
 
-10. Make sure that the **headerLabel tab is selected and g**o to the
-    **Properties** window located on the right. Locate the **Position** section.
+10. Locate the **Position** section on the Properties window.
 
 11. Enter **0** for **Y** and **0** for **X**.
 
@@ -255,11 +251,11 @@ of the current user to the header.
 
 1.  Select the **MainScreen**.
 
-2.  Select the **Insert** tab and click **Label**.
+2.  Select the **Insert** tab and click **Text label**.
 
 3.  Rename the label **userLabel**.
 
-4.  Make sure text **Text** property is selected and the function value is now
+4.  Make sure text **Text** property is selected and the function value (in the top menu, where you see fx) is now
     **“Text”.**
 
 5.  Replace **“Text”** with *User().FullName*.
@@ -269,11 +265,11 @@ of the current user to the header.
 
 7.  Change the **Font Size** to **14**.
 
-8.  Change the Font **Color** to White.
+8.  Change the Font **Color** to **White.**
 
-9.  Click **Align** and select **Right**.
+9.  Click **Align** and select **Right** from the top menu.
 
-10.  Click **Align Control** and select **Align Right**.
+10.  Click **Text align** from the Properties tab on the right and select **Align Right**.
 
 11.  Go to **Properties** and set **Position Y** to **0**.
 
@@ -289,7 +285,7 @@ of the current user to the header.
 
 17. Click on the **Back** button.
 
-18. Click **Play (Preview the App)**.
+18. Click **Play**.
 
 19. Your application will load.
 
