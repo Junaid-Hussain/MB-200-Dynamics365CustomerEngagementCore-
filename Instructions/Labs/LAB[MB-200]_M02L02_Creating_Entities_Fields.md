@@ -76,7 +76,7 @@ case you can skip ahead to exercise two and resume.
     the previous step to login.
 
 4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+    [https://admin.Powerplatform.microsoft.com].
 
 Exercise 2 – Create the Knowledge Assessment Entity
 ---------------------------------------------------
@@ -86,13 +86,13 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 ### Task 1 – Create an entity
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>
 
 2.  Make sure you are in the **Practice** environment you created.
 
 3.  Select **Solutions**.
 
-4.  Click to open the **Common Data Service Default Solution**.
+4.  Click to open the **Common Data Services Default Solution**.
 
 5.  Click **New** and select **Entity**.
 
@@ -100,10 +100,9 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 7.  Edit the **Plural Display Name** and **Name** if appropriate.
 
-8.  Click **Create**.
+8.  Click **Create**. It may take a few minutes for your entity to be created.
 
-9. You will now add two additional new fields for **Start** and **End Date**.
-    With **Fields** tab still selected, click **Add Field**.
+9. With the **Fields** tab selected, click **Add Field**.
 
 10. Enter **Start Date** for **Display Name** and select **Date Only** for
     **Data Type**.
@@ -115,15 +114,14 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 13. Click **Add Field** again.
 
-14. Enter **End Date** for **Display Name** and select **Date Only** for **Data
-    Type**.
+14. Enter **End Date** for **Display Name** and select **Date Only** for **Data Type**.
 
 15. Click **Advanced Options** and make sure **User Local** is selected for
     **Behavior**.
 
 16. Click **Done.**
 
-17. You will add an **Option Set** type filed. Click **Add Field**.
+17. You will now add an **Option Set** type filed. Click **Add Field**.
 
 18. Enter **Difficulty** for **Display Name** and select **Option Set** for
     **Data Type**.
@@ -138,9 +136,7 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 23. Select **Beginner** for the **Default Value** and click **Done**.
 
-24. The **Knowledge Assessment** entity will now have 4 fields.
-
-25. Click **Save Entity**.
+25. Click **Save Entity** at the bottom of the screen.
 
 ### Task 2 – Create a calculated field
 
@@ -153,13 +149,9 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 4.  Enter **0** for **Minimum Value** and **1000** for **Maximum Value**.
 
-5.  Click **Add Calculated or Rollup** and select **Calculation**.
+5.  Click **+Add** next to **Calculated or Rollup**. Click **+Calculation.**
 
-6.  Click **Save**.
-
-7.  Click **Done**
-
-8.  Click **Days Remaining** and then **Open Calculation**
+6.  Click **Save**. A pop-up window should appear allowing you to configure the calculation.
 
 9.  Click **Add Action**.
 
@@ -168,13 +160,11 @@ fields. Knowledge Assessment will be a new custom entity you create.
     different. To find your environment specific prefix, type **cr** and wait
     for the field to auto filter to the correct prefix.
 
-11. Click the check box to **Save Your Changes**
+11. Click the check box to **Save Your Changes**.
 
 12. Click **Save and Close**.
 
 13. Click **Done**.
-
-14. Click **Save Entity.**
 
 Exercise 3 – Create the Knowledge Question Entity
 -------------------------------------------------
@@ -184,50 +174,50 @@ fields.
 
 ### Task 1 – Create an entity
 
-1.  Go back to <https://web.powerapps.com> and make sure you are in the
+1.  Go back to <https://make.powerapps.com> and make sure you are in the
     **Practice** environment.
 
-2.  Select **Solutions**
+2.  Select **Solutions**.
 
 3.  Open the **Common Data Service Default Solution**.
 
 4.  Click **New** and select **Entity**.
 
-5.  Enter **Knowledge Question** for Display Name and click Next.
+5.  Enter **Knowledge Question** for Display Name.
 
 6.  Click on the **Primary Name** filed.
 
 7.  Change the **Display Name** to **Question**, change the **Name** to
-    **Question** and click **Done**.
+    **Question** and click **Create**.
 
 8.  Make sure the **Fields** tab is selected and click **Add Field**.
 
 9.  Enter **Answer 1** for **Display Name**, select **Text** for **Data Type**
     and click **Done**.
 
-10. Add **3** more with values below.
+10. Add **3** more with values below:
 
-11. Name **Answer 2** Data Type **Text**.
+    - Name: **Answer 2**, Data Type: **Text**.
 
-12. Name **Answer 3** Data Type **Text**.
+    - Name: **Answer 3**, Data Type: **Text**.
 
-13. Name **Answer 4** Data Type **Text**.
+    - Name: **Answer 4**, Data Type: **Text**.
 
 14. Click **Add Field**.
 
 15. Enter **Answer 1 Points** for **Display Name**, select **Whole Number** for
     **Data Type** and click **Done**.
 
-    Add 3 more filed with values below. These will store the points awarded if
+16. Add 3 more filed with values below. These will store the points awarded if
     someone picks this answer.
 
-16. Name **Answer 2 Points** Data Type **Whole Number**.
+    - Name **Answer 2 Points** Data Type **Whole Number**.
 
-17. Name **Answer 3 Points** Data Type **Whole Number**.
+    - Name **Answer 3 Points** Data Type **Whole Number**.
 
-18. Name **Answer 4 Points** Data Type **Whole Number**.
+    - Name **Answer 4 Points** Data Type **Whole Number**.
 
-19. Click **Save Entity**.
+    - Click **Save Entity**.
 
 **Note:** There are many ways you could model the answers depending on the complexity of your requirements. The approach shown here is simplified for practice purposes to focus on demonstrating how to work with the entity creation process.
 
@@ -239,12 +229,11 @@ fields.
 
 ### Task 1 – Create an entity
 
-1.  On the navigation breadcrumb, click **Common Data Service Default
-    Solution**.
+1.  On the navigation menu, click **Common Data Services Default Solution** to return to the solution.
 
 2.  Click **New** and select **Entity**.
 
-3.  Enter **Knowledge Test Result** for **Display Name** and click **Next**.
+3.  Enter **Knowledge Test Result** for **Display Name** and click **Create**.
 
 4.  Click **Add Field**.
 
@@ -264,8 +253,7 @@ will be tracked as part of the solution.
 
 ### Task 1 – Add existing entities
 
-1.  From the navigation breadcrumb, click **Common Data Service Default
-    solution**.
+1.  From the navigation menu, click **Common Data Services Default Solution** to return to the solution.
 
 2.  Click **Add Existing** and select **Entity**.
 
