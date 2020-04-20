@@ -6,16 +6,6 @@ lab:
 
 Module 1: Power Platform Overview
 =================================
-## Important notice re: tenants - temporary workaround
-
-As of January 23, 2020, WWL is unable to provide students with pre-provisioned Dynamics 365 access, and is working on a solution that should be available in the next 4-6 weeks. As a workaround, we are recommending using Dynamics 365 Trial accounts. Each student will be responsible for requesting these. To help students in getting the Dynamics 365 tenants (including Marketing), M365 tenants will be provided through the Authorized Lab Hosters. This is a short-term solution and we will keep all stakeholders including Learning Partners and MCTs updated as progress is made and advise as a more permanent solution timeline for pre-provisioning Dynamics 365 access for lab use is established. Please work with your Authorized Lab Hoster for provisioning of the M365 Tenants for the students and follow the instructions below to use the M365 tenant to secure a Dynamics 365 trial for your appropriate application.
- 
-1. Using your provided M365 credentials, log into https://admin.microsoft.com/ and accept the terms.
-2. Once you’ve logged in successfully, access https://trials.dynamics.com/. Select the applicable application for your course.
-3. Under “Work email,” enter the email address from the M365 credentials. Under “phone number,” enter your own phone number.
-4. Select Get Started.
-5. You will be prompted to enter your password for the on.microsoft.com account. Enter the password provided for the M365 tenant.
-6. If you are prompted to accept terms and conditions, accept them. Your environment may take a few minutes to provision.
 
 ## Practice Lab – Set up environment
 
@@ -43,7 +33,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to log in again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -54,11 +44,11 @@ case you can skip ahead to exercise two and resume.
     should copy this information to notepad or similar for your reference.
 
 3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
+    the browser opens Office 365. Use the D365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at
+    [https://admin.Powerplatform.microsoft.com](https://admin.Powerplatform.microsoft.com).
 
 Exercise 2 – Configure a Dynamics 365 Application
 -------------------------------------------------
@@ -71,7 +61,7 @@ Exercise 2 – Configure a Dynamics 365 Application
 
 3.  Select the **Edit** button. You will open the Contoso environment in the **Power Platform Admin center.**
 
-4.  Enter **SalesPractice** for Name and URL if available (or enter a different URL). We will refer to this environment throughout the labs as the **Practice** environment. 
+4.  Enter **SalesPractice** for Name. We will refer to this environment throughout the labs as the **Practice** environment. 
 
 6.  Click **Save**.  
 
@@ -88,10 +78,10 @@ currency, and enabling auditing.
 1.  Go back to <https://admin.Powerplatform.microsoft.com> and select
     **Environments**.
 
-2.  Select the **Practice** environment (this should be your **SalesPractice** environment with type **Trial**). Click on its name when it is underlined and click **Settings** in the upper right-hand corner. 
+2.  Select your **Practice** environment. Click on the ellipses next to its name to expand the drop down menu and select **Settings.** 
 
 3.  Explore the different areas in **Settings** that you are interested in but
-    **do not make any changes.**
+    **do not make any changes yet.**
 
 ### Task 2 – Enable an additional currency
 
@@ -112,11 +102,11 @@ currency, and enabling auditing.
 
 ### Task 3 – Enable auditing 
 
-1.  Locate the **Product** section of the **Settings** and click **Features**.
+1.  Locate the **Audit and logs** section of the **Settings** and click **Audit settings**.
 
-2.  Locate the **Auditing** section and turn on **Start Auditing.**
+2.  Locate the **Start Read Auditing** field and check the box.
 
-3.  Click **Save** in the lower left corner. You may have to scroll to see it.
+3.  Click **OK** in the lower right corner. Close the tab.
 
 
 Exercise 4 – Explore the environments
@@ -126,21 +116,7 @@ In this exercise, you will be exploring the environments.
 
 ### Task 1 – Explore the Practice environment
 
-1.  Navigate to <https://make.powerapps.com/>. In the top menu, select your CRM trial environment.
-
-2.  Select **Apps**.
-
-3.  Click **Explore templates.**
-
-4.  Scroll through the sample templates. 
-
-5.  Explore and familiarize yourself with the applications.
-
-### Task 2 – Explore the Dynamics 365 environment
-
-1.  Go back to <https://make.powerapps.com/>
-
-2.  Confirm that you are in your CRM environment.
+1.  Navigate to <https://make.powerapps.com/>. In the top menu, confirm that your **Practice** environment is selected. You can use the dropdown arrow to change environments if the **Practice** environment is not already selected.
 
 3.  Select **Apps.**
 
@@ -148,7 +124,7 @@ In this exercise, you will be exploring the environments.
 
 5. In the upper right corner, select the **Gear Icon** and choose **Advanced Settings.**
 
-6.  Navigate to **Settings | Data Management.**
+6.  Click on the top menu to select **Settings** and open **Data Management.**
 
 7.  Click **Sample Data**.
 
