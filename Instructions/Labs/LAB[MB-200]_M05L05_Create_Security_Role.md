@@ -54,8 +54,8 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at
+    [https://admin.Powerplatform.microsoft.com].
 
 Exercise 2 – Evaluate and Create Security Roles
 -----------------------------------------------
@@ -64,11 +64,11 @@ Exercise 2 – Evaluate and Create Security Roles
 
 In this task, you will evaluate the Common Data Service User security role.
 
-1.  Navigate to https://admin.powerplatform.microsoft.com/
+1.  Navigate to https://admin.powerplatform.microsoft.com/.
 
 2.  Select the **Environments**.
 
-3.  Select the **Practice** environment and click **Settings**
+3.  Select the **Practice** environment and click **Settings**.
 
 4.  Locate the **Users + Permissions** section and click **Security Roles.**
 
@@ -82,7 +82,7 @@ In this task, you will evaluate the Common Data Service User security role.
 8.  Select the **Custom Entities** tab.
 
 9.  You will find that the **Common Data Service User** security role doesn’t
-    have access to any of the **Custom Entities**.
+    have access to any of the custom entities you created.
 
 ### Task 2 – Copy from Existing Security Role
 
@@ -93,31 +93,30 @@ Data Service User security role.
 
 2.  Enter **Knowledge Assessment User** for **Name** and click **OK**.
 
-3.  The new security role will open. Select the **Custom Entities** tab.
+3.  The new security role will open. (You may need to allow pop-ups depending on your browser.) Select the **Custom Entities** tab.
 
 4.  Locate the **Knowledge Assessment** entity and click on the Read access
     circle. The security role will get **User** access to the **Knowledge
-    Assessment** entity, this means users with this security role will have
+    Assessment** entity. Users with this security role will have
     **Read** privilege to the records owned by the user or are shared with the
     user.
 
 5.  Click on the **Read** access circle again. The security role will now get
-    **Business Unit** access, this means the users with this security role will
+    **Business Unit** access. Users with this security role will
     get **Read** access to all records owned by the business unit the user
     belongs to.
 
 6.  Click the **Read** access circle again. The security role will now get
-    **Parent: Child Business Units access**, this means users with this security
+    **Parent: Child Business Units access**. Users with this security
     role will get **Read** access to all records owned by the business unit the
     user belongs to and all its child business units.
 
 7.  Click on the **Read** access circle one more time. The security role will
-    now get **Organization** access, this means users with this security role
+    now get **Organization** access. Users with this security role
     will get **Read** access to all records owned by the organization.
 
 8.  Locate the **Knowledge Question** entity and click on the **Read** access
-    circle four times. This action will give the security role **Organization**
-    wide Read access to the **Knowledge Question** entity.
+    circle four times. This action will give the security role **Organization** Read access to the **Knowledge Question** entity.
 
 9.  Locate the **Knowledge Test Result** entity and click on the **Create**
     circle one time.
@@ -128,7 +127,7 @@ Data Service User security role.
 11. Locate the **Write** circle of the **Knowledge Test Result** entity and
     click one time.
 
-    The security role will get organization wide level Read privilege and user
+    The security role will get organization-wide level Read privilege and user-
     level Create/Write privileges to the Knowledge Test Result entity.
 
 12. Select the **Core Records** tab.
