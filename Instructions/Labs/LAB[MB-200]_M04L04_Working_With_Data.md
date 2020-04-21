@@ -94,19 +94,19 @@ records that have Start Date in the past and End Date is in the future.
 ### Task 2 – Get Current User 
 
 In this task, you will get the current User and save it in a global variable. We
-are doing this during OnVisible so that it only happens once, and the data is
+are doing this during OnStart so that it only happens once, and the data is
 available for use elsewhere in the app. We will be using this to retrieve a
 filtered list of test results submitted by this user.
 
-1.  Select the **mainScreen**.
+1.  In the tree view, select the **App.**
 
-2.  Select the **OnVisible** property and set it to snippet below. This snippet
+2.  Select the **OnStart** property and set it to snippet below. This snippet
     will create a global variable **UserPrimaryEmail** that will hold the
     current user’s email.
 
     Set(UserPrimaryEmail, User().Email)
 
-3.  Add the snippet below to the **OnVisible** property. This snippet will first
+3.  Add the snippet below to the **OnStart** property. This snippet will first
     terminate the first function with semicolon, get the current User and save
     it in a global variable name **CurrentUser**.
 
@@ -114,10 +114,7 @@ filtered list of test results submitted by this user.
 
 4.  Add the following function to work around an existing bug that does not
     properly load the metadata for related properties. In the future this
-    workaround will not be required. Select the **mainScreen** and select the
-    **OnVisible** property.
-
-5.  Add the below snippet after the functions that are already there.
+    workaround will not be required.
 
     ;Set(FirstKABugWorkaround,First('Knowledge Test Results').'Knowledge
     Assessment')
