@@ -35,7 +35,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -49,8 +49,8 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at
+    [https://admin.Powerplatform.microsoft.com].
 
 Exercise 2 – Create a chart 
 ----------------------------
@@ -61,11 +61,11 @@ In this exercise, you will create a chart using the Knowledge Test Result data.
 
 1.  Navigate to <https://web.powerapps.com>
 
-2.  Make sure you are in the **Practice** environment you created.
+2.  Make sure you are in the **Practice** environment.
 
 3.  Select **Solutions**.
 
-4.  Open the **Common Data Service Default Solution**.
+4.  Open the **Common Data Services Default Solution**.
 
 5.  Click on the **Knowledge Test Result** entity.
 
@@ -75,7 +75,7 @@ In this exercise, you will create a chart using the Knowledge Test Result data.
 
 8.  Enter **Leader Board** for **Name**.
 
-9.  Click **Bar Chart** and select **Bar**.
+9.  Click **Bar** to expand the dropdown and select **Bar**.
 
 10. Click on the **Top X Rule** and select **Top 5 Items**.
 
@@ -97,12 +97,12 @@ In this exercise, you will create a chart using the Knowledge Test Result data.
 In this task, you will be modifying the Knowledge Test Result form, so you can
 input some data to test your chart.
 
-1.  Make sure you are still on <https://web.powerapps.com> and you are in the
+1.  Make sure you are still on <https://make.powerapps.com> and you are in the
     **Practice** environment.
 
 2.  Select **Solutions**.
 
-3.  Open **Common Data Service Default Solution**.
+3.  Open **Common Data Services Default Solution**.
 
 4.  Click on the **Knowledge Test Result** entity.
 
@@ -113,7 +113,7 @@ input some data to test your chart.
 7.  Select the **General** tab of the form.
 
 8.  Go to the **Field Explorer** and double click on the **Knowledge
-    Assessment** field. The Knowledge Assessment will be added to the form.
+    Assessment** field. The Knowledge Assessment field will be added to the form.
 
 9.  From the **Field Explorer**, double click on the **Total Points** field.
 
@@ -121,20 +121,18 @@ input some data to test your chart.
 
 11. Click **Publish** and wait for the publishing to complete.
 
-12. Click **Save and Close** to close the form editor.
-
-13. Click **Done**.
+12. Click **back** to close the form editor.
 
 ### Task 3 – Create Records and Test the Chart
 
-1.  Make sure you are still on <https://web.powerapps.com> and you are in the
+1.  Make sure you are still on <https:/make.powerapps.com> and you are in the
     **Practice** environment.
 
 2.  Select **Apps**.
 
-3.  Select the **Knowledge Admin Model-Driven** application and click **Play**.
+3.  Select the **Knowledge Admin Model-Driven application** and click **Play**.
 
-4.  Click on the **Administration** area and selected the **Assessments**.
+4.  Click on the **Administration** area and select the **Assessments**.
 
 5.  Select **Knowledge Test Results**.
 
@@ -148,7 +146,7 @@ input some data to test your chart.
 9.  Enter **Result Two** for **Name**, **250** for **Total Points** and click
     **Save**.
 
-10. Add four more records, you can provide any name you want but make sure you
+10. Add four more records. You can provide any name you want but make sure you
     enter random total points.
 
 11. Select **Knowledge Test Results** again. The **Active Knowledge Test
@@ -156,6 +154,4 @@ input some data to test your chart.
 
 12. Click **Show Chart**.
 
-13. The chart will show your user aggregated points. Later in the course when
-    you add more users you can re-test to see multiple users show up on the
-    leader board.
+13. The chart will show your user aggregated points.
