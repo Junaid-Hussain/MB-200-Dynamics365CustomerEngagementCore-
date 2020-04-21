@@ -94,40 +94,39 @@ ShowResults is true.
 
     ;UpdateContext({ShowResults:true})
 
-
 1.  Select **Answer4Selected** checkbox of the **assessmentQuestionList**.
 
 2.  Select the **Fill** property of **Answer4Selected** and set it to the
-    snippet below. This snippet will
+    snippet below. This snippet will:
 
-3.  Set the Fill Color to White if ShowResults is false.
+        - Set the Fill Color to White if ShowResults is false.
 
-4.  Set the Fill Color to Red id ShowResults is true, the checkbox is check, and
+    - Set the Fill Color to Red id ShowResults is true, the checkbox is check, and
     the Points value is less than 0.
 
-5.  Set the Fill Color to Green id ShowResults is true, the checkbox is check,
+    - Set the Fill Color to Green id ShowResults is true, the checkbox is check,
     and the Points value is more than 0.
 
-If(ShowResults, If(answer4Selected.Value = true && ThisItem.'Answer 4 Points' \>
-0, Green, If(answer4Selected.Value = false, White, Red)), White)
+    If(ShowResults, If(answer4Selected.Value = true && ThisItem.'Answer 4 Points' \>
+    0, Green, If(answer4Selected.Value = false, White, Red)), White)
 
 1.  Select the **Fill** property of **Answer3Selected** checkbox and set to the
     snippet below.
 
-If(ShowResults, If(answer3Selected.Value = true && ThisItem.'Answer 3 Points' \>
-0, Green, If(answer3Selected.Value = false, White, Red)), White)
+    If(ShowResults, If(answer3Selected.Value = true && ThisItem.'Answer 3 Points' \>
+    0, Green, If(answer3Selected.Value = false, White, Red)), White)
 
 1.  Select the **Fill** property of **Answer2Selected** checkbox and set to the
     snippet below.
 
-If(ShowResults, If(answer2Selected.Value = true && ThisItem.'Answer 2 Points' \>
-0, Green, If(answer2Selected.Value = false, White, Red)), White)
+    If(ShowResults, If(answer2Selected.Value = true && ThisItem.'Answer 2 Points' \>
+    0, Green, If(answer2Selected.Value = false, White, Red)), White)
 
 1.  Select the **Fill** property of **Answer1Selected** checkbox and set to the
     snippet below.
 
-If(ShowResults, If(answer1Selected.Value = true && ThisItem.'Answer 1 Points' \>
-0, Green, If(answer1Selected.Value = false, White, Red)), White)
+    If(ShowResults, If(answer1Selected.Value = true && ThisItem.'Answer 1 Points' \>
+    0, Green, If(answer1Selected.Value = false, White, Red)), White)
 
 ### Task 2 – Disable/Enable Button 
 
@@ -144,44 +143,48 @@ and enable it when there is at least one answer selected.
 
 ### Task 3 - Create the Results Screen
 
-In this task, you will copy the Main Screen and rename Results Screen
+In this task, you will copy the Main Screen and rename it Results Screen.
 
-1.  Click on the ... button of mainScreen and select Duplicate Screen.
+1.  Click on the ellipses button of mainScreen and select Duplicate Screen.
 
-2.  Click on the … button of the new screen and click Rename.
+2.  Click on the ellipses button of the new screen and click Rename.
 
-3.  Rename the Screen resultsScreen.
+3.  Rename the new screen **resultsScreen**.
 
-4.  Select the knowledgeAssessmentList and click on the ... button and click Delete.
+4.  Select the **knowledgeAssessmentList_1**, click on the ellipses button and click **Delete**.
 
-5.  Make sure the Insert tab is selected. Click Gallery and select Horizontal.
+5.  Make sure the **Insert** tab is selected. Click **Gallery** and select **Horizontal**.
 
-6.  The Data pane will come to view. In the Gallery pane just to the right of it 
-    Select Knowledge Test Result for Data Source under the Properties tab of the Gallery pane.
+6.  The **Data source** pop-out will come to view.  
+    Select **Knowledge Test Result** for data source.
     
-7.  Rename the list to UserResultList
+7.  Rename the gallery to **UserResultList**.
 
-8.  Delete the Image on the from the UserResultList
+8.  Delete the image in **UserResultList**.
 
-9.  Select the UserResultsList gallery.
+9.  Select the **UserResultsList** gallery.
 
-10. Select the Items property and set it to the snippet below.
+10. Select the **Items** property and set it to the snippet below.
+
     Filter('Knowledge Test Results',  Owner = CurrentUser)
     
-11. Set the Title.Text element of UserResultList to this snippet.
+11. Return to the **Properties** tab and select **Edit** in the Fields section. Set the Title.Text element of UserResultList to this snippet.
+
     ThisItem.createdon
     
-12. Set the Subtitle.Text element of UserResultList to this snippet.
+12. Set the Subtitle.Text element of UserResultList to this snippet. (crxxx refers to your unique prefix.)
+
     ThisItem.crxxx_totalpoints
     
-13. Delete the icon on resultsScreen and replace it with the Left icon.
+13. Add the **Left** icon to the upper left corner. Change the fill to **white.**
 
 14. Set the Left icon OnSelect to this snippet.
+
     Back(ScreenTransition.None)
 
 ### Task 4 – Add Button for Results Screen 
 
-In this task, you will add a button to the Main Screen, this button will
+In this task, you will add a button to the Main Screen. This button will
 navigate to the Results page.
 
 1.  Select the **mainScreen**.
@@ -190,9 +193,9 @@ navigate to the Results page.
 
 3.  Select the **… More** Icon.
 
-4.  Place the icon in the left side of the header
+4.  Place the icon in the left side of the header.
 
-5.  Select the **Home** tab and change the **Color** of the icon to **White**.
+5.  Change the **Color** of the icon to **White**.
 
 6.  Select the **OnSelect** property of the icon and provide the function below.
     This function will run when the icon is clicked and navigate to the Results
@@ -221,7 +224,9 @@ In this task, you will run and test the applications.
 
 8.  The questions should load, and the **Score Assessment** button should be
     **Disabled**. This is because you must select at least one answer before you
-    can submit your answers. Note: If you do not see any data, you need to use
+    can submit your answers. N
+    
+    *Note:* If you do not see any data, you need to use
     the model-driven app to create some assessment questions with answers. Make
     sure to give some questions points with positive values (correct answers)
     and some with negative values (wrong answers)
@@ -278,7 +283,7 @@ Service, here are some things you can try on your own to make the app better.
 learning. These are not expected or required to all be completed.**
 
 1.  Try different ways of presenting the Test Results – for example you could
-    try the Data Grid control
+    try the Data Grid control.
 
 2.  Add an image control to the mainScreen and show the user’s profile image
     using User().Image. Note: You will need to setup a profile image for the
