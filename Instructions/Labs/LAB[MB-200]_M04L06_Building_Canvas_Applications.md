@@ -142,7 +142,44 @@ and enable it when there is at least one answer selected.
 
 >   If(CountRows(UserAnswers) \> 0, DisplayMode.Edit, DisplayMode.Disabled)
 
-### Task 3 – Add Button for Results Screen 
+### Task 3 - Create the Results Screen
+
+In this task, you will copy the Main Screen and rename Results Screen
+
+1.  Click on the ... button of mainScreen and select Duplicate Screen.
+
+2.  Click on the … button of the new screen and click Rename.
+
+3.  Rename the Screen resultsScreen.
+
+4.  Select the knowledgeAssessmentList and click on the ... button and click Delete.
+
+5.  Make sure the Insert tab is selected. Click Gallery and select Horizontal.
+
+6.  The Data pane will come to view. In the Gallery pane just to the right of it 
+    Select Knowledge Test Result for Data Source under the Properties tab of the Gallery pane.
+    
+7.  Rename the list to UserResultList
+
+8.  Delete the Image on the from the UserResultList
+
+9.  Select the UserResultsList gallery.
+
+10. Select the Items property and set it to the snippet below.
+    Filter('Knowledge Test Results',  Owner = CurrentUser)
+    
+11. Set the Title.Text element of UserResultList to this snippet.
+    ThisItem.createdon
+    
+12. Set the Subtitle.Text element of UserResultList to this snippet.
+    ThisItem.crxxx_totalpoints
+    
+13. Delete the icon on resultsScreen and replace it with the Left icon.
+
+14. Set the Left icon OnSelect to this snippet.
+    Back(ScreenTransition.None)
+
+### Task 4 – Add Button for Results Screen 
 
 In this task, you will add a button to the Main Screen, this button will
 navigate to the Results page.
@@ -163,7 +200,7 @@ navigate to the Results page.
 
     Refresh(Users);Navigate(resultsScreen, ScreenTransition.None)
 
-### Task 4 – Test Your Work 
+### Task 5 – Test Your Work 
 
 In this task, you will run and test the applications.
 
@@ -233,7 +270,7 @@ In this task, you will run and test the applications.
 
 28. Click **Close** to close the app designer.
 
-### Task 5 – Other things you can try
+### Task 6 – Other things you can try
 
 Now that you have built a basic canvas app that interacts with the Common Data
 Service, here are some things you can try on your own to make the app better.
