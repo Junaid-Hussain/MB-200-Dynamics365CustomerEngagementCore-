@@ -49,8 +49,8 @@ case you can skip ahead to exercise two and resume.
     the previous step to login.
 
 4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
-
+    [https://admin.Powerplatform.microsoft.com].
+    
 Exercise 2 – Create a dashboard 
 --------------------------------
 
@@ -58,22 +58,21 @@ In this exercise, you will create a dashboard using existing charts and views.
 
 ### Task 1 – Create the dashboard
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>.
 
-2.  Make sure you are in the **Practice** environment you created.
+2.  Make sure you are in the **Practice** environment.
 
 3.  Select **Solutions**.
 
-4.  Open the **Common Data Service Default Solution**.
+4.  Open the **Common Data Services Default Solution**.
 
-5.  Click + New and select **Dashboard** \| **2-Column Overview**. Note: Always
-    pick the template that best fits what you plan to build you can always
-    remove some of the cells you are not using as well as adjust the size of
-    them.
+5.  Click **+ New** and select **Dashboard** and **2-Column Overview**. *Note:* Always
+    pick the template that best fits what you plan to build. You can always
+    remove some of the cells you are not using or adjust their sizes.
 
 6.  Enter **Results Overview** for Name.
 
-7.  Click **Insert Chart** for the left top section.
+7.  Click the **Insert Chart** icon in the left top section.
 
 8.  Select **Knowledge Test Result** for **Record Type**.
 
@@ -83,7 +82,7 @@ In this exercise, you will create a dashboard using existing charts and views.
 
 11. Click **Add**.
 
-12. Click **Insert List** for the right top sections.
+12. Click the **Insert List** icon for the right top section.
 
 13. Select **Knowledge Assessments** for **Record Type**.
 
@@ -102,12 +101,12 @@ In this exercise, you will create a dashboard using existing charts and views.
 For your dashboard to show up in the model-driven app you must edit the app
 module and added to the definition
 
-1.  Make sure you are still in <https://web.powerapps.com> and you have the
+1.  Make sure you are still in <https://make.powerapps.com> and you have the
     **Practice** environment selected.
 
-2.  Open **Common Data Service Default Solution**.
+2.  Open **Common Data Services Default Solution**.
 
-3.  Click on the **Knowledge Admin Model-Driven** application. The app designer
+3.  Click on the **Knowledge Admin Model-Driven application**. The app designer
     should open.
 
 4.  Select **Dashboards**.
@@ -116,18 +115,18 @@ module and added to the definition
 
 6.  Check the **Results Overview** checkbox.
 
-7.  Uncheck the **Innovation Challenge** checkbox.
+7.  Uncheck any other checked dashboards.
 
-8.  Go to the **Entity View** area and see if Challenge and Idea were added. If
+8.  Go to the **Entity View** area and see if any other entities were added. If
     yes, select each and click **Remove**.
 
 9.  Click **Save**.
 
-10.  Click **Edit Site Map**.
+10.  Click the **edit** icon next to Site Map.
 
 11.  Select the **Assessments** area.
 
-12.  Select the **Configuration**.
+12.  Select **Configuration**.
 
 13.  Click **+ Add** and select **Subarea**.
 
@@ -136,16 +135,16 @@ module and added to the definition
 15.  Select **Results Overview** for **Default Dashboard**.
 
 16. Drag the **Dashboards** subarea you just added and drop it above the
-    **Assessments** subarea.
+    **Knowledge Assessments** subarea.
 
 17. Drag the **Assessments** area and drop it to the left of the
-    **Administration** area.
+    **Administration** area to switch the order.
 
 18. Click **Save**.
 
 19. Click **Publish** to publish the sitemap.
 
-20. Click **Save and Close** to close the sitemap designer.
+20. Click **Save and Close** to close the site map designer.
 
 21. Click **Validate** to validate your changes.
 
@@ -159,14 +158,12 @@ module and added to the definition
 
 ### Task 3 – Test Your Changes
 
-1.  Make sure you are still in <https://web.powerapps.com> and you have the
+1.  Make sure you are still in <https://make.powerapps.com> and you have the
     **Practice** environment selected.
 
 2.  Select **Apps**.
 
-3.  Select the **Knowledge Admin Model-Drive** application and click **Play**.
-
-4.  Click on the **Administration** area and selected the **Assessments**.
+3.  Select the **Knowledge Admin Model-Driven application** and click **Play**.
 
 5.  The Dashboard will load and **Results Overview** will be selected by
     default.
