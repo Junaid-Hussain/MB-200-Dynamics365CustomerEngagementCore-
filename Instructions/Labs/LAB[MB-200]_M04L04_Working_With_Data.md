@@ -151,54 +151,51 @@ collection based on the answers the user provided.
 
 ### Task 4 – Add Feedback Screen 
 
-In this task, you will add a new screen to the applications, this screen will
+In this task, you will add a new screen to the applications. This screen will
 let the user submit feedback. This tasks demonstrates how to use the EditForm to
 create a new record.
 
-1.  Click on the **… More** button of the **takeAssessmentScreen** and click
+1.  Click on the ellipses button of the **takeAssessmentScreen** and click
     **Duplicate Screen**. We are creating a duplicate screen because we want all
-    our screens to look the same, but we don’t want to recreate the header every
+    our screens to look the same and we don’t want to recreate the header every
     time we add a new screen.
 
 2.  Rename the duplicate screen **addFeedbackScreen**.
 
-3.  Rename the Button on the **addFeedbackScreen** to **submitFeedbackButton**
+3.  Rename the Button on the **addFeedbackScreen** to **submitFeedbackButton**.
 
-4.  Change the **Text** property of the **submitFeebackButton** to **"Submit
-    Feedback"**
+4.  Change the **Text** property of the **submitFeebackButton** to **"Submit Feedback"**.
 
-5.  Click on the **… More** button of the **assessmentQuestionList** inside the
+5.  Click on the ellipses button of the **assessmentQuestionList** inside the
     **addFeedbackScreen** and click **Delete**.
 
 6.  Select the **addFeedbackScreen**.
 
-7.  From **Insert** tab click **Forms** and select **Edit**.
+7.  From the **Insert** tab, click **Edit form.**
 
-8.  In the property panel on the right. Select **Feedback** for **Data Source**.
+8.  In the property panel on the right, select **Feedback** for **Data Source**.
 
-9.  Rename the form **feedbackForm**.
+9.  Go to the tree view and rename the form **feedbackForm**.
 
 10. Resize and reposition the **feedbackForm** to your liking.
 
-11. Go to the tree view and expand the **feedbackForm**.
+11. From the tree view, expand the **feedbackForm**.
 
-12. Select the **Title** field.
+12. Select the **Title** field. In the **Properties** pane, select **unlock.**
 
 13. Select the **Default** property and set it to the **Title** of the selected
     **Knowledge assessment**.
 
     knowledgeAssessmentList.Selected.Title
 
-14.  With the **Title** data card still selected
-
-15.  Select the **DisplayMode** property and set it to **View**.
+14.  With the **Title** data card still selected, select the **DisplayMode** property and set it to **View**.
 
     DisplayMode.View
 
-16.  Right click on Comments_DataCard1 and select Rename to change the
-    **Comments_DataCard** field to **userComments**.
+16.  Rename
+    **Comments_DataCard3** to **userComments**. (You will need to click **Unlock** first.)
 
-17.  Expand the **userComments** data card and rename the **DataCardValue1** to
+17.  Expand the **userComments** data card and rename the **DataCardValue3** to
     **userCommentsText**.
 
 18.  Select the **submitFeedbackButton**.
@@ -220,7 +217,7 @@ create a new record.
 
 22.  Select the **takeAssessmentScreen**.
 
-23.  Go to the **Insert** tab, click **Icons**, and select the **Left** icon.
+23.  Go to the **Insert** tab, navigate to **Icons** in the top menu, and select **Left.**
 
 24.  Place the icon on the left side of the header.
 
@@ -233,13 +230,17 @@ create a new record.
 
 27.  Select the **takeAssessmentScreen**.
 
-28.  Click **Icons** and select the **Emoji - Smile** icon.
+28.  Click **Insert**, navigate to **Icons** in the top menu, and select the **Emoji - Smile** icon.
 
 29.  Place the icon in the right side of the header and to the right of the User
     Name.
+    
 30.  Set the **Color** property of the icon to **White**.
 
 31.  Set the **OnSelect** property of the **Information** icon to the snippet
     below.
 
     NewForm(feedbackForm);Navigate(addFeedbackScreen, ScreenTransition.None)
+    
+ 32. Click **File** and **Save** to save your application.
+ 
