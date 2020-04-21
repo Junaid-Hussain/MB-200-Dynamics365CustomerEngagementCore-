@@ -35,7 +35,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -49,8 +49,8 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at
+    [https://admin.Powerplatform.microsoft.com].
 
 Exercise 2 – Edit the Knowledge Assessment View 
 ------------------------------------------------
@@ -61,24 +61,23 @@ date.
 
 ### Task 1 – Edit the Knowledge Assessment active item view
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>
 
-2.  Make sure you are in the **Practice** environment you created.
+2.  Make sure you are in the **Practice** environment.
 
 3.  Select **Solutions**.
 
-4.  Open the **Common Data Service Default Solution**.
+4.  Open the **Common Data Services Default Solution**.
 
 5.  Open the **Knowledge Assessment** entity.
 
-6.  Select the **View** tab.
+6.  Select the **Views** tab.
 
-7.  Click to open the **Active Knowledge Assessments.**
+7.  Click to open the **Active Knowledge Assessments** view.
 
 ### Task 2 – Add and Remove Columns from View
 
-1.  The **Active Knowledge Assessment** view currently has two columns.
-    **Title** and **Created On**. Select **All**.
+1.  The **Active Knowledge Assessment** view currently has two columns. In the **Fields** menu on the right, expand the dropdown menu and change to **All.**
 
 2.  Click on the **Status Reason** field.
 
@@ -90,9 +89,9 @@ date.
 
 5.  Click on the **Modified By** column header and select **Insert Column**.
 
-6.  Select **Modified On**. The view should now have six columns.
+6.  Select **Modified On**.  (You will need to change the dropdown from **Default** to **All** again.) The view should now have six columns.
 
-7.  You will now remove the **Created On** field. Click on the **V** button of
+7.  You will now remove the **Created On** field. Click on the dropdown button of
     the **Created On** column.
 
 8.  Click **Remove**.
@@ -100,7 +99,7 @@ date.
 9.  The **Created On** column will be removed from the view.
 
 10. You will now add a field from a related entity to the view. From the
-    **Fields** section select the **Related** tab.
+    **Fields** side bar, select the **Related** tab.
 
 11. All the entities the **Knowledge Assessments** has a **N:1** relationship
     will be listed here. Expand **Owning User (systemuser).**
@@ -132,7 +131,7 @@ highest value to lowest unless you have other specific needs
     **Title column** should get wider.
 
 6.  Select the **Primary Email** column header and drag the right edge to the
-    right until the emails are visible.
+    right until the entire email addresses are visible.
 
 7.  Click **Save**.
 
@@ -141,14 +140,13 @@ highest value to lowest unless you have other specific needs
 The View is now sorted by the **Title (A-Z),** you will the sorting to be
 Modified On and then Title.
 
-1.  Locate the **Sort By..** area located in the view properties.
+1.  Locate the **Sort By...** area located in the view properties.
 
-2.  Remove the **Title (Ascending)**. We want to sort **Modified On** then
-    **Title**.
+2.  Remove the default value. We want to sort **Modified On**.
 
 3.  Click **Sort By** and select **Modified On**.
 
-4.  Click **Then Sort By** and select **Title**.
+4.  Click **Then Sort By** and select **Owner**.
 
 5.  Click **Save**.
 
@@ -159,7 +157,7 @@ views. An easy way to create views is to create the first one with all the
 fields you want, then save as the view and change the filter to what the new
 view needs.
 
-1.  While still editing the Active view, click the **V** button next to the
+1.  Add **Days Remaining** as the last column in the view. Then click the **dropdown** button next to the
     **Save** button.
 
 2.  Select **Save As**.
@@ -167,17 +165,17 @@ view needs.
 3.  Enter **Created This Month** for Name and click **Save**.
 
 4.  Locate the **Filter By**… section of the **View** property. You should have
-    **Status is ‘Active’**. All records have a status field, if you don’t filter
-    to only active you may have records showing in your list that are not
-    editable or meant to be inactive. Inactive is used in CDS to mark records as
+    **Status is ‘Active’**. All records have a status field; if you don’t filter
+    to only show active, you may have records showing in your list that are not
+    editable or meant to be inactive. Inactive is used in the Common Data Service to mark records as
     soft deleted as an alternate to physically deleting the records.
 
-5.  You will add the Created On filed back to the View. Click on the **+**
+5.  You will add the Created On feild back to the View. Click on the **+ Add Column**
     button located on the top right of the view.
 
 6.  Select All and then select **Created On**.
 
-7.  Click on the **V** button of the **Created On** column header.
+7.  Click on the **dropdown** button of the **Created On** column header.
 
 8.  Select **Filter By**.
 
@@ -194,22 +192,22 @@ view needs.
 14. Click **Done**.
 
 15. From the navigation breadcrumbs, click on the solution name **Common Data
-    Service Default Solution**.
+    Services Default Solution**.
 
 16. Click **Publish All Customizations**.
 
 ### Task 6 – Test the View
 
-1.  While still on <https://web.powerapps.com> Select **Apps**.
+1.  While still on <https://make.powerapps.com>, select **Apps**.
 
-2.  Click on the **Knowledge Admin Model-Driver** application.
+2.  Click on the **Knowledge Admin Model-Driven application**.
 
 3.  Click on the **Administration** area and select **Assessments**.
 
 4.  The **Active Knowledge Assessment** view will be loaded. Make sure the
     columns you selected are there in the order you selected.
 
-5.  Click **Select a View** and choose the **Created This Month** view.
+5.  Click the **Select a View** dropdown next to the view title and choose the **Created This Month** view.
 
 6.  Make sure the column you select are showing in the order you selected.
 
