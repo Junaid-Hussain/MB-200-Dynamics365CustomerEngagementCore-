@@ -36,7 +36,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -50,8 +50,8 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at
+    [https://admin.Powerplatform.microsoft.com].
 
 Exercise 2 – Filtering Data
 ---------------------------
@@ -61,9 +61,9 @@ Exercise 2 – Filtering Data
 In this task, you will filter the Knowledge Assessment to show only Active
 records that have Start Date in the past and End Date is in the future.
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>
 
-2.  Make sure you are in the **Practice** environment you created.
+2.  Make sure you are in the **Practice** environment.
 
 3.  Select **Solutions**.
 
@@ -79,8 +79,8 @@ records that have Start Date in the past and End Date is in the future.
 
 9.  Set the **Items** Property to the snippet below. This snippet will filter
     the Knowledge Assessment records and the list will show only the active
-    records with Start Date in the past and End Date in the future. Note: if you
-    type this instead of pasting it you will see how the editor helps you build
+    records with Start Date in the past and End Date in the future. *Note:* if you
+    type this instead of pasting it, you will see how the editor helps you build
     expressions.
 
     Filter('Knowledge Assessments', (Status = 'Status (Knowledge Assessments)'.Active && 'Start Date' <= Today() && 'End Date' >= Today()))
@@ -94,19 +94,19 @@ records that have Start Date in the past and End Date is in the future.
 ### Task 2 – Get Current User 
 
 In this task, you will get the current User and save it in a global variable. We
-are doing this during OnStart so that it only happens once, and the data is
+are doing this during OnVisible so that it only happens once, and the data is
 available for use elsewhere in the app. We will be using this to retrieve a
 filtered list of test results submitted by this user.
 
 1.  Select the **mainScreen**.
 
-2.  Select the **OnStart** property and set it to snippet below. This snippet
+2.  Select the **OnVisible** property and set it to snippet below. This snippet
     will create a global variable **UserPrimaryEmail** that will hold the
     current user’s email.
 
     Set(UserPrimaryEmail, User().Email)
 
-3.  Add the snippet below to the **OnStart** property. This snippet will first
+3.  Add the snippet below to the **OnVisible** property. This snippet will first
     terminate the first function with semicolon, get the current User and save
     it in a global variable name **CurrentUser**.
 
@@ -115,24 +115,18 @@ filtered list of test results submitted by this user.
 4.  Add the following function to work around an existing bug that does not
     properly load the metadata for related properties. In the future this
     workaround will not be required. Select the **mainScreen** and select the
-    **OnStart** property.
+    **OnVisible** property.
 
 5.  Add the below snippet after the functions that are already there.
 
     ;Set(FirstKABugWorkaround,First('Knowledge Test Results').'Knowledge
     Assessment')
 
-6.  For the variable to be available, we will have to save the changes, close
-    the designer and re-open it again. The reason for this is the OnStart is
-    only executed during the initial application start.
-
 7.  Click **File** and **Save**.
 
-8.  Click **Close**.
+8.  Close the tab.
 
-9.  Select **Open**.
-
-10.  Select **PowerApps** and open the **Fabrikam Assessment** application again.
+10.  Select **Apps** and select the edit button to open the **Fabrikam Assessment** app in the app designer again.
 
 ### Task 3 – Save Total Points 
 
