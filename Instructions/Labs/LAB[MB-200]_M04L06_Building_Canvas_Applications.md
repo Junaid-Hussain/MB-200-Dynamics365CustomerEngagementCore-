@@ -36,7 +36,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -50,8 +50,8 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at
+    [https://admin.Powerplatform.microsoft.com].
 
 Exercise 2 – Customizing the User Experience
 --------------------------------------------
@@ -64,13 +64,13 @@ will be updated upon the user clicking the score button. Each item will then use
 an expression to highlight if the answer is right or wrong, only when
 ShowResults is true.
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>
 
-2.  Make sure you are in the **Practice** environment you created.
+2.  Make sure you are in the **Practice** environment.
 
 3.  Select **Solutions**.
 
-4.  Select **Common Data Service Default Solution.**
+4.  Select **Common Data Services Default Solution.**
 
 5.  Select the **Fabrikam Assessment** Canvas application.
 
