@@ -158,7 +158,7 @@ started will be easy.
 
 9.  Enter **User Admin** for **Title**.
 
-10. Select the New **Subarea**.
+10. Select the **New Subarea**.
 
 11. Select **Entity** for **Type**.
 
@@ -168,9 +168,9 @@ started will be easy.
 
 14. Click **Publish**.
 
-15. Close the sitemap editor by clicking **Save and Close**.
+15. Close the sitemap editor by clicking **Save and Close**. 
 
-16. Close the app designer by clicking **Save and Close** again.
+16. Click **Save** and then click **Publish.** After publishing, close the app designer by clicking **Save and Close** again.
 
 19. Select **Apps**.
 
@@ -193,7 +193,7 @@ the upcoming canvas app module.
 
 ### Task 1 – Create a canvas app
 
-1.  Go back to <https://make.powerapps.com> and make sure you are in the
+1.  Go back to <https://make.powerapps.com> and make sure you are in your
     **Practice** environment.
 
 2.  Select **Solutions** and open **Common Data Services Default Solution**.
@@ -221,14 +221,14 @@ things simple here and just add a basic header to the app.
 
 3.  A label will be added to the screen. Select the label.
 
-4.  Rename the label **headerLabel** by clicking the edit butto in the control
-    tree on the left side of the screen.
+4.  Rename the label **headerLabel** by clicking the edit button in the control
+    tree on the left side of the screen in Tree View.
 
 6.  Change the **Font Size** to **28.**
 
 7.  Click **Color** and change color to **White**.
 
-8.  Click **Align** and select **Center**.
+8.  Click **Text Alignment** and select **Center**.
 
 9.  Click **Fill** from the top menu and change the **Fill Color** to **Blue**.
 
