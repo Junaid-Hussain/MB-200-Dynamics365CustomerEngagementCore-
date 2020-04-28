@@ -141,7 +141,7 @@ take the assessment.
 1.  Depending on your test data you may have some items that currently just say
     Days remaining and some that have a number (e.g., "6 Days remaining").
 
-2.  With **Subtitle2** on the **knowledgeAssessmentList** still selected, go to
+2.  With **Subtitle** on the **knowledgeAssessmentList** still selected, go to
     the **Insert** tab and click **Icons**.
 
 3.  Select the **+** icon.
@@ -149,7 +149,7 @@ take the assessment.
 4.  Move the icon to below the **Days Remaining** subtitle by dragging it with
     your mouse.
 
-5.  Select the icon, select the **OnSelect** property and set it the snippet
+5.  Select the icon. Navigate to the **Advanced** tab of the Properties pane. Select the **OnSelect** property and set it the snippet
     below. This snippet will let the user navigate to the Take Assessments
     screen when they click on the icon. If you have issues with the formula, try
     typing it out manually instead of copying and pasting.
@@ -176,7 +176,7 @@ practices you will be scoring and storing the results.
 
 5.  Select the **assessmentQuestionList** gallery.
 
-6.  Select the **Items** property in the **Advanced** section of the properties tab. Set it to the snippet below. This snippet
+6.  Select the **Items** property in the **Advanced** section of the Properties pane. Set it to the snippet below. This snippet
     will filter the Knowledge Questions for the select Knowledge Assessment. If
     you have issues with the formula, try typing it out manually instead of
     copying and pasting.
@@ -189,12 +189,12 @@ practices you will be scoring and storing the results.
 
 8.  Select the **assessmentQuestionList.**
 
-9.  Click **Add an item from the Insert Tab** of the **assessmentQuestionList**
+9.  Click **Add an item from the insert pane** of the **assessmentQuestionList**
     gallery.
 
-10.  From the **Insert** tab, click **Label**.
+10.  From the **Insert** tab, click **Text label**.
 
-11. Select the **Label** you just added and set the **Text** property to
+11. Select the label you just added and set the **Text** property to
     **Question**.
 
     ThisItem.Question
@@ -252,8 +252,7 @@ practices you will be scoring and storing the results.
 26. In the left control tree, select the checkBox and rename the checkbox
     **answer1Selected**.
 
-27. With **answer1Selected** still selected, go to the **Insert** tab and select **Check box** again. We are going to add the additional
-    answer checkboxes and do a similar setup for each.
+27. With **answer1Selected** still selected, go to the **Insert** tab and select **Check box** again. We are going to add the additional answer checkboxes and do a similar setup for each.
 
 28. Move the new checkbox below the **answer1Selected** checkbox.
 
