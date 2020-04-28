@@ -72,7 +72,7 @@ to the app navigation.
 
 6.  Click the edit button next to **Site Map.**
 
-7.  Drag **Area** from the **Components** tab and place it after the
+7.  Drag **Area** from the **Components** tab and place it to the right of the
     **Administration** area.
 
 8.  Select the new area and enter **Assessments** for **Title**.
@@ -221,4 +221,4 @@ do this for the other components as well.
 
 14. Click on the **Assessments** area and switch to the **Administration** area.
 
-15. The **User** will be selected, and the **Enabled Users** view will load.
+15.The **Enabled Users** view will load.
