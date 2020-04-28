@@ -61,7 +61,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -76,7 +76,7 @@ case you can skip ahead to exercise two and resume.
     the previous step to login.
 
 4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com].
+    https://admin.Powerplatform.microsoft.com.
 
 Exercise 2 – Create the Knowledge Assessment Entity
 ---------------------------------------------------
@@ -155,8 +155,8 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 9.  Click **Add Action**.
 
-10. Enter *DIFFINDAYS(NOW(), cr240_enddate)* and click on the checkmark. Note
-    that cre7F is environment dependent and your prefix will likely be slightly
+10. Enter *DIFFINDAYS(NOW(), crXXX_enddate)* and click on the checkmark. Note
+    that crXXX is environment dependent and your prefix will be
     different. To find your environment specific prefix, type **cr** and wait
     for the field to auto filter to the correct prefix.
 
@@ -179,16 +179,15 @@ fields.
 
 2.  Select **Solutions**.
 
-3.  Open the **Common Data Service Default Solution**.
+3.  Open the **Common Data Services Default Solution**.
 
 4.  Click **New** and select **Entity**.
 
 5.  Enter **Knowledge Question** for Display Name.
 
-6.  Click on the **Primary Name** filed.
+6.  Navigate to the **Primary Field** section.
 
-7.  Change the **Display Name** to **Question**, change the **Name** to
-    **Question** and click **Create**.
+7.  Change the **Display Name** to **Question**. The **Name** field should also automatically update to **Question.** Click **Create**.
 
 8.  Make sure the **Fields** tab is selected and click **Add Field**.
 
@@ -262,6 +261,6 @@ will be tracked as part of the solution.
 4.  Leave the **Include All Components** and **Include Entity Metadata**
     unchecked and click **Add**.
 
-5.  Your solution will now have **5 Entities** and **1 Option Set**.
+5.  Your solution will now have **5 Entities** and **1 Option Set** in addition to your apps.
 
 6.  Click **Publish All Customizations**.
