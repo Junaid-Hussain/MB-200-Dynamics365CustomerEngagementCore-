@@ -96,7 +96,7 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 5.  Click **New** and select **Entity**.
 
-6.  Enter **Knowledge Assessment** for **Display Name**.
+6.  Enter **Knowledge Assessment** for **Display Name**. Enter **Title** for Primary Field.
 
 7.  Edit the **Plural Display Name** and **Name** if appropriate.
 
