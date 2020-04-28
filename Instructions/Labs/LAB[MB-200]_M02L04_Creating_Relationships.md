@@ -117,8 +117,7 @@ Assessment and Knowledge Test Result entities.
 
 6.  Click **Save Entity**.
 
-7.  From the navigation menu, click **Common Data Service Default
-    Solution**.
+7.  From the navigation menu, click **Common Data Services Default Solution**.
 
 8.  Click **Publish All Customizations**.
 
