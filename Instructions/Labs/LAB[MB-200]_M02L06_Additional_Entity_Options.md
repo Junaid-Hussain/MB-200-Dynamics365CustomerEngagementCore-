@@ -78,7 +78,7 @@ Assessment entity.
 
 2.  Select **Solutions**.
 
-3.  Click to open **Common Data Service Default Solutions**.
+3.  Click to open **Common Data Services Default Solution**.
 
 4.  Click on the ellipses and select **Switch to Classic**.
 
@@ -99,49 +99,4 @@ Assessment entity.
     for auditing.
 
 11. Click **Save**.
-
-### Task 2 – Replace Default Entity Icon 
-
-The entity icon is used in the user experience to identify the entity in the
-navigation. There are two icons that can be used; one for the legacy web client
-and the other for the new Unified Interface. You will be updating the Unified
-Interface icon. In order to reference the icon for the entity you will fist
-upload a web resource containing the SVG icon.
-
-1.  With the **Knowledge Assessment** entity still selected, click **Update
-    Icons**.
-
-2.  Select the **Unified Interface** tab.
-
-3.  Click on the **New Icon** lookup.
-
-4.  Scroll down and click **Look Up More Records**.
-
-5.  Click **New**.
-
-6.  Enter **assessmenticon** for Name.
-
-7.  Enter **Assessment Icon** for **Display Name**.
-
-8.  Select **Vector Format (SVG)** for **Type**.
-
-9.  Select **English** for **Language** and click **Browse**.
-
-10. Locate the image located in the course
-    resources. It will be the only file under the **Web Resources** folder and will have "assessmenticon" in the name. Click **Open**.
-
-11. Click **Save**.
-
-12. Click **Publish** and **close.**
-
-13. Select the **Assessment Icon** and click **Add**.
-
-14. Click **OK**.
-
-15. **Save** the solution.
-
-16. Select **Entities** and click **Publish All Customizations**.
-
-17. Close the solution explorer.
-
 
