@@ -100,3 +100,5 @@ Assessment entity.
 
 11. Click **Save**.
 
+12. Click **Publish all Customizations.**
+
