@@ -124,7 +124,7 @@ deactivate them.
 
 ### Task 2 – Test your flow
 
-1.  Start a new Browser window and navigate to <https://make.powerapps.com>
+1.  Start a new Browser window and navigate to https://make.powerapps.com.
 
 2.  Make sure you are in your **Practice** environment.
 
@@ -150,7 +150,7 @@ deactivate them.
 
 13. Select **Assessments**.
 
-14. The **Active Knowledge Assessments** view should be empty.
+14. **Test Assessment** should now be missing from the view.
 
 15. Click on the view name and select the **Inactive Knowledge Assessments**
     view.
@@ -161,7 +161,7 @@ deactivate them.
 
 18. Click on the Recurrence step.
 
-19. Change the **Recurrence** from **Minute** to **Week** the
+19. Change the **Recurrence** from **Minute** to **Week**.
 
 20. Click **Save**.
 
