@@ -16,7 +16,7 @@ As a functional consultant at Contoso, you are you continuing to work on a
 model-driven Knowledge Admin app for your client Fabrikam. Your client has
 requested an automation that should run weekly without user involvement. You
 can’t schedule a workflow without custom code so you will need to use a
-Microsoft Power Automate. In this lab, you will create a flow to run weekly and
+Microsoft Power Automate flow. In this lab, you will create a flow to run weekly and
 test the flow.
 
 **Important Note:** This lab will provide you with an actual Office 365 tenant
@@ -36,7 +36,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -50,8 +50,7 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
 
 Exercise 2 – Create Microsoft Power Automate
 -----------------------------------
@@ -62,42 +61,35 @@ deactivate them.
 
 ### Task 1 – Create a flow
 
-1.  Navigate to <https://web.powerapps.com>
+2.  Make sure you have your **Practice** environment selected.
 
-2.  Make sure you have the **Practice** environment selected.
-
-3.  Select **Solutions** and click to open the **Knowledge Assessment
-    Solution**.
+3.  Select **Solutions** and click to open the **Common Data Services Default Solution.**
 
 4.  Locate the Name column and make a note of the name **Prefix**. The prefix
-    will look like **cre7f_**
+    will look like **crXXX_**.
 
-5.  Expand **Business Logic** and select **Flows**.
+5.  From the lefthand menu, select **Flows.**
 
-6.  Click **+ New** and select **Create from Blank**.
+6.  Click **+ New** and select **+ Automated - From Blank**.
 
-7.  Click **Create from Blank** again.
+7.  The pop-up will show common triggers that you can easily select to jumpstart your flow configuration. Scroll through the options, but do not select anything. When you are ready, press **Skip.**
 
-8.  Select your **Country/Region** and click **Get Started**.
+8. In the box that says **Search connectors and triggers**, type **Recurrence.** Select the **Recurrence** option from the **Triggers** tab.
 
-9.  Make sure you are in the **Practice** environment you created.
+9. Select **+ New step.**
 
-10. Search for **Recurrence** and select **Recurrence Schedule**.
+10. Select **Common Data Service** from the connection options.
 
-11. Enter **1** for **Interval** and select **Minute** for **Frequency**. You
-    will usually run this type Flow every daily or weekly.
+11. Select **List records.** 
 
-12. Click **+ New Step**.
+12. In the **Environment** box, start typing your unique alias for the lab. Select your **Practice** environment when it shows up.
 
-13. Search for **Common Data Service** and select **List Records**.
+13. Select **Knowledge Assessments** for Entity.
 
-14. Select **Practice** for **Environment** and **Knowledge Assessments** for
-    **Entity Name**.
+14. Click on **Show advanced options.**
 
-15. Click on **Show advanced options**.
-
-16. Select the **Filter Query** field and type **cre7f_enddate lt** and replace
-    cre7f\_ with your prefix from step 4 of this task.
+16. Select the **Filter Query** field and type **crXXX_enddate lt** and replace
+    crXXX_ with your unique prefix.
 
 17. Select the **Expression** of the **Dynamics Content** pane.
 
@@ -109,15 +101,14 @@ deactivate them.
 
 21. Click **+ New Step**.
 
-22. Search for **Common Data Service** and select **Update a Record**.
+22. Click on **Common Data Service** and select **Update a Record**.
 
-23. Select **Practice** for **Environment**, select **Knowledge Assessments**
+23. Select your **Practice** environment for **Environment**, select **Knowledge Assessments**
     for **Entity Name**, and select the **Record Identifier** field.
 
 24. Select **Knowledge Assessment** from the **Dynamic Content** pane.
 
-25. **Apply to Each** step will be added and **Value** will be selected for
-    Output. Click **Show Advanced Options**.
+25. **Apply to Each** step will be added and **Value** will be selected for Output. Click on **Update a record** and then click **Show Advanced Options**.
 
 26. Locate the **Status Value** option set and select **Inactive**.
 
@@ -125,7 +116,7 @@ deactivate them.
 
 28. Rename the step **Deactivate Assessment**.
 
-29. Scroll up and click on the **Name** of the flow.
+29. Scroll up and click on the name of the flow by clicking **Untitled.**
 
 30. Rename the flow **Deactivate Old Assessments**.
 
@@ -133,11 +124,11 @@ deactivate them.
 
 ### Task 2 – Test your flow
 
-1.  Start a new Browser window and navigate to <https://web.powerapps.com>
+1.  Start a new Browser window and navigate to <https://make.powerapps.com>
 
-2.  Make sure you are in the **Practice** environment.
+2.  Make sure you are in your **Practice** environment.
 
-3.  Select **Apps** and click to open the **Knowledge Admin** application.
+3.  Select **Apps** and click to open the **Knowledge Admin model-driven application**.
 
 4.  Select **Assessments** and click to open the **Test Assessment**.
 
