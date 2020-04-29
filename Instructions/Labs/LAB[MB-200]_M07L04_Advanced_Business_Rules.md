@@ -34,7 +34,7 @@ Note: If you have already completed a practice recently, the virtual machine
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -48,21 +48,20 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
 
 Exercise 2 – Prepare the Solution 
 ----------------------------------
 
 ### Task 1 – Add Field to Knowledge Question
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to https://make.powerapps.com.
 
 2.  Select the **Practice** environment you created.
 
-3.  Select **Solution**s.
+3.  Select **Solutions**.
 
-4.  Click to open the **Knowledge Assessment Solution** you imported.
+4.  Click to open the **Common Data Services Default Solution** you imported.
 
 5.  Click to open the **Knowledge Question** entity.
 
@@ -71,7 +70,7 @@ Exercise 2 – Prepare the Solution
 7.  Enter **Question Points** for **Display Name** and select **Whole Number**
     for **Data Type**.
 
-8.  Click **+ Add Calculation or Rollup** and select **Calculation**.
+8.  Click **+ Add Calculation or Rollup** and select **+ Calculation**.
 
 9.  Click **Save**.
 
@@ -84,16 +83,13 @@ Exercise 2 – Prepare the Solution
 13. Repeat it for **answer3points** and **answer4points**. You action will look
     like the snippet below.
 
->   *cre7f_answer1points + cre7f_answer2points + cre7f_answer3points +
->   cre7f_answer4points*
+        cre7f_answer1points + cre7f_answer2points + cre7f_answer3points + cre7f_answer4points
 
 1.  Save the action by clicking on the checkmark button.
 
 2.  Click **Save and Close**.
 
 3.  Click **Done**.
-
-4.  Click **Save Entity**.
 
 ### Task 2 – Add Field to Knowledge Question Form
 
@@ -110,30 +106,31 @@ Exercise 2 – Prepare the Solution
 
 6.  Click **Save and Close**.
 
-7.  Click **Done**.
+7.  Click the back button.
 
-8.  Click on the solution name **Knowledge Assessment Solution** located in the
+8.  Click on the solution name located in the
     navigation breadcrumbs.
+    
+9. Click **Publish all customizations.**
 
 ### Task 3 – Add Field to Knowledge Assessment
 
-1.  Click on the **…** button located in the command bar and click **Switch to
-    Classic**.
+1.  Click on the **…** button located in the command bar and click **Switch to Classic**.
 
 2.  Expand **Entities**, expand the **Knowledge Assessment** entity, select
     **Fields**, and click **New**.
 
 3.  Enter **Total Points** for **Display Name**, select **Whole Number** for
-    **Date Type**, select **Rollup** for **Filed Type**, and click **Edit**.
+    **Date Type**, select **Rollup** for **Field Type**, and click **Edit**.
 
 4.  Click **+ Add Related Entity**.
 
-5.  Select **Knowledge Questions** for **Related** and click **Tick**.
+5.  Select **Knowledge Questions** for **Related** and click the checkmark.
 
 6.  Click **+ Add Aggregation**.
 
-7.  Select Sum for **Aggregation Function**, select **Question Points** for
-    **Aggregated Related Entity Filed**, and click **Tick**.
+7.  Select **SUM** for **Aggregation Function**, select **Question Points** for
+    **Aggregated Related Entity Filed**, and click the checkmark.
 
 8.  Click **Save and Close**.
 
@@ -145,7 +142,7 @@ Exercise 2 – Prepare the Solution
 
 ### Task 4 – Add Field to Knowledge Assessment Form
 
-1.  Make sure you still have the **Knowledge Assessment** selected.
+1.  Select the **Knowledge Assessment** entity.
 
 2.  Select the **Forms** tab and click on the Main form.
 
@@ -156,14 +153,12 @@ Exercise 2 – Prepare the Solution
 
 5.  Click **Publish**.
 
-6.  Click **Save and Close**.
+6.  Click the back button.
 
-7.  Click **Done**.
-
-8.  Click on the solution name **Knowledge Assessment Solution** located in the
+8.  Click on the solution name located in the
     navigation breadcrumbs.
 
-9.  Click **Publish All Customizations**.
+9.  Click **Publish all customizations**.
 
 Exercise 3 – Create Business Rule
 ---------------------------------
@@ -174,15 +169,14 @@ Exercise 3 – Create Business Rule
 
 2.  Select the **Business Rules** tab and click **Add Business Rule**.
 
-3.  Click on the **Show Details** button next to the business rule name.
+3.  Click on the carrot button next to **Knowledge Question:New business rule.**
 
-4.  Enter **Question Points Rule** for **Business Rule Name** and click on the
-    **Hide Details** button.
+4.  Enter **Question Points Rule** for **Business Rule Name** and click on the carrot again to hide details.
 
 5.  Select the **Condition** and enter **Check Question Points** for **Display
     Name.**
 
-6.  Go to the **Rules** section, select **Answer 1 Points** for **Filed**,
+6.  Go to the **Rules** section, select **Answer 1 Points** for **Field**,
     select **Is Less Than or Equals to** for **Operator**, select **Value** for
     **Type**, enter **0** for **Value**, and click **Apply**.
 
@@ -225,17 +219,17 @@ Exercise 3 – Create Business Rule
 
 ### Task 2 – Test Business Rule
 
-1.  Navigate to <https://web.powerapps.com/> and select the **Practice**
+1.  Navigate to https://make.powerapps.com/ and select the **Practice**
     environment.
 
-2.  Select **Apps** and click on the **Knowledge Admin** Model-Driven
+2.  Select **Apps** and click on the **Knowledge Admin Model-Driven**
     application.
 
 3.  Select **Assessments** and click to open the **Test Assessment**.
 
 4.  Select the **Questions** tab.
 
-5.  Click **+ Add New Knowledge Question**.
+5.  Click **+ New Knowledge Question**.
 
 6.  The error message for the points requirement will be displayed on the
     Question field.
@@ -262,7 +256,7 @@ Exercise 3 – Create Business Rule
 14. Enter **Test Answer Four** for **Answer 4**, and **50** for **Answer 4
     Points**.
 
-15. Scroll up and locate the **Question Point** field. The calculated points
+15. Click **Save.** Scroll up and locate the **Question Point** field. The calculated points
     should show in this field.
 
 16. Click **+ New**.
@@ -293,5 +287,5 @@ Exercise 3 – Create Business Rule
 
 26. Click **Recalculate**.
 
-27. The field show now show the total points of all the questions.
+27. The field should now show the total points of all the questions.
 
