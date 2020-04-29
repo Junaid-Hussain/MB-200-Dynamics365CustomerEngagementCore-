@@ -38,7 +38,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -52,21 +52,20 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
 
 Exercise 2 – Prepare the Solution 
 ----------------------------------
 
 ### Task 1 – Add Fields to Knowledge Assessment
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to https://make.powerapps.com.
 
 2.  Select the **Practice** environment you created.
 
-3.  Select **Solution**s.
+3.  Select **Solutions.**
 
-4.  Click to open the **Knowledge Assessment Solution** you imported.
+4.  Click to open the **Common Data Services Default Solution.**
 
 5.  Click on the **Knowledge Assessment** entity.
 
@@ -81,18 +80,18 @@ Exercise 2 – Prepare the Solution
 
 10. Click **+ Add Relationship** and select **Many-to-One**.
 
-11. Select User for Entity, enter **High Score User** for Display Name, and
+11. Select User for Entity, enter **High Score User** for Lookup Field Display Name, and
     click **Done**.
 
 12. Click **Save Entity**.
 
 ### Task 2 – Add Fields to Knowledge Assessment Form
 
-1.  Make sure you still have the **Knowledge Assessment** selected.
+1.  Make sure you still have the **Knowledge Assessment** entity selected.
 
 2.  Select the **Forms** tab and click on the Main form.
 
-3.  Drag the **High Score User** field from the fields explorer and drop it
+3.  Drag the **High Score User** field from the field explorer and drop it
     below the **Total Points** field on the form.
 
 4.  Drag the **High Score** field from the fields explorer and drop it below the
@@ -102,11 +101,9 @@ Exercise 2 – Prepare the Solution
 
 6.  Click **Publish**.
 
-7.  Click **Save and Close**.
+7.  Click the back button.
 
-8.  Click **Done**.
-
-9.  Click on the solution name **Knowledge Assessment Solution** located in the
+9.  Click on the solution name located in the
     navigation breadcrumbs.
 
 10. Click **Publish All Customizations**.
@@ -121,13 +118,13 @@ than the current knowledge test result.
 
 ### Task 1 – Add Fields to Knowledge Question
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to https://make.powerapps.com.
 
 2.  Select the **Practice** environment you created.
 
-3.  Select **Solution**s.
+3.  Select **Solutions**.
 
-4.  Click to open the **Knowledge Assessment Solution** you imported.
+4.  Click to open the **Common Data Services Default Solution.**
 
 5.  Click on the **…** button located on the command bar and select **Switch to
     Classic**.
@@ -143,8 +140,7 @@ than the current knowledge test result.
 
 9.  Click **Add Step** and select **Check Condition**.
 
-10. Enter **Check current high score** for **Description** and click
-    **Configure**.
+10. Enter **Check current high score** for **Description** and click the link that says **click to configure.**
 
 11. Click on the **Select** dropdown and select **Knowledge Assessment
     (Knowledge Assessment)**.
@@ -161,7 +157,7 @@ than the current knowledge test result.
 15. Click on the **Enter Value** field.
 
 16. Make sure **Knowledge Test Result** is select from the **Look For** dropdown
-    of the **Form Assist**.
+    of the **Form Assistant** in the right-hand pane.
 
 17. Click **Total Points** located in the **Form Assist**.
 
@@ -183,13 +179,13 @@ than the current knowledge test result.
 
 24. Select **Knowledge Assessment** for **Update** and click **Set Properties**.
 
-25. Click on the **High Score User** field, go to the **Form Assist**, make sure
+25. Click on the **High Score User** field, go to the **Form Assistant**, make sure
     **Knowledge Test Result** is selected from the **Look For** dropdown, select
     **Owner** and click **Add**.
 
 26. Click **OK**.
 
-27. Select on the **High Score** field, go to the **Form Assist**, make sure
+27. Select the **High Score** field, go to the **Form Assistant**, make sure
     **Knowledge Test Result** is selected from the **Look For** dropdown, select
     **Total Points** and click **Add**.
 
@@ -222,16 +218,16 @@ than the current knowledge test result.
 
 ### Task 2 – Test Workflow
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to https://make.powerapps.com.
 
 2.  Select the **Practice** environment you created.
 
-3.  Select **Apps** and click to open the **Knowledge Admin** Model-Driven
-    application.
+3.  Select **Apps** and click to open the **Knowledge Admin Model-Driven
+    application**.
 
-4.  Select Knowledge **Test Results** and click **+ New**.
+4.  Select **Knowledge Test Results** and click **+ New**.
 
-5.  Enter **Test Result One** for **Primary Name**, select **Test Assessment**
+5.  Enter **Test Result One** for **Name**, select **Test Assessment**
     for **Knowledge Assessment**, enter **85** for **Total Points** and click
     **Save**.
 
