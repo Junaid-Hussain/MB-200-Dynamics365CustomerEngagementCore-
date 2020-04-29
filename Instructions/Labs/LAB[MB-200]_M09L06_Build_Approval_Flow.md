@@ -36,7 +36,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -50,21 +50,21 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at
+    https://admin.Powerplatform.microsoft.com.
 
 Exercise 2 – Prepare the Solution 
 ----------------------------------
 
 ### Task 1 – Add Field to Knowledge Assessment
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to https://make.powerapps.com.
 
 2.  Select the **Practice** environment you created.
 
 3.  Select **Solutions**.
 
-4.  Click to open the **Knowledge Assessment Solution** you imported.
+4.  Click to open the **Common Data Services Default Solution.**
 
 5.  Click to open the **Knowledge Assessment** entity.
 
@@ -94,7 +94,7 @@ Exercise 2 – Prepare the Solution
 
 ### Task 2 – Add Field to Knowledge Assessment Form
 
-1.  Make sure you still have the **Knowledge Assessment** selected.
+1.  Make sure you still have the **Knowledge Assessment** entity selected.
 
 2.  Select the **Forms** tab and click on the Main form.
 
@@ -106,11 +106,9 @@ Exercise 2 – Prepare the Solution
 
 6.  Click **Publish**.
 
-7.  Click **Save and Close**.
+7.  Click the back button.
 
-8.  Click **Done**.
-
-9.  Click on the solution name **Knowledge Assessment Solution** located in the
+9.  Click on the solution name located in the
     navigation breadcrumbs.
 
 10. Click **Publish All Customizations**.
@@ -120,25 +118,20 @@ Exercise 3 – Create Flow
 
 ### Task 1 – Create Flow
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to https://make.powerapps.com.
 
-2.  Select the **Practice** environment you created.
+2.  Make sure you are in the **Practice** environment you created.
 
-3.  Expand **Business Logic**.
+4.  Select **Flows** and click **+New.** Select **+Automated - from blank.** In the pop-up, select **Skip.** 
 
-4.  Select **Flows** and click **Create from Blank**.
+6.  Click  **Common Data Service** and select **When a record is updated.**
 
-5.  Click **Create from Blank** again.
-
-6.  Search for **Common Data Service** and select **When a Record is Updated
-    (Preview).**
-
-7.  Select **Practice** for **Environment**, select **Knowledge Assessments**
-    for **Entity Name**, and select **Organization** for **Scope**.
+7.  Start typing your unique alias in **Environment** to select your Practice environment. Select **Knowledge Assessments**
+    for **Entity Name**, and select **Business Unit** for **Scope**.
 
 8.  Click **Show Advanced Options**.
 
-9.  Select **NotifyManager** for Attribute Filter.
+9.  Select **NotifyManager** for Attribute Filter. It will show up with your environment prefix.
 
 10. Click on the **… Menu** button and select **Rename**.
 
@@ -163,12 +156,12 @@ Exercise 3 – Create Flow
 
 ### Task 3 – Update Waiting Assessment
 
-1.  Click **Add an Action** of the **If Yes** branch.
+1.  Click **Add an Action** in the **If Yes** branch.
 
-2.  Search for **Common Data Service** and select **Update a Record**.
+2.  Click **Common Data Service** and select **Update a record**.
 
-3.  Select **Practice** for **Environment**, select **Knowledge Assessments**
-    for **Entity Name**, and click on the **Item Identifier** field.
+3.  Select your Praactice environment, select **Knowledge Assessments**
+    for **Entity Name**, and click on the **Record Identifier** field.
 
 4.  Select **Knowledge Assessment** from the **Dynamic Content** pane.
 
@@ -184,9 +177,9 @@ Exercise 3 – Create Flow
 
 1.  Click **Add an Action** of the **If Yes** branch.
 
-2.  Search for **Common Data Service** and select **Get Record**.
+2.  Select **Common Data Service** and select **Get Record**.
 
-3.  Select **Practice** for **Environment**, select **Users** for **Entity
+3.  Select your practice environment for **Environment**, select **Users** for **Entity
     Name**, and click on the **Item Identifier** field.
 
 4.  Select **Created By** from the **Dynamic Content** pane.
@@ -200,9 +193,9 @@ Exercise 3 – Create Flow
 
 1.  Click **Add an Action** of the **If Yes** branch again.
 
-2.  Search for **Common Data Service** and select **Get Record**.
+2.  Select **Common Data Service** and select **Get Record**.
 
-3.  Select **Practice** for **Environment**, select **Users** for **Entity
+3.  Select your Practice environment for **Environment**, select **Users** for **Entity
     Name**, click on the **Item Identifier** field.
 
 4.  Go to the **Dynamic Content** pane, search for **Manager** and select
@@ -216,26 +209,25 @@ Exercise 3 – Create Flow
 
 1.  Click **Add an Action** of the **If Yes** branch.
 
-2.  Search for **Approvals** and select **Start an Approval**.
+2.  Search for **Approvals** and select **Start and wait for an approval**.
 
 3.  Select **Approve/Reject – First to respond** for **Approval Type**.
 
-4.  Enter **Manager Notification Approval** for **Title**,
+4.  Enter **Manager Notification Approval** for **Title**.
 
 5.  You will usually send the approval request to a manager or other decision
     makers, but in this lab, you will select the user you are logged in as.
     Select the **Assigned To** field.
 
-6.  Go to the **Dynamic Content** pane and click **Get Created User**.
+6.  Go to the **Dynamic Content** pane and scroll to the **Get Created User** section.
 
-7.  Search for **Primary Email** and select **Primary Email** from the **Get
-    Created User** section.
+7.  Select **Primary Email** from the **Get Created User** section.
 
-8.  select the **Requestor** filed, go to the **Dynamics Content** pane, search
+8.  From the Advanced Options, select the **Requestor** field. Go to the **Dynamic Content** pane, search
     for **Primary Email**, and select **Primary Email** from the **Get Created
     User** section.
 
-9.  Select the Details filed, go to the **Dynamics Content** pane, search for
+9.  Select the Details field, go to the **Dynamic Content** pane, search for
     **Full Name**, and select **Full Name** from the **Get Created User**
     section.
 
@@ -246,20 +238,20 @@ Exercise 3 – Create Flow
 
 12. Type **Assessment Name:**
 
-13. Go to the **Dynamics Content** pane, search for **Title**, and select
+13. Go to the **Dynamic Content** pane, search for **Title**, and select
     **Title** from the **When Assessment is Updated** section.
 
 14. Press enter key to start a new line.
 
 15. Type **Manager:**
 
-16. Go to the **Dynamics Content** pane, search for **Full Name**, and select
-    **Full Name** from the **When Get Created User** section.
+16. Go to the **Dynamic Content** pane, search for **Full Name**, and select
+    **Full Name** from the **Get Created User** section.
 
 17. It is good practice to include a link to the record that needs the approval.
-    Start a new browser window and navigate to <https://web.powerapps.com>
+    Start a new browser window and navigate to make.powerapps.com.
 
-18. Make sure you are in the **Practice** environment.
+18. Make sure you are in your **Practice** environment.
 
 19. Select **Apps** and click to open the **Knowledge Admin** application.
 
@@ -280,7 +272,6 @@ Exercise 3 – Create Flow
 
     https://practice.crm.dynamics.com/main.aspx?appid=97595509-8a00-458d-856d-1569b42d6282&pagetype=entityrecord&etn=cre7f_knowledgeassessment&id=
 
-
 26.  Go back to the flow and select the Item Link field.
 
 27.  Paste the **URL** you copied.
@@ -294,7 +285,7 @@ Exercise 3 – Create Flow
 
 2.  Search for **Condition** and select **Condition** control.
 
-3.  Click on the first Choose a Value field and select Response from the Dynamic
+3.  Click on the first Choose a Value field and select Responses from the Dynamic
     Content pane.
 
 4.  Leave **Is Equals to** as the operator.
@@ -312,7 +303,7 @@ Exercise 3 – Create Flow
 
 2.  Search for **Common Data Service** and select **Update a Record**.
 
-3.  Select **Practice** for **Environment**, select **Knowledge Assessments**
+3.  Select your **Practice** environment for **Environment**, select **Knowledge Assessments**
     for **Entity Name** and click on the **Record Identifier** field.
 
 4.  Select **Knowledge Assessment** from the **Dynamic Content** pane.
@@ -330,9 +321,9 @@ Exercise 3 – Create Flow
 1.  Click **Add an Action** of the **If No** branch of the **Check Response**
     condition.
 
-2.  Search for **Common Data Service** and select **Update a Record**.
+2.  Select **Common Data Service** and select **Update a Record**.
 
-3.  Select **Default** for **Environment**, select **Knowledge Assessments** for
+3.  Select your **Practice** environment for Environment, select **Knowledge Assessments** for
     **Entity Name** and click on the **Record Identifier** field.
 
 4.  Select **Knowledge Assessment** from the **Dynamic Content** pane.
@@ -349,9 +340,9 @@ Exercise 3 – Create Flow
 
 ### Task 10 – Test flow
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>
 
-2.  Make sure you are in the **Practice** environment.
+2.  Make sure you are in your **Practice** environment.
 
 3.  Select **Apps** and click to open the **Knowledge Admin** application.
 
@@ -359,22 +350,19 @@ Exercise 3 – Create Flow
 
 5.  Locate the **Approval Status** and make sure no value is selected.
 
-6.  Locate the **Notify Manager** field and set it to **Yes**.
+6.  Locate the **Notify Manager** field and set it to **Yes**. Set **Approval Status** to **Waiting.**
 
 7.  Click **Save**.
 
 8.  Click **Refresh**.
 
-9.  Locate the **Approval Status** field and make sure it is now set to
-    **Waiting**.
-
 10. Navigate to <https://flow.microsoft.com>
 
 11. Login if prompted.
 
-12. Make sure you are in the **Practice** environment.
+12. Make sure you are in your **Practice** environment.
 
-13. Select **Approvals**.
+13. Expand **Action items** and select **Approvals**.
 
 14. You should see an approval with the title **Manager Notification Approval**.
     Click on the approval tile.
