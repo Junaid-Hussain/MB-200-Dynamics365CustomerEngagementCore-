@@ -34,7 +34,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -48,8 +48,7 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
 
 Exercise 2 – Exchange Online Setup
 ----------------------------------
@@ -62,20 +61,20 @@ In this task, you will be verifying the server profile settings and changing
 other e-mail settings to turn off e-mail tracking tokens and turn on
 folder-level tracking.
 
-1.  Navigate to <https://admin.powerplatform.microsoft.com/>
+1.  Navigate to https://admin.powerplatform.microsoft.com/.
 
 2.  Select **Environments**.
 
-3.  Select your environment and click **Settings**.
+3.  Select **your** environment, [your alias] Practice, and click **Settings**.
 
-4.  Go to the **Email** section and click **Email Settings**.
+4.  Expand the **Email** section and click **Email Settings**.
 
 5.  Make sure **Microsoft Exchange Online** is selected for **Server Profile**.
 
-6.  Make sure **Sever -Side Synchronization or Email Router** is select for
+6.  Make sure **Sever-Side Synchronization or Email Router** is select for
     **Incoming Email**.
 
-7.  Make sure **Sever -Side Synchronization or Email Router** is select for
+7.  Make sure **Sever-Side Synchronization or Email Router** is select for
     **Outgoing Email**.
 
 8.  Select **Sever-Side Synchronization** for **Appointments, Contacts, and
@@ -85,9 +84,9 @@ folder-level tracking.
 
 10. Click **Save**.
 
-11. Go to the navigation breadcrumbs and click **Settings**.
+11. Go to the navigation menu and click **Settings**.
 
-12. Go to the **Email** section and select **Email Tracking**.
+12. Expand the **Email** section and select **Email Tracking**.
 
 13. Set **Use Tracking Tokens** to **Off**.
 
@@ -95,7 +94,7 @@ folder-level tracking.
 
 15. Click **Save**.
 
-16. Go to the navigation breadcrumbs and click **Settings**. DO NOT navigate
+16. Go to the navigation menu and click **Settings**. DO NOT navigate
     away from this page.
 
 ### Task 2 – Setup Mailbox
