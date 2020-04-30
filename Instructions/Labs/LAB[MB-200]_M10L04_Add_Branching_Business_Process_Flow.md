@@ -34,7 +34,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -48,25 +48,22 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
-    .
+4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
 
 Exercise 2 – Update Process 
 ----------------------------
 
 ### Task 1 – Update Business Process Flow
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to https://make.powerapps.com.
 
-2.  Make sure you are in the **Practice** environment.
+2.  Make sure you are in your **Practice** environment.
 
 3.  Select **Solutions**.
 
-4.  Click to open the **Knowledge Assessment Solution**.
+4.  Click to open the **Common Data Services Default Solution**.
 
-5.  Click on the **…** button located on the command bar and select **Switch to
-    Classic**.
+5.  Click on the **…** button located on the command bar and select **Switch to Classic**.
 
 6.  Select **Processes** and open the **Assessment Process** you created.
 
@@ -83,25 +80,25 @@ Exercise 2 – Update Process
 
 11. Click **Update**.
 
-12. Close the process editor.
+12. Close the process editor. Click **Publish all Customizations.**
 
 13. Close the solution explorer.
 
 ### Task 2 – Add Business Lock Unlock Rule
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to https://make.powerapps.com.
 
-2.  Make sure you are in the **Practice** environment.
+2.  Make sure you are in your **Practice** environment.
 
-3.  Select **Solutions** and open the **Knowledge Assessment Solution**.
+3.  Select **Solutions** and open the **Common Data Services Default Solution.**
 
 4.  Click to open the **Knowledge Assessment** entity.
 
 5.  Select the **Business Rules** tab and click **Add Business Rule**.
 
-6.  Click on the **Show Details** chevron button next to the Business Rule name.
+6.  Click on the **Show Details** carrot button next to the Business Rule name.
 
-7.  Enter **Lock/Unlock Status** and click **Hide Details**.
+7.  Enter **Lock/Unlock Status** and click the carrot again to **hide details**.
 
 8.  Select the **Condition**, go to the **Properties** tab, and enter **Check
     Notification** for **Display Name**.
@@ -121,7 +118,7 @@ Exercise 2 – Update Process
 13. Select the **Components** tab, drag **Lock/Unlock** action and drop it on
     the **True** side of the condition (the checkmark side).
 
-14. Select the **Lock/Unlock** action, got to the **Properties** tab, enter
+14. Select the **Lock/Unlock** action, go to the **Properties** tab, enter
     **Lock Status** for **Display Name**, select **Assessment Status** for
     **Field**, select **Lock** for **Status**, and click **Apply**.
 
@@ -129,7 +126,7 @@ Exercise 2 – Update Process
     the **False** side of the condition (the x side).
 
 16. Select the second **Lock/Unlock** action, got to the **Properties** tab,
-    enter **Unlock Status** for **Display Name**, select **Assessment Status**
+    enter **Unlock Status** for **Display Name**, select **Status**
     for **Field**, select **Unlock** for **Status**, and click **Apply**.
 
 17. Click **Save**.
@@ -142,9 +139,11 @@ Exercise 2 – Update Process
 
 21. Click **Done**.
 
+22. Click the **Common Data Services Default Solution** from the navigation breadcrumbs. Click **Publish all Customizations.**
+
 ### Task 3 – Test the Updated Business process Flow
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to https://make.powerapps.com.
 
 2.  Make sure you are in the **Practice** environment.
 
@@ -176,7 +175,7 @@ Exercise 2 – Update Process
 
 16. Your Business Process Flow should have just one stage.
 
-17. Click on the **Assessment** stage of then Business Process Flow. The steps
+17. Click on the **Knowledge Assessment** stage of then Business Process Flow. The steps
     for this stage will come to view.
 
 18. Enter **80** for **Passing Score**.
@@ -191,19 +190,17 @@ Exercise 2 – Update Process
 
 23. The Activate Stage should now be added to the Business Process Flow.
 
-24. Select **Complete** for **Create Questions** and click **Next Stage**.
+24. Select **Completed** for **Create Questions** and click **Next Stage**.
 
 25. The process should move to the **Activate** stage.
-
-26. The Approval Flow should run and set the **Approval Status** to **Waiting**.
 
 27. The Business Rule should run and **Lock** the **Assessment Status**. Do not
     close this page.
 
 28. Start a new browser window and navigate to
-    [https://flow.microsoft.com](https://flow.microsoft.com/)
+    [https://flow.microsoft.com](https://flow.microsoft.com/).
 
-29. Select **Approvals**.
+29. Select **Action items** and then select **Approvals**.
 
 30. You should have one approval waiting for you. Click on the approval.
 
@@ -219,6 +216,6 @@ Exercise 2 – Update Process
 35. The Approval Flow should complete the approval and set the **Approval
     Status** to **Approved**.
 
-36. The Business Rule should **Unlock** the **Assessment Status** field.
+36. The Business Rule should **Unlock** the **Status** field.
 
-37. Select **Published** for **Assessment Status** and click **Finish**.
+37. Click **Finish**.
