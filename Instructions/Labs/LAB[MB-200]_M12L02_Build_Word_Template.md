@@ -35,7 +35,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
 
-### Task 1 – Connect to the Power platform administration portal
+### Task 1 – Connect to the Power Platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
     Pa55w.rd if you are not already logged in.
@@ -49,24 +49,21 @@ case you can skip ahead to exercise two and resume.
     the browser opens Office 365. Use the O365 credentials you just acquired in
     the previous step to login.
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
+4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com/.
 
 Exercise 2 – Word Template
 --------------------------
 
 In this exercise, you create a Microsoft Word template for the Test Result
-entity, this document will generate certificate of completion.
+entity. This document will generate a certificate of completion.
 
 ### Task 1 – Create Knowledge Test Result
 
 In this task, you will create a Knowledge Test Result record
 
-1.  Navigate to <https://web.powerapps.com/environments>
+1.  Navigate to https://make.powerapps.com.
 
-2.  Using the Environment selector in the upper right make sure you are NOT in
-    the Default environment. You should be set to something like
-    Contoso(crm\*\*\*) and not Contoso (Default).
+2. Make sure you are in your **Practice** environment. 
 
 3.  Select **Apps**.
 
@@ -96,8 +93,7 @@ Microsoft Word.
 
 3.  Go to the N:1 Relationship dropdown and click on chevron button.
 
-4.  Select **Knowledge Assessment** and **User
-    (user_crxxx_knowledgetestresult)** where xxx will be some numbers.
+4.  Select **Knowledge Assessment** and **User (user_crxxx_knowledgetestresult)** where xxx will be your unique prefix.
 
 5.  Click **Download**.
 
@@ -130,7 +126,7 @@ In this task, you will build a basic certificate and insert data from CDS.
 
 3.  Select the **Insert** tab, click **Text Box** and select **Simple Text Box**
 
-4.  Select the **Format** tab, click **Shape Fill** and select **No Fill**.
+4.  Select the **Shape Format** tab, click **Shape Fill** and select **No Fill**.
 
 5.  Click **Shape Outline** and select **No Outline**.
 
@@ -144,8 +140,8 @@ In this task, you will build a basic certificate and insert data from CDS.
 
 10. Resize the **Textbox** to fill the page horizontally.
 
-11. Select the **Format** tab, click **Text Effect**, click **Transform**, and
-    select **Arch**.
+11. Select the **Shape Format** tab, click **Text Effect**, click **Transform**, and
+    select the first option in **Follow Path** showing an arch. 
 
 12. Select the **Insert** tab, click **Text Box** and select **Simple Text
     Box**.
@@ -160,7 +156,7 @@ In this task, you will build a basic certificate and insert data from CDS.
 
 17. Select the text and change the **Font Size** to **18**.
 
-18. Place your cursor at the end of the text and press the **\<Enter \>** key.
+18. Place your cursor at the end of the text and press the **enter** key.
 
 19. Go to the **XML Mapping** pane and expand the entity.
 
@@ -201,9 +197,9 @@ In this task, you will build a basic certificate and insert data from CDS.
 35. Place your cursor in front of the **Total Points** control and type **total
     points** .
 
-36. Press the **\<Enter\>** key.
+36. Press the **enter** key.
 
-37. Type **Completion Date:** and press the \<Enter\> key.
+37. Type **Completion Date:** and press the **enter** key.
 
 38. Go to the **XML Mapping** pane and go to the **Knowledge Test Result**
     entity.
