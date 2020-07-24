@@ -44,41 +44,7 @@ entities. Relationships in the above drawing are the lines connecting the
 entities and labeled as 1:N and N:1. The entities that are white with black
 writing are standard CDM entities that we will be re-using.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power Platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power platform admin portal at
-    https://admin.Powerplatform.microsoft.com.
-
-Exercise 2 – Create the Knowledge Assessment Entity
+Exercise 1 – Create the Knowledge Assessment Entity
 ---------------------------------------------------
 
 In this exercise, you will be creating the Knowledge Assessment entity and its
@@ -86,7 +52,7 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 ### Task 1 – Create an entity
 
-1.  Navigate to <https://make.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>.
 
 2.  Make sure you are in the **Practice** environment you created.
 
@@ -96,11 +62,9 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 5.  Click **New** and select **Entity**.
 
-6.  Enter **Knowledge Assessment** for **Display Name**. Enter **Title** for Primary Field.
+6.  Enter **Knowledge Assessment** for **Display Name**. Enter **Title** for **Display Name** in the Primary Field section. 
 
-7.  Edit the **Plural Display Name** and **Name** if appropriate.
-
-8.  Click **Create**. It may take a few minutes for your entity to be created.
+8.  Click **Done**. It may take a few minutes for your entity to be created.
 
 9. With the **Fields** tab selected, click **Add Field**.
 
@@ -126,7 +90,7 @@ fields. Knowledge Assessment will be a new custom entity you create.
 18. Enter **Difficulty** for **Display Name** and select **Option Set** for
     **Data Type**.
 
-19. Click on the **Option Set** dropdown and select **New Option Set**.
+19. Click on the **Option Set** dropdown and select **+New Option Set**.
 
 20. Enter **Beginner** for **Item 1** and click **Add New Item**.
 
@@ -156,17 +120,16 @@ fields. Knowledge Assessment will be a new custom entity you create.
 9.  Click **Add Action**.
 
 10. Enter *DIFFINDAYS(NOW(), crXXX_enddate)* and click on the checkmark. Note
-    that crXXX is environment dependent and your prefix will be
-    different. To find your environment specific prefix, type **cr** and wait
-    for the field to auto filter to the correct prefix.
+    that crXXX is environment dependent and the name of your environment will be different. To find your environment-specific designation, type **cr** and wait
+    for the field to auto filter to your environment.
 
-11. Click the check box to **Save Your Changes**.
+11. Click the check box.
 
 12. Click **Save and Close**.
 
 13. Click **Done**.
 
-Exercise 3 – Create the Knowledge Question Entity
+Exercise 2 – Create the Knowledge Question Entity
 -------------------------------------------------
 
 In this exercise, you will be creating the Knowledge Question entity and its
@@ -174,20 +137,20 @@ fields.
 
 ### Task 1 – Create an entity
 
-1.  Go back to <https://make.powerapps.com> and make sure you are in the
+1.  Go back to <https://make.powerapps.com> and make sure you are in your
     **Practice** environment.
 
 2.  Select **Solutions**.
 
 3.  Open the **Common Data Services Default Solution**.
 
-4.  Click **New** and select **Entity**.
+4.  Click **+New** and select **Entity**.
 
 5.  Enter **Knowledge Question** for Display Name.
 
 6.  Navigate to the **Primary Field** section.
 
-7.  Change the **Display Name** to **Question**. The **Name** field should also automatically update to **Question.** Click **Create**.
+7.  Change the **Display Name** to **Question**. The **Name** field should also automatically update to **Question.** Click **Done**.
 
 8.  Make sure the **Fields** tab is selected and click **Add Field**.
 
@@ -220,7 +183,7 @@ fields.
 
 **Note:** There are many ways you could model the answers depending on the complexity of your requirements. The approach shown here is simplified for practice purposes to focus on demonstrating how to work with the entity creation process.
 
-Exercise 4 – Create the Knowledge Test Result Entity
+Exercise 3 – Create the Knowledge Test Result Entity
 ----------------------------------------------------
 
 In this exercise, you will be creating the Knowledge Test Result entity and its
@@ -230,9 +193,9 @@ fields.
 
 1.  On the navigation menu, click **Common Data Services Default Solution** to return to the solution.
 
-2.  Click **New** and select **Entity**.
+2.  Click **+New** and select **Entity**.
 
-3.  Enter **Knowledge Test Result** for **Display Name** and click **Create**.
+3.  Enter **Knowledge Test Result** for **Display Name** and click **Done**.
 
 4.  Click **Add Field**.
 
