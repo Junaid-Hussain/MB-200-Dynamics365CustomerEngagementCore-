@@ -48,31 +48,8 @@ instructions in this document may be different from what you experience in your
 actual Office 365 tenant. It is also possible to experience a delay of several
 minutes before the virtual machine has network connectivity to begin the labs.
 
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
 
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power Platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com].
-
-Exercise 2 – Create the Knowledge Assessment Relationships
+Exercise 1 – Create the Knowledge Assessment Relationships
 ----------------------------------------------------------
 
 In this exercise, you will be creating the relationships for Knowledge
@@ -83,16 +60,16 @@ Assessment entity.
 In this task, you will create a One-to-Many relationship between the Knowledge
 Assessment and Knowledge Question entities.
 
-1.  Navigate to <https://make.powerapps.com> and make sure you are in the
+1.  Navigate to <https://make.powerapps.com> and make sure you are in your
     **Practice** environment.
 
 2.  Select **Solutions** and open the **Common Data Service Default Solution.**
 
 3.  Click to open the **Knowledge Assessment** entity.
 
-4.  Select the **Relationship** tab.
+4.  Select the **Relationships** tab.
 
-5.  Click **Add Relationship** and select **One-to-Many**.
+5.  Click **+Add Relationship** and select **One-to-Many**.
 
 6.  Select **Knowledge Question** for **Related Entity** and click **Done**.
 
@@ -121,7 +98,7 @@ Assessment and Knowledge Test Result entities.
 
 8.  Click **Publish All Customizations**.
 
-Exercise 3 – Adjust relationship behaviors
+Exercise 2 – Adjust relationship behaviors
 ------------------------------------------
 
 In this exercise, you will be changing the relationship behaviors to be
@@ -132,7 +109,7 @@ parental. You will be performing this change in the classic Solution Explorer.
 1.  Make sure you still have the **Common Data Services Default Solution** open.
 
 2.  Click on the ellipses located next to **Publish All Customizations** and
-    select **Switch to Classic**.
+    select **Switch to classic**.
 
 3.  Expand **Entities**.
 
