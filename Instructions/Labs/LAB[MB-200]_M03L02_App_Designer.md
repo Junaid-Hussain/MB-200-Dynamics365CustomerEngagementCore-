@@ -80,7 +80,7 @@ to the app navigation.
 
 36. **Do not** close the app designer.
 
-Exercise 3 – Other app designer changes
+Exercise 2 – Other app designer changes
 ---------------------------------------
 
 In this exercise, you will use the app designer to filter what is visible.
