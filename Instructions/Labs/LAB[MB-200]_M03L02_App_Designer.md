@@ -13,46 +13,12 @@ Scenario
 --------
 
 You are a functional consultant for your organization Contoso. You are assigned
-to work on a project for your client Fabrikam. In this practice you will be
+to work on a project for your client Fabrikam. In this lab you will be
 continuing your work on the model-driven Knowledge Admin app. Previously, all
-you have done is set up the basic app. Now that you have the data model defined
+you have done is set up the basic app. Now that you have the data model defined,
 you can add the other entities to the app navigation.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power Platform admin portal at
-    [https://admin.Powerplatform.microsoft.com].
-
-Exercise 2 – Edit the site map 
+Exercise 1 – Edit the site map 
 -------------------------------
 
 In this exercise, you will use the site map designer to add the other entities
@@ -68,52 +34,32 @@ to the app navigation.
 
 4.  Open **Common Data Services Default Solution**.
 
-5.  Select the **Knowledge Admin** model-driven application and click **Edit.**
-
-6.  Click the edit button next to **Site Map.**
+5.  Select the **[my prefix] Knowledge Admin** model-driven application and click **Edit.**
 
 7.  Drag **Area** from the **Components** tab and place it to the right of the
     **Administration** area.
 
-8.  Select the new area and enter **Assessments** for **Title**.
+8.  Select the new area, click the **Edit** button, and enter **Assessments** for **Title**.
 
-9.  Make sure the **Assessment** group you created is selected.
+9.  Make sure the **Assessments** group you created is selected.
 
 10. Select the **Components** tab.
 
 11. Drag **Group** and place it in the **Assessments** area.
 
-12. Enter **Configuration** for **Title**.
+12. Click **Edit.** Enter **Configuration** for **Title**.
 
 13. Select the **Configuration** group you just added.
 
 14. Select the **Components** tab.
 
-15. Drag **Subarea** to the **Configuration** group.
+15. Drag a **Subarea** to the **Configuration** group.
 
 16. Select the **New Subarea**.
 
 17. Select **Entity** for **Type**.
 
-18. Select **Knowledge Assessment** for **Entity**
-
-19. Enter **Assessments** for **Title**.
-
-20. Click **Advanced**.
-
-21. Click **More Titles**.
-
-22. Select **German – Germany (1031)** for **Local (LCID).**
-
-23. Enter **Bewertung** for **Tile**.
-
-24. Click **Client**.
-
-25. Study at the options available to you.
-
-26. Click on the **SKUs** and examine the options available.
-
-27. Examine the options available in **More Descriptions** and **Privileges**.
+18. Select **Knowledge Assessment** for **Entity**.
 
 28. Select the **Configuration** group.
 
@@ -139,7 +85,7 @@ Exercise 3 – Other app designer changes
 
 In this exercise, you will use the app designer to filter what is visible.
 
-### Task 1 – Add and Remove components
+### Task 1 – Add and remove components
 
 Components can easily be added and removed from an app. Remember an app is just
 a view into the entities that exist in your environment. Removing them from an
@@ -154,7 +100,7 @@ app does not physically remove the entity.
 4.  Uncheck the **Account** entity. The Account entity will be removed from the
     application.
 
-### Task 2 – Validate and Adjust what forms and views show
+### Task 2 – Validate and adjust what forms and views show
 
 Validating your app will alert you if you are missing any dependencies or other
 issues. We will also adjust what forms and views are available to the app. By
@@ -191,7 +137,7 @@ do this for the other components as well.
 
 ### Task 3 – Run the Application
 
-1.  Make sure you still have the **Knowledge Admin Model-Driven App**
+1.  Make sure you still have the **[my prefix] Knowledge Admin** model-driven app.
     selected.
 
 2.  Click **Play**.
@@ -201,7 +147,7 @@ do this for the other components as well.
 
 4.  Click on the **Administration** area and switch to the **Assessments** area.
 
-5.  The **Assessments** active view will load.
+5.  The **Active Knowledge Assessments** view will load.
 
 6.  Click **+ New**.
 
@@ -221,4 +167,4 @@ do this for the other components as well.
 
 14. Click on the **Assessments** area and switch to the **Administration** area.
 
-15.The **Enabled Users** view will load.
+15. The **Enabled Users** view will load.
