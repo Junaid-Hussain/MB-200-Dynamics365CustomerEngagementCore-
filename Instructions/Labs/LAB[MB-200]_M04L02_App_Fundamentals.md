@@ -163,7 +163,7 @@ practices you will be scoring and storing the results.
 11. Select the label you just added and set the **Text** property to
     **Question**.
 
-    ThisItem.Name
+    ThisItem.Question
 
 12.  If you don’t see any questions display in your app preview, click on
     mainScreen and, while holding the alt key, use the mouse to click on the next
