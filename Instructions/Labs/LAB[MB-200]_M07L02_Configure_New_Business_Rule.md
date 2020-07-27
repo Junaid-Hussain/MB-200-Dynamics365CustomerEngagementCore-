@@ -17,7 +17,7 @@ to work on a model-driven Knowledge Admin app for your client Fabrikam. In this
 lab, you will create fields and use business rules to control visibility of the
 fields without needing custom code.
 
-Exercise 2 – Prepare the Solution 
+Exercise 1 - Prepare the solution
 ----------------------------------
 
 ### Task 1 – Add Fields to Knowledge Question
@@ -84,7 +84,7 @@ Exercise 2 – Prepare the Solution
 12. Click on the solution name **Common Data Services Default Solution** located in the
     navigation breadcrumbs. Click **Publish all customizations.**
 
-Exercise 4 – Create Business Rule
+Exercise 2 – Create Business Rule
 ---------------------------------
 
 ### Task 1 – Create Question Type Business Rule
@@ -95,16 +95,15 @@ Exercise 4 – Create Business Rule
 
 3.  Select **Solutions.**
 
-4.  Click to open the **Knowledge Assessment Solution** you imported.
+4.  Click to open the **Common Data Services Default Solution.**
 
 5.  Click to open the **Knowledge Question** entity.
 
 6.  Select the **Business Rules** tab and click **Add Business Rule**.
 
-7.  Click on the **Show Details** button next to the business rule name.
+7.  Next to **New business rule** at the top of the screen, select the dropdown carrot. 
 
-8.  Enter **Question Type Rule** for **Business Rule Name** and click on the
-    **Hide Details** button.
+8.  Enter **Question Type Rule** for **Business Rule Name**.
 
 9.  Select the **Condition** and enter **Check Question Type** for **Display
     Name.**
@@ -173,20 +172,19 @@ Exercise 4 – Create Business Rule
 
 ### Task 2 – Test Business Rule
 
-1.  Navigate to <https://web.powerapps.com/> and select the **Practice**
-    environment.
+1.  Navigate to <https://make.powerapps.com/> and make sure you are in your **Practice** environment.
 
 2.  Select **Apps** and click on the **Knowledge Admin** Model-Driven
     application.
 
-3.  Select **Assessments** and click **+ New**.
+3.  Select **Knowledge Assessments** and click **+ New**.
 
-4.  Enter **Test Assessment** for **Title**, select today’s date for **Start
+4.  Enter **Test Assessment 4** for **Title**, select today’s date for **Start
     Date**, a month from today for **End Date**, and click **Save**.
 
 5.  Select the **Questions** tab.
 
-6.  Click **+ Add New Knowledge Question**.
+6.  Click **+ New Knowledge Question**.
 
 7.  Select **Scenario** for **Question Type**. The **Scenario** field will come
     to view, and it will be required.
