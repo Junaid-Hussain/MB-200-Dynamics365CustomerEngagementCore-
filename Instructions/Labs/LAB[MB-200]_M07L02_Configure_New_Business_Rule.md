@@ -17,92 +17,18 @@ to work on a model-driven Knowledge Admin app for your client Fabrikam. In this
 lab, you will create fields and use business rules to control visibility of the
 fields without needing custom code.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
-
-Exercise 2 – Create Environment and Import Solution 
-----------------------------------------------------
-
-In this exercise, you will create a new environment and import a solution
-
-### Task 1 – Create Environment
-
-1.  Navigate to <https://admin.powerapps.com>
-
-2.  Click **+ New Environment**.
-
-3.  Enter **Practice** for **Environment Name** and click **Create
-    Environment**.
-
-4.  Click **Create Database**.
-
-5.  Select **USD** for **Currency**, select **English** for **Language**, and
-    click **Create Database**.
-
-6.  Wait for the environment to be created.
-
-### Task 2 – Import Solution
-
-1.  Navigate to <https://web.powerapps.com>
-
-2.  Select the **Practice** environment you created.
-
-3.  Select **Solution**s and click **Import**.
-
-4.  Click **Browse**.
-
-5.  Select the **Starting Solution** zip file and click **Open**.
-
-6.  Click **Next**.
-
-7.  Click **Import**.
-
-8.  Wait for the Import to complete, **Publish** the changes, and click
-    **Close**.
-
-Exercise 3 – Prepare the Solution 
+Exercise 2 – Prepare the Solution 
 ----------------------------------
 
 ### Task 1 – Add Fields to Knowledge Question
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>
 
-2.  Select the **Practice** environment you created.
+2.  Make sure you are in the **Practice** environment you created.
 
 3.  Select **Solutions**.
 
-4.  Click to open the **Knowledge Assessment Solution** you imported.
+4.  Click to open the **Common Data Services Default Solution.** 
 
 5.  Click to open the **Knowledge Question** entity.
 
@@ -117,9 +43,9 @@ Exercise 3 – Prepare the Solution
 
 10. Enter **Scenario** and click **Save**.
 
-11. Check the **Required** checkbox and click **Done**.
+11. From the **Required** dropdown, select **Required.**
 
-12. Click **Save Entity**.
+12. Click **Done.** Then click **Save entity.**
 
 13. Click **+ Add Field**.
 
@@ -130,7 +56,7 @@ Exercise 3 – Prepare the Solution
 
 ### Task 2 – Add Fields to Knowledge Question Form
 
-1.  Make sure you still have the **Knowledge Question** selected.
+1.  Make sure you still have the **Knowledge Question** entity selected.
 
 2.  Select the **Forms** tab and click to open the **Main** form.
 
@@ -142,32 +68,32 @@ Exercise 3 – Prepare the Solution
 
 5.  Double click on **Scenario Description** field.
 
-6.  Uncheck the **Visible by Default** checkbox and click **OK**.
+6.  Check **Hide field.**
 
-7.  Drag the **Knowledge Assessment** field from the fields explorer and drop it
+7.  Uncheck **Show only unused fileds** and drag the **Knowledge Assessment** field from the fields explorer and drop it
     below the **Owner** field on the form.
 
 8.  Click **Save**.
 
 9.  Click **Publish**.
 
-10. Click **Save and Close**.
+10. Close the tab.
 
 11. Click **Done**.
 
-12. Click on the solution name **Custom Data Service Solution** located in the
-    navigation breadcrumbs.
+12. Click on the solution name **Common Data Services Default Solution** located in the
+    navigation breadcrumbs. Click **Publish all customizations.**
 
 Exercise 4 – Create Business Rule
 ---------------------------------
 
 ### Task 1 – Create Question Type Business Rule
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>
 
-2.  Select the **Practice** environment you created.
+2.  Make sure you are in the **Practice** environment you created.
 
-3.  Select **Solution**s.
+3.  Select **Solutions.**
 
 4.  Click to open the **Knowledge Assessment Solution** you imported.
 
