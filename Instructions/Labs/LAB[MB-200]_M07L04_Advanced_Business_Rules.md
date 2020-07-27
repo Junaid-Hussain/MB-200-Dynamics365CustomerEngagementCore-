@@ -17,7 +17,7 @@ to work on a model-driven Knowledge Admin app for your client Fabrikam and need
 to add scoring functionality without code. In this lab, you will create a
 calculated field, a rollup field, and a business rule.
 
-Exercise 2 – Prepare the Solution 
+Exercise 1 – Prepare the Solution 
 ----------------------------------
 
 ### Task 1 – Add Field to Knowledge Question
