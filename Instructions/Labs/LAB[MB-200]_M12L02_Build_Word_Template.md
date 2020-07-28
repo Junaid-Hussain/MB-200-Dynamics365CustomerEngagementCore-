@@ -18,40 +18,7 @@ managers can easily generate a certificate of completion to give users after
 achieving a passing score. In this lab, you will create a certificate of
 completion through a Word template and update that Word template to the app.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power Platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com/.
-
-Exercise 2 – Word Template
+Exercise 1 – Word Template
 --------------------------
 
 In this exercise, you create a Microsoft Word template for the Test Result
@@ -59,7 +26,7 @@ entity. This document will generate a certificate of completion.
 
 ### Task 1 – Create Knowledge Test Result
 
-In this task, you will create a Knowledge Test Result record
+In this task, you will create a Knowledge Test Result record.
 
 1.  Navigate to https://make.powerapps.com.
 
@@ -67,9 +34,9 @@ In this task, you will create a Knowledge Test Result record
 
 3.  Select **Apps**.
 
-4.  Locate and click on the **Knowledge Admin** application.
+4.  Locate and click on the **Knowledge Admin** model-driven application.
 
-5.  Click on the **Site Map** button and select **Knowledge Test Results**.
+5.  Select **Knowledge Test Results**.
 
 6.  Click **New**.
 
@@ -86,7 +53,7 @@ In this task, you will create the template. You will do this by downloading the
 starting template for the entity. You will also enable to Developer menu in
 Microsoft Word.
 
-1.  Click on the **Word Template** button locate on the command bar and select
+1.  Click on the **Word Template** button located on the command bar and select
     **Download Template**.
 
 2.  Make sure **Knowledge Test Result** is selected for Entity.
@@ -207,29 +174,27 @@ In this task, you will build a basic certificate and insert data from CDS.
 39. Right click on the **Created-On** field, click **Insert Content Control**,
     and select **Plain Text.**
 
-40. Select the **Insert** tab and click **Picture**.
-
-41. Locate and select the **Badge.png** file located in the resources folder.
+40. Select the **Insert** tab and click **Icons.** Search **Badge** in the search bar and select your favorite badge image. 
 
 42. Place the image below the **Created-On** control and center it.
 
 43. Click **File** and click **Save**.
 
-44. Enter **Assessment Certificate** for name and click **Save**. remember where
+44. Enter **Assessment Certificate** for name and click **Save as**. Remember where
     you are saving your template.
 
-Exercise 3 – Uploading and Using Word Template
+Exercise 2 – Uploading and Using Word Template
 ----------------------------------------------
 
 In this exercise, you will upload the template you created and test it.
 
 ### Task 1 – Upload Template
 
-In this task, you will upload the template you created
+In this task, you will upload the template you created.
 
 1.  Go to your **Knowledge Admin** Model-Driven application.
 
-2.  Click on the **Site Map** button and select **Knowledge Test Results**.
+2.  Select **Knowledge Test Results**.
 
 3.  Open the **Knowledge Test Result** record you created.
 
@@ -251,5 +216,5 @@ In this task, you will test the template you created
 
 2.  Click Open.
 
-3.  Your certificate will open. Make sure the certificate looks like the image
+3.  Your certificate will open. Make sure the certificate has the correct fields according to the Knowledge Test Result record and that it looks like the image
     in Lab Resources labeled **IMAGE[MB-200]_M12L02_Build_Word_Template.png.**
