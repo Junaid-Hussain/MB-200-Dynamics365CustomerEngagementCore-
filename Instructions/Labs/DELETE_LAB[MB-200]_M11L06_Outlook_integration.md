@@ -1,3 +1,5 @@
+
+
 ---
 lab:
     title: 'Lab: Outlook integration'
@@ -12,47 +14,13 @@ Lesson 6: Practice Lab – Outlook integration
 Scenario
 --------
 
-As a functional consultant at Contoso, you are tasked with configuring Outlook
+As the functional consultant with **Administrator privileges** at Contoso, you are tasked with configuring Outlook
 integration for your client Fabrikam. In this lab, you will review security
 roles, enable and use the App for Outlook. Then you will enable activities for
 the knowledge assessment entity created in previous lessons and customer the App
 for Outlook.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
-
-Exercise 2 – Outlook Integration
+Demonstration Exercise 1 – Outlook Integration
 --------------------------------
 
 ### Task 1 – Review Security Roles for Users
@@ -62,13 +30,13 @@ enabled.
 
 1.  Navigate to <https://admin.powerplatform.microsoft.com/>
 
-2.  Select **Environments**.
+2.  Select **Environments** and open the **Contoso** environment.
 
-3.  Select your environment and click **Settings**.
+3.  Click **Settings**.
 
 4.  Go to the **Users + Permissions** section and click **Users**.
 
-5.  Click to open the **Test User**.
+5.  Click to open any test user. (Note: If any user personas are not in use by a student in the classroon, it is a good idea to use that user persona.)
 
 6.  Click **Manage Roles**.
 
@@ -77,16 +45,14 @@ enabled.
 
 8.  Close the **User** form editor.
 
-9.  Click to open the user you are logged in as.
+9.  Click to open the **MOD Administrator** role.
 
 10. Click **Manage Roles**.
 
 11. Make sure the selected **Roles** include the **System Administrator** role
     and click **OK**.
 
-12. Close the **User** form.
-
-13. Close the **Users** browser tab.
+12. Return to **Settings.**
 
 14. Go to the **Users + Permissions** section and click **Security Roles**.
 
@@ -96,8 +62,6 @@ enabled.
     Related Privileges** section.
 
 17. Make sure the **Use Dynamics 365 for Outlook** is set to **Organization**.
-    Note: For custom security roles you would need to enable these privileges as
-    we outlined in the Dynamics 365 App for Outlook topic.
 
 18. Close the security role editor.
 
@@ -108,19 +72,19 @@ enabled.
 
 ### Task 2 – Enable App
 
-In this task, you will enable Dynamics 365 App for Outlook, this will ensure new
+In this task, you will enable Dynamics 365 App for Outlook. This will ensure new
 users who are eligible will automatically get the app.
 
-1.  Navigate to <https://admin.powerplatform.microsoft.com/>
+1.  Navigate to <https://admin.powerplatform.microsoft.com/>.
 
 2.  Select **Environments**.
 
-3.  Select your environment and click **Open Environment**.
+3.  Select the **Contoso** environment.
 
-4.  Navigate to **Settings** and select **Dynamics 365 App for Outlook**.
+4.  Navigate to **Settings** and select **Dynamics 365 for Outlook** from the **Resources** area.
 
-5.  Go to the **Settings** section and check the **Automatically Add App to
-    Outlook** checkbox and click **Save**.
+5.  Go to the **All Eligible Users** section and check **Automatically add Dynamics 365 App to
+    Outlook for all eligble users** checkbox and click **Save**.
 
 6.  In the **All Eligible Users** grid, you should see both of your users.
 
