@@ -17,7 +17,7 @@ on the integrations for a project for your client Fabrikam and need to set up
 exchange for email integration. In this lab, you will configure server profile
 settings, enable mailboxes, send a test email, and configure folder tracking.
 
-Exercise 2 – Exchange Online Setup
+Exercise 1 – Exchange Online Setup
 ----------------------------------
 
 In this exercise, you will setup service profile, email, and folder tracking.
