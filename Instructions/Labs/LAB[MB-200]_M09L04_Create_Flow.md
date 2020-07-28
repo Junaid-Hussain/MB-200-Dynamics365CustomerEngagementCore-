@@ -19,40 +19,7 @@ can’t schedule a workflow without custom code so you will need to use a
 Microsoft Power Automate flow. In this lab, you will create a flow to run weekly and
 test the flow.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power Platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
-
-Exercise 2 – Create Microsoft Power Automate
+Exercise 1 – Create Microsoft Power Automate
 -----------------------------------
 
 In this exercise, you will create a flow that will run once a week. This flow
@@ -78,7 +45,7 @@ deactivate them.
 
 9. Select **+ New step.**
 
-10. Select **Common Data Service** from the connection options.
+10. Type **Common Data Service** into the search box.
 
 11. Select **List records.** 
 
@@ -88,12 +55,12 @@ deactivate them.
 
 14. Click on **Show advanced options.**
 
-16. Select the **Filter Query** field and type **crXXX_enddate lt** and replace
+16. Select the **Filter Query** field and type **crXXX_enddate lt ** and replace
     crXXX_ with your unique prefix.
 
 17. Select the **Expression** of the **Dynamics Content** pane.
 
-18. Type **utcNow()** and click **OK.**
+18. Type **utcNow()** and click **OK.** (There should be a space before the utcnow() expression.)
 
 19. Click on the **… Menu** button of the step and select **Rename**.
 
@@ -101,7 +68,7 @@ deactivate them.
 
 21. Click **+ New Step**.
 
-22. Click on **Common Data Service** and select **Update a Record**.
+22. Search for **Common Data Service** and select **Update a Record**.
 
 23. Select your **Practice** environment for **Environment**, select **Knowledge Assessments**
     for **Entity Name**, and select the **Record Identifier** field.
@@ -124,13 +91,13 @@ deactivate them.
 
 ### Task 2 – Test your flow
 
-1.  Start a new Browser window and navigate to https://make.powerapps.com.
+1.  Start a new browser window and navigate to https://make.powerapps.com.
 
 2.  Make sure you are in your **Practice** environment.
 
-3.  Select **Apps** and click to open the **Knowledge Admin model-driven application**.
+3.  Select **Apps** and click to open the **[my prefix] Knowledge Admin** model-driven application.
 
-4.  Select **Assessments** and click to open the **Test Assessment**.
+4.  Select **Assessments** and click to open the **Test Assessment Four**.
 
 5.  Locate the **End Date** field and select today’s date.
 
@@ -150,7 +117,7 @@ deactivate them.
 
 13. Select **Assessments**.
 
-14. **Test Assessment** should now be missing from the view.
+14. **Test Assessment Four** should now be missing from the view.
 
 15. Click on the view name and select the **Inactive Knowledge Assessments**
     view.
@@ -172,7 +139,7 @@ deactivate them.
 23. Click on the view name and select the **Inactive Knowledge Assessments**
     view.
 
-24. Click to open the **Test Assessment** record.
+24. Click to open the **Test Assessment Four** record.
 
 25. Click **Activate**.
 
