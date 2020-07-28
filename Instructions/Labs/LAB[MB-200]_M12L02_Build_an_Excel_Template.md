@@ -104,7 +104,7 @@ Knowledge Test Results.
 
 19. Close the Excel file.
 
-Exercise 3 – Upload and Use Excel Template
+Exercise 2 – Upload and Use Excel Template
 ------------------------------------------
 
 In this exercise, you will upload the template you created and test it.
