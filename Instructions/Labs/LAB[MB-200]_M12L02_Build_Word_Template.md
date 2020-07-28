@@ -183,7 +183,7 @@ In this task, you will build a basic certificate and insert data from CDS.
 44. Enter **Assessment Certificate** for name and click **Save as**. Remember where
     you are saving your template.
 
-Exercise 3 – Uploading and Using Word Template
+Exercise 2 – Uploading and Using Word Template
 ----------------------------------------------
 
 In this exercise, you will upload the template you created and test it.
