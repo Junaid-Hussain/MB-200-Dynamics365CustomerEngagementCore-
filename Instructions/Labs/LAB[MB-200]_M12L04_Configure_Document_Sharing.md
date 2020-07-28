@@ -17,40 +17,6 @@ on the integrations for a project for your client Fabrikam and need to set up
 the SharePoint integration. In this lab, you will enable SharePoint document
 management, upload a document and set alerts.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
-
 Exercise 2 – Save Documents to SharePoint
 -----------------------------------------
 
@@ -64,31 +30,27 @@ and associating them with the Knowledge Assessment entity record.
 In this task, you will configure document management for the Knowledge
 Assessment entity
 
-1.  Navigate to <https://admin.powerplatform.microsoft.com/>
+1.  Navigate to <https://make.powerapps.com.
 
-2.  Select **Environments.**
+2.  Ensure that you are in your **Practice** environment.
 
-3.  Select … **Open Environment.**
+3. Select **Solutions.**
 
-4.  Navigate to **Settings-\>Solutions.**
+5.  Select **Common Data Services Default Solution**.
 
-5.  Select **Knowledge Assessment Solution**.
+7.  Locate and select the **Knowledge Assessment** entity.
 
-6.  Expand **Entities**.
+8.  Click **Settings** from the command bar. Expand **Collaboration** and hit the checkmark next to **Enable SharePoint document management.**
 
-7.  Locate and select **Knowledge Assessment** entity.
+9.  Click **Done.**
 
-8.  Check the **Document Management** option on the entity properties.
+10. Save the entity. Return to the **Common Data Services Default Solution** and click **Publish all customizations.**
 
-9.  Click **Save**.
+11. Click the dots next to **Publish all customizations**.
 
-10. Click **Publish**.
+12. Navigate to admin.powerplatform.com. Select your **[my prefix] Practice** environment from the list. Select **Settings** from the command bar.
 
-11. Close the solution explorer.
-
-12. Navigate to **Settings -\> Document Management**.
-
-13. Click **SharePoint Sites**.
+13. From the **Integration** section, select **Document management settings.** Click **SharePoint Sites**.
 
 14. Flow the wizard and click **Finish**.
 
