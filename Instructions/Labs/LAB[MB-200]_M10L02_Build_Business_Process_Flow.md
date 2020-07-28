@@ -19,40 +19,7 @@ process to interact with the user and support their configuration of new
 assessments. In this lab, you will enable the knowledge assessment entity for
 business process flows and then build a business process flow.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power Platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
-
-Exercise 2 – Prepare the Solution 
+Exercise 1 – Prepare the Solution 
 ----------------------------------
 
 ### Task 1 – Add Field to Knowledge Assessment
@@ -108,33 +75,29 @@ Exercise 2 – Prepare the Solution
 
 9.  Click **Publish All Customizations**. Do not navigate away from this page.
 
-Exercise 3 – Create Business Process Flow 
+Exercise 2 – Create Business Process Flow 
 ------------------------------------------
 
 ### Task 1 – Create Business Process Flow
 
-3.  In the **Common Data Services Default Solution**, click on the **…** button located on the command bar and select **Switch to
-    Classic**.
+1. Navigate to make.powerapps.com and make sure you are in your **Practice** environment.
 
-4.  Expand **Entities** and select the **Knowledge Assessment** entity.
+2. Click **Flows.**
 
-5.  Locate the **Process** section and check the **Business Process Flow**
-    checkbox.
+3. Switch to the **Business Process Flows** tab.
 
-6.  Click **Save**.
+4. Click **+New.**
 
-7.  Collapse **Entities**. Select **Processes** and click **New**.
+5. Enter **Assessment Process** for Flow Name and choose **Knowledge Assessment** for entity. 
 
-8.  Enter **Assessment Process** for **Process Name**, select **Business Process
-    Flow** for **Category**, select **Knowledge Assessment** for entity, and
-    click **OK**.
+6.  Click **Create.**
 
 9.  Select the stage, select the **Properties** tab, enter **Knowledge Assessment** for
-    **Display Name** and click **Apply**. The designer will launch in a new window.
+    **Display Name** and click **Apply**. 
 
 10. Click the **Details** of the **Knowledge Assessment** stage.
 
-11. Select the **Data Step**.
+11. Select the **Data Step #1**.
 
 12. Select **Passing Score (%)** for **Data Field** and click **Apply**.
 
@@ -158,7 +121,7 @@ Exercise 3 – Create Business Process Flow
 
 20. Click **+ Add** and select **Add Stage**.
 
-21. Add the new stage to the right of the **Knowledge Assessment** stage.
+21. Add the new stage to the right of the **Knowledge Assessment** stage by dragging from the components tab.
 
 22. Select the new stage, go to the **Properties** tab, enter **Activate** for
     **Display Name**, and click **Apply**.
@@ -169,8 +132,7 @@ Exercise 3 – Create Business Process Flow
 
 25. Select **Status** for **Data Field** and click **Apply**.
 
-26. Select the Components tab, drag Data Step, and place it below the Assessment
-    Status step.
+26. Select the Components tab, drag Data Step, and place it below the Status step.
 
 27. Select **Approval Status** for **Data Field** and click **Apply**.
 
@@ -182,10 +144,6 @@ Exercise 3 – Create Business Process Flow
 
 31. Close the process editor.
 
-32. Click **Publish All Customizations**.
-
-33. Close the solution explorer.
-
 ### Task 2 – Test Business Process Flow
 
 1.  Navigate to https://make.powerapps.com.
@@ -194,7 +152,7 @@ Exercise 3 – Create Business Process Flow
 
 3.  Select **Apps** and click to open the **Knowledge Admin** application.
 
-4.  Select **Assessment** and click to open the **Test Assessment**.
+4.  Select **Assessment** and click to open the **Test Assessment Four**.
 
 5.  Existing records will not pick up the Business Process Flow you created.
     Click **Process** and select **Switch Process**.
@@ -209,7 +167,7 @@ Exercise 3 – Create Business Process Flow
 
 10. Enter **BPF Test Assessment** for **Title** and click **Save**.
 
-11. Select the **Questions** tab and click **Add New Knowledge Question**.
+11. Select the **Questions** tab and click **+ New Knowledge Question**.
 
 12. Select **Simple** for **Question Type**.
 
