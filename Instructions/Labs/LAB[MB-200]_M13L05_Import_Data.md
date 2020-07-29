@@ -18,7 +18,7 @@ have some data to import into an existing Knowledge Assessment entity. You
 choose to leverage Power Query to transform the data and complete the import.
 
 
-Exercise 2 – Import Data
+Exercise 1 – Import Data
 ------------------------
 
 In this exercise, you will import Knowledge Assessment records into your CDS
@@ -121,7 +121,7 @@ change the year from 2019 to 2020, and then merge back together.
 
 25. Click **Create**.
 
-### Task 4– Test Your Work
+### Task 4 – Test Your Work
 
 1.  Select **Entities**.
 
