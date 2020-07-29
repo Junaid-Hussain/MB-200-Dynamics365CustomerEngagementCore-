@@ -4,11 +4,6 @@ lab:
     module: 'Module 9: Microsoft Power Automate'
 ---
 
-Module 1: Power Platform Overview
-=================================
-
-## Practice Lab – Set up environment
-
 Module 9: Microsoft Power Automate
 ========================
 
