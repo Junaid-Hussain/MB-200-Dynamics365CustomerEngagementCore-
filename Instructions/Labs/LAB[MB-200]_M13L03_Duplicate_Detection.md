@@ -1,4 +1,3 @@
-
 ---
 lab:
     title: 'Lab: Duplicate detection'
