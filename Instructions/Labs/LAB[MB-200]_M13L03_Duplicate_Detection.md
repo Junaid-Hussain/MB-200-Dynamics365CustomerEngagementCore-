@@ -1,11 +1,3 @@
----
-lab:
-    title: 'Lab: Duplicate detection'
-    module: 'Module 13: Managing Data'
----
-
-Module 13: Managing Data
-=======================
 
 ---
 lab:
