@@ -6,7 +6,7 @@ lab:
 
 Module 15: Manage Solutions
 ====================================================================================
-## Practice Lab - Create publisher and solution
+## Instructor Demo - Create publisher and solution
 
 
 Scenario
