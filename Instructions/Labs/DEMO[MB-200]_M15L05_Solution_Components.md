@@ -26,41 +26,8 @@ deployed solution. In this practice, you will be doing the following:
 
 -   Create a new application
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
 
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
-
-Exercise 2 – Add Components
+Exercise 1 – Add Components
 ---------------------------
 
 In this exercise, you will add components to the solution you created.
@@ -70,7 +37,7 @@ In this exercise, you will add components to the solution you created.
 In this task, you will add an option set for customer challenge level to the
 solution you created.
 
-1.  Navigate to https://web.powerapps.com
+1.  Navigate to https://make.powerapps.com.
 
 2.  Make sure you have the **Development** environment selected.
 
@@ -83,7 +50,7 @@ solution you created.
 
 6.  Click Other and select **Option Set**.
 
-7.  Enter **Customer Challenge Level**.
+7.  Enter **Customer Challenge Level** for **Display Name**.
 
 8.  Click Add **New Item**.
 
@@ -94,7 +61,7 @@ solution you created.
 ### Task 2 – Add Existing Entity
 
 In this task, you will add the account entity to the solution you created, add
-new field to the entity, and add the field to the main form.
+new fields to the entity, and add the field to the main form.
 
 1.  Click **Add Existing** and select **Entity**.
 
@@ -106,15 +73,15 @@ new field to the entity, and add the field to the main form.
 
 5.  Select the **Forms** tab.
 
-6.  Select the **Account** form and click **Add**.
+6.  Select the **Account** main form and click **Add**.
 
 7.  Click **Add** again.
 
 8.  Click on the **Account** entity you just added to the solution.
 
-9.  Select the **Fields** tab.
+9.  You should have the **Fields** tab selected.
 
-10. Click **Add Field**.
+10. Click **+ Add Field**.
 
 11. Enter **Challenge Last Updated** for **Display Name**.
 
@@ -124,7 +91,7 @@ new field to the entity, and add the field to the main form.
 
 14. Select the **Forms** tab.
 
-15. Click to open the **Main** form.
+15. Click to open the **Main** Acccount form.
 
 16. Select the **Summary** tab.
 
@@ -135,7 +102,7 @@ new field to the entity, and add the field to the main form.
 
 19. Click **Publish**.
 
-20. Click **Save and Close**.
+20. Click the back arrow.
 
 21. Click **Done**.
 
