@@ -6,7 +6,7 @@ lab:
 
 Module 15: Manage Solutions
 ==========================
-## Practice Lab – Export solutions
+## Instructor Demo – Export solutions
 
 Scenario
 --------
