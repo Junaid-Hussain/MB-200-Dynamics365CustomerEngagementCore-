@@ -6,7 +6,7 @@ lab:
 
 Module 15: Manage Solutions
 ==========================
-## Practice Lab – Solution components
+## Instructor Demo – Solution components
 
 
 Scenario
