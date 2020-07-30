@@ -6,7 +6,7 @@ lab:
 
 Module 15: Manage Solutions
 ==========================
-## Practice Lab – Import and export solutions
+## Practice Lab – Export solutions
 
 Scenario
 --------
@@ -17,11 +17,9 @@ will create a solution to track all your components, export and import into
 production, and then go through a maintenance cycle using patches to update the
 deployed solution. In this practice, you will be doing the following:
 
--   Export a solution
+-   Export an unmanaged solution
 
--   Import a solution
-
--   Test an imported solution
+-   Export a managed solution
 
 Exercise 1 – Export and Import a Solution
 -----------------------------------------
