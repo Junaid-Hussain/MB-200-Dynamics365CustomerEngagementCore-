@@ -6,7 +6,7 @@ lab:
 
 Module 5: Security
 ==================
-### Practice Lab – Create teams
+### Instructor Demo – Create teams
 
 Scenario
 --------
@@ -34,7 +34,7 @@ for EMEA.
 
 2.  Select the **Environments**.
 
-3.  Select the **Practice** environment and click **Settings**.
+3.  Select the **Contoso** environment.
 
 4.  Locate the **Users + Permissions** section and click **Business Units.**
 
