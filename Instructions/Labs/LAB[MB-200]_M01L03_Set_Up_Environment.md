@@ -40,7 +40,7 @@ currency, and enabling auditing.
 
     - For **Name**, enter **[my prefix] Practice.** (Example: mollyc Practice.)
     
-    - For **Type**, select **Trial.**
+    - For **Type**, select **Trial (subscription-based).**
     
     - Change the toggle on **Create a database for this environment?** to **Yes.**
     
