@@ -34,11 +34,9 @@ currency, and enabling auditing.
 
 1.  Go back to <https://admin.Powerplatform.microsoft.com> and log in with your user credentials.
 
-**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your username prefix (ex., **mollyc**) in front of all records, data, apps, workflows, etc. you create.
-
 2. Select **Environments** and click **+New.**
 
-    - For **Name**, enter **[my prefix] Practice.** (Example: mollyc Practice.)
+    - For **Name**, enter **[my initials] Practice.** (Example: AJ Practice.)
     
     - For **Type**, select **Trial.**
     
