@@ -71,7 +71,7 @@ To customize your form:
 
 4.  Open the **Common Data Service Default Solution**.
 
-5.  Select the **[my prefix] Knowledge Assessment** model-driven app.
+5.  Select the **Knowledge Assessment** model-driven app.
 
 6.  Click **Edit**.
 
