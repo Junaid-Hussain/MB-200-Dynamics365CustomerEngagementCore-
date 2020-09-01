@@ -46,9 +46,9 @@ data templates to see how quickly that can get a basic canvas app started.
 If you have time, you can choose any of these and select Make It and explore on
 your own.
 
-1.  Navigate to <https://make.powerapps.com>. You may need to sign in again using your credentials.
+1.  Navigate to <https://make.powerapps.com>. You may need to sign in again using your credentials if necessary. 
 
-2.  Switch to your **Practice** environment by using the Environment Selector in the upper right corner of the screen. (It will probably say **Contoso (Default)**.) Select your **Practice** environment from the list. (You can also search your prefix in the search bar to find it easily.) 
+2.  Switch to your **Practice** environment by using the Environment Selector in the upper right corner of the screen. (It will probably say **Contoso (Default)**.) Select your **Practice** environment from the list.
 
 3.  Select **+ Create** from the left-hand navigation.
 
@@ -58,20 +58,20 @@ your own.
 5.  If you have time, choose any of these and select **Make it.** When you are done
     proceed to Task 2.
 
-### Task 2 – Create an App over data for Account
+### Task 2 – Create an app over data for Account
 
 Starting a canvas app from data is a quick way to start a canvas app when the
 goal is to have a list of data from an entity. 
 
 1.  Select **+ Create** again.
 
-2.  Click **Canvas app from blank**. In the dialog box, name your app **[my prefix] Fabrikam Accounts** and select **Phone** layout.
+2.  Click **Canvas app from blank**. In the dialog box, name your app **Fabrikam Accounts** and select **Phone** layout.
 
-3.  Click **Create** in the dialog. You may be required to sign in again; enter your tenant credentials.
+3.  Click **Create** in the dialog. (You may be required to sign in again; enter your tenant credentials if necessary.)
 
 9.  Your app should open in the designer. (You may get a few pop-ups first; close them.) In the white space, click the **connect to data** link.
 
-10. Select **+Add data** in the left bar. From the list of entities, select **Accounts.** 
+10. Select **Data** from the left bar. From the list of entities, select **Accounts.** 
 
 10. Add a header to your app by selecting the **+** button (the Insert button) on the left tab and selecting **Text label.** Use the pane on the right side of the screen to enter **Fabrikam Accounts** in the **Text** field. You can edit the size, font, and other attributes to customize the look and feel of the application.
 
@@ -85,7 +85,7 @@ goal is to have a list of data from an entity.
 
 16.  Click **File** and select **Save**.
 
-17.  Select the **Cloud** and enter **[my prefix] Fabrikam Accounts** in the **Name**
+17.  Select the **Cloud** and enter **Fabrikam Accounts** in the **Name**
     box.
 
 18.  Click **Save**.
@@ -109,7 +109,7 @@ started will be easy.
 
 2. Click on **+ Create** and select **Model-driven app from blank.** Select **Create** in the pop-up window.
 
-4.  Enter **[my prefix] Knowledge Admin** for Name and click **Done**.
+4.  Enter **Knowledge Admin** for Name and click **Done**.
 
 5.  Click the edit icon next to **Site Map**. *Note:* When you start a new app, you must edit the
     site map before you can run it - otherwise you will get an error. You need to
@@ -244,7 +244,7 @@ of the current user to the header.
 
 14.  Click **File** and select **Save**.
 
-15. Select **Cloud** and enter **[my prefix] Fabrikam Assessment** for **Name**.
+15. Select **Cloud** and enter **Fabrikam Assessment** for **Name**.
 
 16. Click **Save**.
 
