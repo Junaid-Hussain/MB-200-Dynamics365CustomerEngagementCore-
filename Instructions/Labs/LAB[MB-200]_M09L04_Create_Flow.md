@@ -35,7 +35,7 @@ deactivate them.
 4.  Locate the Name column and make a note of the name **Prefix**. The prefix
     will look like **crXXX_**.
 
-5.  From the lefthand menu, select **Flows.**
+5.  From the lefthand menu, select **Flows.** (If you get a pop-up here, just choose your country/region and select **Get started.**)
 
 6.  Click **+ New** and select **+ Automated - From Blank**.
 
@@ -47,9 +47,7 @@ deactivate them.
 
 10. Type **Common Data Service** into the search box.
 
-11. Select **List records.** 
-
-12. In the **Environment** box, start typing your unique alias for the lab. Select your **Practice** environment when it shows up.
+11. Select **List records** from the **Actions** box. 
 
 13. Select **Knowledge Assessments** for Entity.
 
