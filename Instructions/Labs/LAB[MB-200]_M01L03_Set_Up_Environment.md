@@ -47,7 +47,7 @@ currency, and enabling auditing.
     - On the next tab, leave all selections to default and click **Save** again.
     
 
-3. Your **Practice** environment should now show in the list of Environments. You may also see other students' environments in this list with their individual prefixes; only work within your Practice environment.
+3. Your **Practice** environment should now show in the list of Environments. 
 
 4. Your environment may take a few minutes to provision. Refresh the page if needed. When your environemnt is prepared, select your **Practice** environment by clicking on the ellipses next to its name to expand the drop down menu and select **Settings.** 
 
