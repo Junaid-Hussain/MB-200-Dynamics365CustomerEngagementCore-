@@ -42,7 +42,7 @@ currency, and enabling auditing.
     
     - Change the toggle on **Create a database for this environment?** to **Yes.**
     
-    - Leave all other selections as default and click **Save.**
+    - Leave all other selections as default and click **Next.**
     
     - On the next tab, leave all selections to default and click **Save** again.
     
