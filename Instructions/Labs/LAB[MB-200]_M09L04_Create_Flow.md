@@ -95,7 +95,7 @@ deactivate them.
 
 2.  Make sure you are in your **Practice** environment.
 
-3.  Select **Apps** and click to open the **[my prefix] Knowledge Admin** model-driven application.
+3.  Select **Apps** and click to open the **Knowledge Admin** model-driven application.
 
 4.  Select **Assessments** and click to open the **Test Assessment Four**.
 
