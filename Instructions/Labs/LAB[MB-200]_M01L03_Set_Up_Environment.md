@@ -49,7 +49,7 @@ currency, and enabling auditing.
 
 3. Your **Practice** environment should now show in the list of Environments. 
 
-4. Your environment may take a few minutes to provision. Refresh the page if needed. When your environemnt is prepared, select your **Practice** environment by clicking on the ellipses next to its name to expand the drop down menu and select **Settings.** 
+4. Your environment may take a few minutes to provision. Refresh the page if needed. When your environment is prepared, select your **Practice** environment by clicking on the ellipses next to its name to expand the drop down menu and select **Settings.** 
 
 3.  Explore the different areas in **Settings** that you are interested in but do not make any changes yet. 
 
