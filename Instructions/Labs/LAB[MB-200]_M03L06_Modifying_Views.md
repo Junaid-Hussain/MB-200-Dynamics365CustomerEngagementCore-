@@ -18,41 +18,7 @@ continuing your work on the model-driven Knowledge Admin app. In this practice,
 you will be modifying the auto generated views to add the new fields you added
 in the data-modeling practice.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power Platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power Platform admin portal at
-    [https://admin.Powerplatform.microsoft.com].
-
-Exercise 2 – Edit the Knowledge Assessment View 
+Exercise 1 – Edit the Knowledge Assessment View 
 ------------------------------------------------
 
 In this exercise, you will edit the view for the Knowledge Assessment entity. By
@@ -63,7 +29,7 @@ date.
 
 1.  Navigate to <https://make.powerapps.com>
 
-2.  Make sure you are in the **Practice** environment.
+2.  Make sure you are in your **Practice** environment.
 
 3.  Select **Solutions**.
 
@@ -87,9 +53,9 @@ date.
 4.  The **Owner** field will be added to the view. Click on the **Modified By**
     field.
 
-5.  Click on the **Modified By** column header and select **Insert Column**.
+5.  Click on the **Modified By** column header, select **Insert Column**, and expand the dropdown to **All** again.
 
-6.  Select **Modified On**.  (You will need to change the dropdown from **Default** to **All** again.) The view should now have six columns.
+6.  Select **Modified On**. The view should now have six columns.
 
 7.  You will now remove the **Created On** field. Click on the dropdown button of
     the **Created On** column.
@@ -101,7 +67,7 @@ date.
 10. You will now add a field from a related entity to the view. From the
     **Fields** side bar, select the **Related** tab.
 
-11. All the entities the **Knowledge Assessments** has a **N:1** relationship
+11. All the entities that the **Knowledge Assessment** entity has a **N:1** relationship with
     will be listed here. Expand **Owning User (systemuser).**
 
 12. Enter **Email** on the search box and enter.
@@ -113,7 +79,7 @@ date.
 ### Task 3 – Reorder View Columns and Change Column Width
 
 Generally, you will always want to have the order of the fields in view be the
-highest value to lowest unless you have other specific needs
+highest value to lowest unless you have other specific needs.
 
 1.  You will now reorder the columns. Select the **Owner** column header and
     click **Move Left**.
@@ -124,7 +90,7 @@ highest value to lowest unless you have other specific needs
 3.  Move the **Modified On** column to right of the **Modified By** column.
 
 4.  The columns order should now be **Title**, **Owner**, **Primary Email**,
-    **Status Reason**, **Modified By**, **Modified On**.
+    **Status Reason**, **Modified By**, and **Modified On**.
 
 5.  You will now make the **Title** and **Primary Email** columns wider. Select
     the **Title** column header and drag the right edge to the right. The
@@ -137,8 +103,8 @@ highest value to lowest unless you have other specific needs
 
 ### Task 4 – Sorting
 
-The View is now sorted by the **Title (A-Z),** you will the sorting to be
-Modified On and then Title.
+The View is now sorted by the **Title (A-Z).** You will configure the sorting to be
+based on the Modified On field first.
 
 1.  Locate the **Sort By...** area located in the view properties.
 
@@ -164,7 +130,7 @@ view needs.
 
 3.  Enter **Created This Month** for Name and click **Save**.
 
-4.  Locate the **Filter By**… section of the **View** property. You should have
+4.  Locate the **Filter By** section of the **View** property. You should have
     **Status is ‘Active’**. All records have a status field; if you don’t filter
     to only show active, you may have records showing in your list that are not
     editable or meant to be inactive. Inactive is used in the Common Data Service to mark records as
@@ -177,22 +143,19 @@ view needs.
 
 7.  Click on the **dropdown** button of the **Created On** column header.
 
-8.  Select **Filter By**.
+8.  Locate the **Filter by** section and click **Edit filters.** In the pop-up, click **+Add** and select **+Add row.**
 
-9.  Click on the top dropdown and select **This Month**.
+9.  In the first dropdown, select **Created on**. In the second dropdown, select **This Month**. Make sure the box for this row is checked.
 
-10. Click **Apply**.
+10. Click **OK**.
 
 11. Click **Save**.
 
 12. Click **Publish**.
 
-13. Close the view editor.
+13. Click the **back** button.
 
-14. Click **Done**.
-
-15. From the navigation breadcrumbs, click on the solution name **Common Data
-    Services Default Solution**.
+15. From the navigation breadcrumbs, click on the solution name **Common Data Services Default Solution**.
 
 16. Click **Publish All Customizations**.
 
@@ -200,14 +163,14 @@ view needs.
 
 1.  While still on <https://make.powerapps.com>, select **Apps**.
 
-2.  Click on the **Knowledge Admin Model-Driven application**.
+2.  Click on the **Knowledge Admin** model-driven application and select **Play.**
 
 3.  Click on the **Administration** area and select **Assessments**.
 
-4.  The **Active Knowledge Assessment** view will be loaded. Make sure the
+4.  The **Active Knowledge Assessments** view will be loaded. Make sure the
     columns you selected are there in the order you selected.
 
-5.  Click the **Select a View** dropdown next to the view title and choose the **Created This Month** view.
+5.  Click the **Select a view** dropdown next to the view title and choose the **Created This Month** view.
 
 6.  Make sure the column you select are showing in the order you selected.
 
