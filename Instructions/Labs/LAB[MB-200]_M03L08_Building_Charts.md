@@ -18,50 +18,17 @@ continuing your work on the model-driven Knowledge Admin app. In this practice,
 you will be creating a chart to use as a leader board to show the top 5-point
 earners based on the Knowledge Test Result data.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
 
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power Platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power Platform admin portal at
-    [https://admin.Powerplatform.microsoft.com].
-
-Exercise 2 – Create a chart 
+Exercise 1 – Create a chart 
 ----------------------------
 
 In this exercise, you will create a chart using the Knowledge Test Result data.
 
 ### Task 1 – Edit the Knowledge Assessment active item view
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>
 
-2.  Make sure you are in the **Practice** environment.
+2.  Make sure you are in your **Practice** environment.
 
 3.  Select **Solutions**.
 
@@ -75,15 +42,15 @@ In this exercise, you will create a chart using the Knowledge Test Result data.
 
 8.  Enter **Leader Board** for **Name**.
 
-9.  Click **Bar** to expand the dropdown and select **Bar**.
+9.  Click **Charts > Bar** to expand the dropdown and select **Bar**.
 
-10. Click on the **Top X Rule** and select **Top 5 Items**.
+10. Click on the **Top/Bottom Rules > Top X Rule** and select **Top 5 Items**.
 
 11. Select **Total Points** for **Legend Entities (Series).**
 
 12. Select **Owner** for **Horizontal (Category) Axis Label**.
 
-13. Click **Save and Close**.
+13. Click **Save > Save and Close**.
 
 14. Click **Done**.
 
@@ -97,7 +64,7 @@ In this exercise, you will create a chart using the Knowledge Test Result data.
 In this task, you will be modifying the Knowledge Test Result form, so you can
 input some data to test your chart.
 
-1.  Make sure you are still on <https://make.powerapps.com> and you are in the
+1.  Make sure you are still on <https://make.powerapps.com> and you are in your
     **Practice** environment.
 
 2.  Select **Solutions**.
@@ -130,20 +97,20 @@ input some data to test your chart.
 
 2.  Select **Apps**.
 
-3.  Select the **Knowledge Admin Model-Driven application** and click **Play**.
+3.  Select the **Knowledge Admin** model-driven application and click **Play**.
 
-4.  Click on the **Administration** area and select the **Assessments**.
+4.  Click on the **Administration** area and select **Assessments**.
 
 5.  Select **Knowledge Test Results**.
 
 6.  Click **+ New**.
 
 7.  Enter **Result One** for **Name**, **180** for **Total Points**, and click
-    **Save**
+    **Save**.
 
 8.  Click **+ New** again.
 
-9.  Enter **Result Two** for **Name**, **250** for **Total Points** and click
+9.  Enter **Result Two** for **Name**, **250** for **Total Points**, and click
     **Save**.
 
 10. Add four more records. You can provide any name you want but make sure you
@@ -154,4 +121,4 @@ input some data to test your chart.
 
 12. Click **Show Chart**.
 
-13. The chart will show your user aggregated points.
+13. The chart will show your user's aggregated points.
