@@ -216,5 +216,4 @@ In this task, you will test the template you created
 
 2.  Click Open.
 
-3.  Your certificate will open. Make sure the certificate has the correct fields according to the Knowledge Test Result record and that it looks like the image
-    in Lab Resources labeled **IMAGE[MB-200]_M12L02_Build_Word_Template.png.**
+3.  Your certificate will open. 
