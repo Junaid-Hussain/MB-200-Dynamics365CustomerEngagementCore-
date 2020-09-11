@@ -12,49 +12,47 @@ Module 9: Microsoft Power Automate
 Scenario
 --------
 
-Your client Fabrikam needs an approval process added to the model-driven
-Knowledge Admin app you are building. The approval process will interact with
-the user's manager to obtain an approval or rejection and handle the knowledge
-assessment appropriately. In this lab, you will create a Microsoft Power Automate to
-retrieve the appropriate manager, seek their approval and handle the record
-after the manager's decision is entered.
+Your client Fabrikam needs an approval process added to their model-driven
+Knowledge Admin app. The approval process will notify
+the user's manager to obtain an approval or rejection and handle the knowledge assessment appropriately. 
 
-Exercise 1 – Prepare the Solution 
+In this lab, you will create a **Microsoft Power Automate** flow to
+retrieve the appropriate manager, seek their approval, and edit the record based on the manager's decision. 
+
+Exercise 1 – Prepare the solution 
 ----------------------------------
 
-### Task 1 – Add Field to Knowledge Assessment
+### Task 1 – Add field to the Knowledge Assessment
 
 1.  Navigate to https://make.powerapps.com.
 
-2.  Select the **Practice** environment you created.
+2.  Ensure you are in the **Practice** environment you created by clicking the drop-down menu and choosing **[your initials] Practice.**
 
-3.  Select **Solutions**.
+3.  Click **Solutions**.
 
 4.  Click to open the **Common Data Services Default Solution.**
 
 5.  Click to open the **Knowledge Assessment** entity.
 
-6.  Click select the **Fields** tab and **+ Add Field**.
+6.  Click select the **Fields** tab and click **+ Add Field**.
 
-7.  Enter **Notify Manager** for **Display Name**, select **Two Options** for
-    **Data Type** and click **Done**.
+7.  Create the field to the following specification:
+    - Enter **Notify Manager** for **Display Name**.
+    - Choose **Two Options** for **Data Type**.
+    - Click **Done**.
 
 8.  Click **Save Entity**.
 
 9.  Click **+ Add Field**.
 
-10. Enter **Approval Status** for **Display Name** and select **Option Set** for
-    **Data Type**.
-
-11. Click on the **Option Set** dropdown and select **New Option Set**.
-
-12. Enter **Waiting** for the first item and click **Add New Item**.
-
-13. Enter **Approved** for the second item and click **Add New Item**.
-
-14. Enter **Rejected** for the third item and click **Save**.
-
-15. Click **Done**.
+10. Create the field to the following specification:
+    - Enter **Approval Status** for **Display Name**.
+    - Choose **Option Set** for **Data Type**.
+    - Click on the **Option Set** dropdown and choose **New Option Set**.
+    - Enter **Waiting** for the first item and click **Add New Item**.
+    - Enter **Approved** for the second item and click **Add New Item**.
+    - Enter **Rejected** for the third item and click **Save**.
+    - Click **Done**.
 
 16. Click **Save Entity**.
 

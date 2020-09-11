@@ -34,24 +34,22 @@ currency, and enabling auditing.
 
 1.  Go back to <https://admin.Powerplatform.microsoft.com> and log in with your user credentials.
 
-**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your username prefix (ex., **mollyc**) in front of all records, data, apps, workflows, etc. you create.
-
 2. Select **Environments** and click **+New.**
 
-    - For **Name**, enter **[my prefix] Practice.** (Example: mollyc Practice.)
+    - For **Name**, enter **[my initials] Practice.** (Example: AJ Practice.)
     
     - For **Type**, select **Trial.**
     
     - Change the toggle on **Create a database for this environment?** to **Yes.**
     
-    - Leave all other selections as default and click **Save.**
+    - Leave all other selections as default and click **Next.**
     
     - On the next tab, leave all selections to default and click **Save** again.
     
 
-3. Your **Practice** environment should now show in the list of Environments. You may also see other students' environments in this list with their individual prefixes; only work within your Practice environment.
+3. Your **Practice** environment should now show in the list of Environments. 
 
-4. Your environment may take a few minutes to provision. Refresh the page if needed. When your environemnt is prepared, select your **Practice** environment by clicking on the ellipses next to its name to expand the drop down menu and select **Settings.** 
+4. Your environment may take a few minutes to provision. Refresh the page if needed. When your environment is prepared, select your **Practice** environment by clicking on the ellipses next to its name to expand the drop down menu and select **Settings.** 
 
 3.  Explore the different areas in **Settings** that you are interested in but do not make any changes yet. 
 

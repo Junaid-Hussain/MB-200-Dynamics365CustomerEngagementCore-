@@ -34,7 +34,7 @@ to the app navigation.
 
 4.  Open **Common Data Services Default Solution**.
 
-5.  Select the **[my prefix] Knowledge Admin** model-driven application and click **Edit.**
+5.  Select the **Knowledge Admin** model-driven application and click **Edit.**
 
 7.  Drag **Area** from the **Components** tab and place it to the right of the
     **Administration** area.
@@ -137,7 +137,7 @@ do this for the other components as well.
 
 ### Task 3 – Run the Application
 
-1.  Make sure you still have the **[my prefix] Knowledge Admin** model-driven app.
+1.  Make sure you still have the **Knowledge Admin** model-driven app.
     selected.
 
 2.  Click **Play**.
