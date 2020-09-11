@@ -18,41 +18,7 @@ continuing your work on the model-driven Knowledge Admin app. In this practice,
 you will be modifying the auto generated forms to add the new fields you added
 in the data-modeling practice.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power Platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power Platform admin portal at
-    [https://admin.Powerplatform.microsoft.com].
-
-Exercise 2 – Edit the Knowledge Assessment Form 
+Exercise 1 – Edit the Knowledge Assessment Form 
 ------------------------------------------------
 
 In this exercise, you will edit the form for the Knowledge Assessment entity.
@@ -64,7 +30,7 @@ Designer start, there.
 Initially when the entity was created notes were not enabled. Since then the
 client Fabrikam has determined that they like to be able to track notes against
 the knowledge assessments. We are going to make this change before getting into
-the form editor because it is the easier way to do so. The same is true, for
+the form editor, because this is the easiest way to perform these configuration steps. The same is true, for
 example, if you need to add any fields: you should always try to add the fields
 before jumping into the editor.
 
@@ -80,10 +46,10 @@ before jumping into the editor.
 
 6.  Click **Settings** in the command bar.
 
-7.  Check the **Enable Attachments** checkbox, this enables notes and files for
+7.  Check the **Enable Attachments** checkbox. This enables notes and files for
     the entity.
 
-8.  Click **Done**.
+8.  Click **Done**. Confirm the changes by clicking **Okay.**
 
 9.  Click **Save Entity**.
 
@@ -97,7 +63,7 @@ In this task, you will perform the following changes to the form:
 
 To customize your form:
 
-1.  Navigate to <https://web.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>
 
 2.  Make sure you are in the **Practice** environment you created.
 
@@ -105,13 +71,13 @@ To customize your form:
 
 4.  Open the **Common Data Service Default Solution**.
 
-5.  Select the **Knowledge Admin Model-Driven App**.
+5.  Select the **Knowledge Assessment** model-driven app.
 
 6.  Click **Edit**.
 
 7.  Locate the **Knowledge Assessment** entity and select **Forms**.
 
-8.  Go to the **Components** tab, hover over the **Main Information** form and
+8.  Go to the **Components** tab, hover over the **Main Information** form, and
     click **Edit**.
 
 9.  Double click on the **Header** section of the form.
@@ -123,15 +89,15 @@ To customize your form:
 
 12. Drag the **Days Remaining** filed to the left column of the **Header**.
 
-13. Select the **General** tab by double clicking on it. Enter **General** for name if it is not already entered.
+13. Select the **General** tab by double clicking on it. Enter **General** in the **Name** field in the Properties pane.
 
-15. Select the **Formatting** tab.
+15. Expand the **Formatting** section.
 
-16. Select **Two Columns**. Click **Save** and then select **Switch to classic.**
+16. Select **Two Columns** for **Layout.**. Click **Save** and then select **Switch to classic.**
 
 17. Select the new section of the **General** tab.
 
-18. Select the **Insert** tab.
+18. Select the **Insert** tab and then select **Control.**
 
 19. Click **Timeline**. Timeline is located below the IFRAME.
 
@@ -139,12 +105,12 @@ To customize your form:
 
 21. Select the **Home** tab.
 
-22. Click **Remove**. We are removing this field because we added a duplicate
+22. Click **Edit** and **Remove**. We are removing this field because we added a duplicate
     field to the header.
 
 23. Add the **Start Date** field to the **General** section and place it below
     the **Title** field. You can add fields to the form by selecting the section
-    you want to add the field to and double clicking on the filed you want to
+    you want to add the field to and double clicking on the field you want to
     add, or you can drag the field from the field explorer and drop it in the
     section you want to add the field to.
 
@@ -156,15 +122,15 @@ To customize your form:
 
 26. Select the **Insert** tab.
 
-27. Click **One Column** tab. A new tab will be added to the form.
+27. Click **1 Tab** and then click **1 column.** A new tab will be added to the form.
 
 28. Double click on the new tab.
 
-29. Change the **Label** to **Questions** by clicking on **Properties.**
+29. Change the **Label** to **Questions** and click **OK.**
 
 30. Select the **Questions** tab.
 
-31. Select the **Insert** tab.
+31. Select the **Insert** tab and then select **Control.**
 
 32. Click **Sub-Grid**.
 
@@ -172,7 +138,7 @@ To customize your form:
 
 34. Select **Only Related Records** for **Records**.
 
-35. Select **Knowledge Questions** for **Entity**.
+35. Select **Knowledge Questions (Knowledge Assessment)** for **Entity**.
 
 36. Click **OK**.
 
@@ -184,14 +150,14 @@ To customize your form:
 
 40. **DON’T** close the app designer.
 
-Exercise 3 – Edit the Knowledge Question Form 
+Exercise 2 – Edit the Knowledge Question Form 
 ----------------------------------------------
 
 In this exercise, you will edit the form for the Knowledge Question entity.
 
 ### Task 1 – Edit the main form
 
-1.  Make sure you are on the app designer.
+1.  Make sure you are in the app designer.
 
 2.  Click **+ Add** and select **Entities**.
 
@@ -207,15 +173,15 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 7.  Add the **Knowledge Assessment** field to **Header** and place it on the
     left column.
 
-8.  Select the **General** tab by double clicking.
+8.  Select the **General** tab by double clicking. In the right **Properties** tab, enter **General** for Name.
 
-9.  Select the **Add component** tab.
+9.  Select **+Component** from the command bar.
 
 10. Click **1-Column section.**
 
 11. Double click on the new section.
 
-12. Enter **Answers** for Label.
+12. Enter **Answers** for Label. Select the **Fields** tab on the left menu (it will look like a box with ABC in it).
 
 14. Add **Answer 1** field to the **Answers** section.
 
@@ -242,14 +208,14 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 1.  Click **Play**.
 
-2.  Click on the **Administration** area located in bottom-left of the page and
+2.  Click on the **Administration** area located in bottom left of the page and
     select the **Assessments** area.
 
-3.  Select the **Assessment** entity and click **+ New**.
+3.  Select the **Knowledge Assessment** entity and click **+ New**.
 
 4.  The form should have two tabs: **General** and **Questions**.
 
-5.  The General tab should have two sections **General** and **Timeline**.
+5.  The General tab should have two sections: **General** and **Timeline**.
 
 6.  Enter **Assessment Three** for **Title**.
 
@@ -264,8 +230,8 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 
 11. Select the **Questions** tab
 
-12. Click **Add New Knowledge Question**.
+12. Click **+New Knowledge Question**.
 
 13. Close the application without creating **Knowledge Question** record.
 
-14. You should back on the app designer. Click **Save and Close** to close it.
+14. You should return to the app designer. Click **Save and Close** to close it.
