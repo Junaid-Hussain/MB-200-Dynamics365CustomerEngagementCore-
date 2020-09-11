@@ -17,40 +17,7 @@ to work on a model-driven Knowledge Admin app for your client Fabrikam and need
 to add scoring functionality without code. In this lab, you will create a
 calculated field, a rollup field, and a business rule.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-Note: If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power Platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
-
-Exercise 2 – Prepare the Solution 
+Exercise 1 – Prepare the Solution 
 ----------------------------------
 
 ### Task 1 – Add Field to Knowledge Question
@@ -61,7 +28,7 @@ Exercise 2 – Prepare the Solution
 
 3.  Select **Solutions**.
 
-4.  Click to open the **Common Data Services Default Solution** you imported.
+4.  Click to open the **Common Data Services Default Solution**.
 
 5.  Click to open the **Knowledge Question** entity.
 
@@ -81,7 +48,7 @@ Exercise 2 – Prepare the Solution
 12. Type **+** , type **answer2points** and select the suggested field.
 
 13. Repeat it for **answer3points** and **answer4points**. You action will look
-    like the snippet below.
+    like the snippet below but with your unique organizational prefix. 
 
         cre7f_answer1points + cre7f_answer2points + cre7f_answer3points + cre7f_answer4points
 
@@ -93,7 +60,7 @@ Exercise 2 – Prepare the Solution
 
 ### Task 2 – Add Field to Knowledge Question Form
 
-1.  Make sure you still have the **Knowledge Question** selected.
+1.  Make sure you still have the **Knowledge Question** entity selected.
 
 2.  Select the **Forms** tab and click to open the **Main** form.
 
@@ -103,8 +70,6 @@ Exercise 2 – Prepare the Solution
 4.  Click **Save**.
 
 5.  Click **Publish**.
-
-6.  Click **Save and Close**.
 
 7.  Click the back button.
 
@@ -121,7 +86,7 @@ Exercise 2 – Prepare the Solution
     **Fields**, and click **New**.
 
 3.  Enter **Total Points** for **Display Name**, select **Whole Number** for
-    **Date Type**, select **Rollup** for **Field Type**, and click **Edit**.
+    **Data Type**, select **Rollup** for **Field Type**, and click **Edit**.
 
 4.  Click **+ Add Related Entity**.
 
@@ -160,7 +125,7 @@ Exercise 2 – Prepare the Solution
 
 9.  Click **Publish all customizations**.
 
-Exercise 3 – Create Business Rule
+Exercise 2 – Create Business Rule
 ---------------------------------
 
 ### Task 1 – Create Question Points Business Rule
@@ -219,13 +184,13 @@ Exercise 3 – Create Business Rule
 
 ### Task 2 – Test Business Rule
 
-1.  Navigate to https://make.powerapps.com/ and select the **Practice**
+1.  Navigate to https://make.powerapps.com/ and ensure that you are in your **Practice**
     environment.
 
-2.  Select **Apps** and click on the **Knowledge Admin Model-Driven**
+2.  Select **Apps** and click on the **Knowledge Admin** Model-Driven
     application.
 
-3.  Select **Assessments** and click to open the **Test Assessment**.
+3.  Select **Assessments** and click to open the **Test Assessment 4**.
 
 4.  Select the **Questions** tab.
 
@@ -261,7 +226,7 @@ Exercise 3 – Create Business Rule
 
 16. Click **+ New**.
 
-17. Select **Test Assessment** for **Knowledge Assessment**, select **Simple**
+17. Select **Test Assessment 4** for **Knowledge Assessment**, select **Simple**
     for **Question Type**, and enter **Test Three Question** for **Question**.
 
 18. Scroll down to the Answers section.
@@ -280,7 +245,7 @@ Exercise 3 – Create Business Rule
 
 23. Click **Save and Close**.
 
-24. Locate the **Knowledge Assessment** field and click **Test Assessment**.
+24. Locate the **Knowledge Assessment** field and click **Test Assessment 4**.
 
 25. Scroll down to locate the **Total Points** field and click on the calculator
     icon.
