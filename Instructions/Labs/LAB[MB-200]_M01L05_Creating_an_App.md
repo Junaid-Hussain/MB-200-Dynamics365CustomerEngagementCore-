@@ -26,47 +26,13 @@ will create two apps.
 **Fabrikam Knowledge Admin** – this will be a model-driven application that you
 can quickly enable creation of the knowledge assessments by the users.
 
-**Fabrikam Knowledge** – this will be a PowerApps canvas app that will be a
-custom user experience making it easy to find the assessments and take them
+**Fabrikam Knowledge** – this will be a canvas app that will be a
+custom user experience making it easy to find the assessments and take them.
 
 In this practice, you will be starting the creation of these applications and
 will build them out as you progress through the course. You will also create one
 of the template applications so you can see how easy it is to get started using
 a “Make from data” template.
-
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power Platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com].
 
 Exercise 2 – Review Templates and Create App from Data
 ------------------------------------------------------
@@ -80,9 +46,9 @@ data templates to see how quickly that can get a basic canvas app started.
 If you have time, you can choose any of these and select Make It and explore on
 your own.
 
-1.  Navigate to <https://make.powerapps.com>
+1.  Navigate to <https://make.powerapps.com>. You may need to sign in again using your credentials if necessary. 
 
-2.  Make sure you are in the **Practice** environment.
+2.  Switch to your **Practice** environment by using the Environment Selector in the upper right corner of the screen. (It will probably say **Contoso (Default)**.) Select your **Practice** environment from the list.
 
 3.  Select **+ Create** from the left-hand navigation.
 
@@ -92,7 +58,7 @@ your own.
 5.  If you have time, choose any of these and select **Make it.** When you are done
     proceed to Task 2.
 
-### Task 2 – Create an App over data for Account
+### Task 2 – Create an app over data for Account
 
 Starting a canvas app from data is a quick way to start a canvas app when the
 goal is to have a list of data from an entity. 
@@ -101,19 +67,19 @@ goal is to have a list of data from an entity.
 
 2.  Click **Canvas app from blank**. In the dialog box, name your app **Fabrikam Accounts** and select **Phone** layout.
 
-3.  Click **Create** in the dialog. You may be required to sign in again; enter your tenant credentials.
+3.  Click **Create** in the dialog. (You may be required to sign in again; enter your tenant credentials if necessary.)
 
-9.  Your app should open in the designer. In the white space, click the **connect to data** link.
+9.  Your app should open in the designer. (You may get a few pop-ups first; close them.) In the white space, click the **connect to data** link.
 
-10. From the list of entities that appear in the left bar, select **Accounts.** The Accounts button will move to the **In your app** section of the window.
+10. Select **Data** from the left bar. From the list of entities, select **Accounts.** 
 
-10. Add a header to your app by selecting the **+ Insert** button on the left tab and selecting **Text label.** In the text value, enter **Fabrikam Accounts** and drag it to the top of the application. You can edit the size, font, and other attributes to customize the look and feel of the application.
+10. Add a header to your app by selecting the **+** button (the Insert button) on the left tab and selecting **Text label.** Use the pane on the right side of the screen to enter **Fabrikam Accounts** in the **Text** field. You can edit the size, font, and other attributes to customize the look and feel of the application.
 
-10. Add a list of accounts to your app by selecting the **+ Insert** button on the left tab and selecting **Vertical Gallery** from the **Layout** section.
+10. Add a list of accounts to your app by selecting the **+** button on the left tab and selecting **Vertical Gallery** from the **Layout** section.
 
 10. A vertical gallery will be inserted into your app, and you will be prompted to select which data source it should pull from. Select **Accounts** from the pop-up.
 
-10.  The application will load list of the accounts. Drag the gallery to fit the app or resize to your liking.
+10.  The application will load list of the accounts (it may be blank for now). Drag the gallery to fit the app or resize to your liking.
 
 10. To preview your app, click **Play** (it will look like a Play button) in the upper right corner. 
 
@@ -125,8 +91,7 @@ goal is to have a list of data from an entity.
 18.  Click **Save**.
 
 19. Explore the app as much as you want and then proceed to the next exercise.
-    This app will be saved, and you can always revisit it later to review how
-    things are done.
+    This app will be saved, and you can always revisit it later.
 
 20. Close the **App Designer**.
 
@@ -139,7 +104,7 @@ started will be easy.
 
 ### Task 1 – Create a model-driven app
 
-1.  Go back to <https://make.powerapps.com> and make sure you are in the
+1.  Go back to <https://make.powerapps.com> and make sure you are in your
     **Practice** environment.
 
 2. Click on **+ Create** and select **Model-driven app from blank.** Select **Create** in the pop-up window.
@@ -208,7 +173,7 @@ the upcoming canvas app module.
 6.  Select **Rename**.
 
 7.  Enter **mainScreen** and press the enter key. *Note:* It is always a good
-    idea to give components meaningful names, it makes them easier to use as
+    idea to give components meaningful names. It makes them easier to use as
     your application gets more complex.
 
 ### Task 2 – Add Header to the App
@@ -249,7 +214,7 @@ things simple here and just add a basic header to the app.
 In this task, you are going to leverage the User() information to add the name
 of the current user to the header.
 
-1.  Select the **MainScreen**.
+1.  Select the **MainScreen** in the left control tree.
 
 2.  Select the **Insert** tab and click **Text label**.
 
