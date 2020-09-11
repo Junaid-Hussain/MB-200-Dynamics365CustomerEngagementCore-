@@ -30,7 +30,7 @@ In this task, you will create a bulk deletion operation.
 
 1.  Navigate to <https://admin.powerplatform.microsoft.com>.
 
-2.  Select your **[my prefix] Practice** environment.
+2.  Select your **Practice** environment.
 
 3.  Click **Settings**.
 
@@ -73,7 +73,7 @@ In this task, you will test the bulk delete operation you created.
 
 2.  Select **Apps**.
 
-3.  Locate and click to open the **[my prefix] Knowledge Admin** application.
+3.  Locate and click to open the **Knowledge Admin** application.
 
 4.  Select **Knowledge Assessments.**
 
