@@ -16,43 +16,9 @@ You are a functional consultant for your organization Contoso. You are assigned
 to work on a project for your client Fabrikam. You have been assigned to
 continue work on the Fabrikam Knowledge canvas app that we started creating in
 the prior module. In this practice you will be starting to build out the screens
-and connecting to the data in CDS.
+and connecting to the data in the Common Data Service.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power Platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power Platform admin portal at
-    [https://admin.Powerplatform.microsoft.com].
-
-Exercise 2 – Setup the Data Sources from CDS
+Exercise 1 – Setup the Data Sources from the Common Data Service
 --------------------------------------------
 
 In this exercise, you will be associating the data sources needed with the
@@ -62,7 +28,7 @@ application.
 
 1.  Navigate to <https://make.powerapps.com>
 
-2.  Make sure you are in the **Practice** environment. You can find
+2.  Make sure you are in your **Practice** environment. You can find
     the environment selector in the upper right corner.
 
 3.  Select **Solutions**.
@@ -78,13 +44,13 @@ application.
 
 8.  Click on the **Data Sources** button.
 
-11. You will be presented with a list of entities. Expand to see all entites by selecting **See all entities.** Select the **Feedback**,
+11. Click **+Add data.** You will be presented with a list of entities. Expand to see all entites by selecting **See all entities.** Select the **Feedback**,
     **Knowledge Assessments**, **Knowledge Questions**, **Knowledge Test
     Results**, and **Users**, entities. You can use the Search feature to make
     it quicker to find the entities.
 
 13. The data from the entities you selected will now be available for your
-    application. Close the **Data** pane.
+    application. Close the **Data sources** pane.
 
 14. Click on the **File** tab and click **Save**. Saving your work periodically
     is always a good idea.
@@ -97,8 +63,8 @@ application.
 Exercise 3 – Setup screens for Knowledge Assessment and Taking Assessment
 -------------------------------------------------------------------------
 
-In this exercise, you will be adding a list of Knowledge Assessment available to
-the main screen, and then adding navigation to drill down to allow employees to
+In this exercise, you will be adding a list of Knowledge Assessments to
+the main screen, and then adding navigation to allow employees to
 take the assessment.
 
 ### Task 1 – Setup Knowledge Assessment screen 
@@ -108,7 +74,7 @@ take the assessment.
 2.  Click on the ellipses button of the new screen and click **Rename**.
 
 3.  Rename the Screen **takeAssessmentScreen.** *Note:* It is always good to give
-    components a good name so when you reference them later there will not be
+    components a good name so when you reference them later there will not be any
     confusion.
 
 4.  Select the **mainScreen**.
@@ -118,7 +84,7 @@ take the assessment.
 
 6.  A **Data Source** pop-out will appear next to the Gallery pane. Select **Knowledge Assessments** for **Data Source**.
 
-7.  In the Properties tab, navigate to **Fields**. Change the Subtitle to **Days Remaining** by selecting the field from the dropdown.
+7.  In the Properties tab, navigate to **Fields** and click **Edit**. Change the Subtitle to **Days Remaining** by selecting the field from the dropdown.
 
 9.  In the left-hand control tree, locate the gallery, right click and select
     rename. Rename the Gallery **knowledgeAssessmentList**
@@ -129,14 +95,14 @@ take the assessment.
 11. Select the first item of the **KnowledgeAssessmentList** gallery. Make sure
     you are selecting the item in the designer.
 
-12. Click on the **subtitle** control by clicking **Subtitle2**.
+12. Click on the **subtitle** control by clicking **Subtitle2** from the control tree on the left.
 
 13. Select the **Text** property in the designer function list (fx) and paste
     the snippet below. This snippet will add the text “ Days remaining” to the
     end of the number. If you have issues with the formula, try typing it out
     manually instead of copying and pasting.
 
-    ThisItem.'Days Remaining ' & " Days remaining"
+    ThisItem.'Days Remaining' & " Days remaining"
 
 1.  Depending on your test data you may have some items that currently just say
     Days remaining and some that have a number (e.g., "6 Days remaining").
@@ -177,7 +143,7 @@ practices you will be scoring and storing the results.
 5.  Select the **assessmentQuestionList** gallery.
 
 6.  Select the **Items** property in the **Advanced** section of the Properties pane. Set it to the snippet below. This snippet
-    will filter the Knowledge Questions for the select Knowledge Assessment. If
+    will filter the Knowledge Questions for the selected Knowledge Assessment. If
     you have issues with the formula, try typing it out manually instead of
     copying and pasting.
 
@@ -217,7 +183,7 @@ practices you will be scoring and storing the results.
 
 18. Move the new checkbox below the Question label.
 
-19. Select the **Text** property of the new checkbox and set it to **Answer 1**.
+19. Select the **Text** property of the new checkbox and from the **fx** equation bar at the top, set it to **Answer 1**.
 
     ThisItem.'Answer 1'
 
@@ -227,7 +193,7 @@ practices you will be scoring and storing the results.
 21. Set the **Width** property to **300** or drag it to expand the width of the
     control.
 
-22. With the check box control selected, in the property panel on the right side
+22. With the check box control selected, navigate to the property panel on the right side
     of the screen. Select the Advanced tab and set the **OnCheck** property to
     the snippet below. This snippet will add the points of the check answer to a
     Collection name UserAnswers.
@@ -330,7 +296,7 @@ practices you will be scoring and storing the results.
 
 50.  Drag and place the button below the **assessmentQuestionList**.
 
-51.  Select the button and set the **Text** property to **“Score Assessment”.**
+51.  Select the button and set the **Text** property to **Score Assessment**.
 
 52.  Make the button larger until the text doesn’t wrap.
 
