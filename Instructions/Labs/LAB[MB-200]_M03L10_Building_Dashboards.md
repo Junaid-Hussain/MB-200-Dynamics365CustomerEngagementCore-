@@ -17,41 +17,8 @@ to work on a project for your client Fabrikam. You will be continuing your work
 on the model-driven Knowledge Admin app. In this practice, you will be creating
 a dashboard and modifying the app to include it.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com].
     
-Exercise 2 – Create a dashboard 
+Exercise 1 – Create a dashboard 
 --------------------------------
 
 In this exercise, you will create a dashboard using existing charts and views.
@@ -60,7 +27,7 @@ In this exercise, you will create a dashboard using existing charts and views.
 
 1.  Navigate to <https://make.powerapps.com>.
 
-2.  Make sure you are in the **Practice** environment.
+2.  Make sure you are in your **Practice** environment.
 
 3.  Select **Solutions**.
 
@@ -101,7 +68,7 @@ In this exercise, you will create a dashboard using existing charts and views.
 For your dashboard to show up in the model-driven app you must edit the app
 module and added to the definition
 
-1.  Make sure you are still in <https://make.powerapps.com> and you have the
+1.  Make sure you are still in <https://make.powerapps.com> and you have your
     **Practice** environment selected.
 
 2.  Open **Common Data Services Default Solution**.
@@ -111,7 +78,7 @@ module and added to the definition
 
 4.  Select **Dashboards**.
 
-5.  Uncheck the **All** checkbox.
+5.  Uncheck the **All** checkbox if it is checked.
 
 6.  Check the **Results Overview** checkbox.
 
@@ -146,9 +113,9 @@ module and added to the definition
 
 20. Click **Save and Close** to close the site map designer.
 
-21. Click **Validate** to validate your changes.
+21. Click **Validate** to validate your changes. You can ignore the warnings.
 
-22. **Publish** to publish the application.
+22. Click **Publish** to publish the application.
 
 23. Click **Save and Close** to close the close the app designer.
 
