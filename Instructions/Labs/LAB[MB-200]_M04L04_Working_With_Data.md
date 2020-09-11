@@ -19,41 +19,7 @@ the prior module. In this practice you will be working with the CDS connector to
 filter the list, save the results of the assessment in CDS and add support for
 submitting feedback using the EditForm.
 
-**Important Note:** This lab will provide you with an actual Office 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Office 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Office 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power Platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power Platform admin portal at
-    [https://admin.Powerplatform.microsoft.com].
-
-Exercise 2 – Filtering Data
+Exercise 1 – Filtering Data
 ---------------------------
 
 ### Task 1 – Filter Knowledge Assessments 
@@ -63,11 +29,11 @@ records that have Start Date in the past and End Date is in the future.
 
 1.  Navigate to <https://make.powerapps.com>
 
-2.  Make sure you are in the **Practice** environment.
+2.  Make sure you are in your **Practice** environment.
 
 3.  Select **Solutions**.
 
-4.  Select **Common Data Service Default Solution**
+4.  Select **Common Data Service Default Solution**.
 
 5.  Select the **Fabrikam Assessment** Canvas application.
 
@@ -75,7 +41,7 @@ records that have Start Date in the past and End Date is in the future.
 
 7.  Wait for the app designer to load.
 
-8.  Select the **knowledgeAssessmentList** gallery.
+8.  Select the **knowledgeAssessmentList** gallery and click the **Advanced** tab in the Properties pane.
 
 9.  Set the **Items** Property to the snippet below. This snippet will filter
     the Knowledge Assessment records and the list will show only the active
@@ -137,12 +103,12 @@ collection based on the answers the user provided.
 
 2.  Locate the button and rename it **scoreButton**.
 
-3.  While you still have the **scoreButton** selected, set the **OnSelect**
+3.  While you still have the **scoreButton** selected, select the **Advanced** tab of the Properties pane. Set the **OnSelect**
     property to snippet below. This snippet will create a new Knowledge Test
     Result record.
     
     Patch('Knowledge Test Results', Defaults('Knowledge Test Results'), {'Knowledge
-    Assessment': knowledgeAssessmentList.Selected, 'Primary Name':
+    Assessments': knowledgeAssessmentList.Selected, 'Primary Name':
     knowledgeAssessmentList.Selected.Title, 'Total Points':Sum(UserAnswers.Points,
     Points)} )
 
@@ -240,4 +206,3 @@ create a new record.
     NewForm(feedbackForm);Navigate(addFeedbackScreen, ScreenTransition.None)
     
  32. Click **File** and **Save** to save your application.
- 
