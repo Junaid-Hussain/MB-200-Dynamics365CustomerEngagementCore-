@@ -1,86 +1,53 @@
 ---
 lab:
-    title: 'Lab: Bulk delete'
+    title: 'Lab: Export data'
     module: 'Module 13: Managing Data'
 ---
 
 Module 13: Managing Data
 =======================
 
-## Lesson 9: Practice Lab – Bulk delete
+## Lesson 7: Practice Lab – Export data
 
 Scenario
 --------
 
 You are a functional consultant working on the Fabrikam project. Your client
-wants you implement some automatic data cleanup of stale data. You have been
-asked to delete any Knowledge Assessment that is over 6 months past its end
-date. You will be using the Bulk Delete feature of the Common Data Service.
+wants to export some data form the CDS environment. In this practice, you will
+see two ways to accomplish the task.
 
-Exercise 1 – Bulk Delete
+Exercise 1 – Export Data
 ------------------------
 
-In this exercise, you will create a bulk deletion operation that will delete all
-Knowledge Assessment records with an End Date older than 6 months, this
-operation will run every 7 days.
+In this exercise, you will export data from the maker port and from Model-Driver
+application.
 
-### Task 1 – Create Bulk Delete Operation
+### Task 1 – Portal Export
 
-In this task, you will create a bulk deletion operation.
+In this task, you will export data from the maker portal.
 
-1.  Navigate to <https://admin.powerplatform.microsoft.com>.
+1.  Navigate to <https://make.powerapps.com/> and make sure you are in the **Practice** environment you created.
 
-2.  Select your **Practice** environment.
+2.  Expand **Data** and select **Entities**.
 
-3.  Click **Settings**.
+3.  Locate and click to open the **Knowledge Assessment** entity.
 
-4.  Go to the **Data Management** section and click **Bulk Deletion**.
+4.  Click **Export Data**.
 
-5.  Click **New**.
+5.  Wait for the data to be exported.
 
-6.  Click **Next**.
+6.  Click **Download Exported Data.**
 
-7.  Select **Knowledge Assessments** from the **Look for** dropdown.
+7.  Save the exported data on your local machine.
 
-8.  Click **Select** and choose the **End date** field.
+8.  Open the folder the data was downloaded to.
 
-9.  Select **Older than X Months**.
+9.  Right click on the exported zip file and extract.
 
-10. Enter **6** and click **Next**.
+10. Open the exported **CSV** file.
 
-11. Change the **Name** to **Delete Old Assessments**.
+11. You should see all the exported **Knowledge Assessment** records.
 
-12. Select to run **At Scheduled Time.**
+12. Close the **CSV** file.
 
-13. Select today’s date for **Date** and select **10 Minutes** in to the future
-    for **Time**.
-
-14. Check the **Run this Job After Every** checkbox.
-
-15. Select **7 Days**.
-
-16. Check the **Send an Email…** checkbox and click **Next**.
-
-17. Click **Submit**.
-
-18. Wait for the job to be created. This can take few minutes. Refresh the view as needed.
-
-### Task 2 – Test Bulk Deletion
-
-In this task, you will test the bulk delete operation you created.
-
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in your **Practice** environment.
-
-2.  Select **Apps**.
-
-3.  Locate and click to open the **Knowledge Admin** application.
-
-4.  Select **Knowledge Assessments.**
-
-5.  Click to open one of the **Knowledge Assessment** records.
-
-6.  Change the **End Date** to **Seven Months** in the past.
-
-7.  Click **Save**.
-
-8. Wait for the bulk delete job to complete at the designated time. The record will be deleted.
+13. You may delete the exported file.
