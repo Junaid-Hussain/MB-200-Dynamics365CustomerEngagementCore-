@@ -26,6 +26,6 @@ Lab changes
   - M11l06 Outlook integration
   - M12L04 Configure document sharing
   - M12L06 Enable Teams 
-  - M14-16 labs
+  - M14 labs
 - Complete updates to the user experience 
 
