@@ -95,7 +95,7 @@ take the assessment.
 11. Select the first item of the **KnowledgeAssessmentList** gallery. Make sure
     you are selecting the item in the designer.
 
-12. Click on the **subtitle** control by clicking **Subtitle2** from the control tree on the left.
+12. Click on the **subtitle** control by clicking **Subtitle1** from the control tree on the left.
 
 13. Select the **Text** property in the designer function list (fx) and paste
     the snippet below. This snippet will add the text “ Days remaining” to the
