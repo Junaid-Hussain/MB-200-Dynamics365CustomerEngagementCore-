@@ -108,7 +108,7 @@ collection based on the answers the user provided.
     Result record.
     
     Patch('Knowledge Test Results', Defaults('Knowledge Test Results'), {'Knowledge
-    Assessments': knowledgeAssessmentList.Selected, 'Primary Name':
+    Assessments': knowledgeAssessmentList.Selected, 'Name':
     knowledgeAssessmentList.Selected.Title, 'Total Points':Sum(UserAnswers.Points,
     Points)} )
 
@@ -144,7 +144,7 @@ create a new record.
 
 11. From the tree view, expand the **feedbackForm**.
 
-12. Select the **Title** field. In the **Properties** pane, select **unlock.**
+12. Select the **Title** field. In the **Advanced** pane, select **unlock.**
 
 13. Select the **Default** property and set it to the **Title** of the selected
     **Knowledge assessment**.
