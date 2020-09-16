@@ -87,13 +87,15 @@ To customize your form:
 11. Drag the **Owner** field for the **Field Explorer** and place it in the
     right column of the **Header**.
 
-12. Drag the **Days Remaining** filed to the left column of the **Header**.
+12. Select the **General** tab by double clicking on it. Enter **General** in the **Name** field in the Properties pane.
 
-13. Select the **General** tab by double clicking on it. Enter **General** in the **Name** field in the Properties pane.
+13. Expand the **Formatting** section.
 
-15. Expand the **Formatting** section.
+14. Select **Two Columns** for **Layout.**. Click **Save**.
 
-16. Select **Two Columns** for **Layout.**. Click **Save** and then select **Switch to classic.**
+15. Select **Switch to classic.**
+
+16. Select the **Days Remaining** field and drag it to the left column of the **Header.** 
 
 17. Select the new section of the **General** tab.
 
