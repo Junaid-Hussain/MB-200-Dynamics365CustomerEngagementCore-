@@ -1,4 +1,4 @@
-Module 0: Change log (for MCT use only)
+Module 0: Change log 
 =================================
 
 ## September 2020
