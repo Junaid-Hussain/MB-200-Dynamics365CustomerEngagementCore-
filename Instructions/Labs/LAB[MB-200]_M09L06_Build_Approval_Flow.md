@@ -249,7 +249,7 @@ Exercise 2 – Create flow
 
 2.  Search for **Condition** and select **Condition** control.
 
-3.  Click on the first Choose a Value field and select Responses from the Dynamic
+3.  Click on the first Choose a Value field and select **Outcome** from the Dynamic
     Content pane.
 
 4.  Leave **Is Equals to** as the operator.
