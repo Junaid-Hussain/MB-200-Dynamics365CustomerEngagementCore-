@@ -18,7 +18,7 @@ you started in the prior practice. In this practice you will be adding the
 relationships to what you created in the prior practice. If you haven’t
 completed that practice you should pause this practice and complete that first.
 
-The following is the data model you are building. At this point all the entities
+The following is the data model you are building. At this point all the tables
 are created and you are ready to create the relationships. **Please refer to the file labeled Image[MB-200]_M02L02_Creating_Entities_Fields.png in the Lab Resources to view the entity relationship diagram.**
 
 The following relationships need to be created.
@@ -58,7 +58,7 @@ Assessment Table.
 ### Task 1 – Knowledge Assessment to Knowledge Question Relationship
 
 In this task, you will create a One-to-Many relationship between the Knowledge
-Assessment and Knowledge Question entities.
+Assessment and Knowledge Question tables.
 
 1.  Navigate to <https://make.powerapps.com> and make sure you are in your
     **Practice** environment.
