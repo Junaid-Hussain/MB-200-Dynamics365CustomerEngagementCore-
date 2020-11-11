@@ -35,7 +35,7 @@ The following relationships need to be created.
     another relationship to track who took the assessment. For our purposes we
     are going to keep it simple and use record owner.
 
-4.  The relationship to Feedback is handled via an entity option you will be
+4.  The relationship to Feedback is handled via an Table option you will be
     doing in a future practice.
 
 **Important Note:** This lab will provide you with an actual Office 365 tenant
@@ -53,7 +53,7 @@ Exercise 1 – Create the Knowledge Assessment Relationships
 ----------------------------------------------------------
 
 In this exercise, you will be creating the relationships for Knowledge
-Assessment entity.
+Assessment Table.
 
 ### Task 1 – Knowledge Assessment to Knowledge Question Relationship
 
@@ -65,34 +65,34 @@ Assessment and Knowledge Question entities.
 
 2.  Select **Solutions** and open the **Common Data Service Default Solution.**
 
-3.  Click to open the **Knowledge Assessment** entity.
+3.  Click to open the **Knowledge Assessment** Table.
 
 4.  Select the **Relationships** tab.
 
 5.  Click **+Add Relationship** and select **One-to-Many**.
 
-6.  Select **Knowledge Question** for **Related Entity** and click **Done**.
+6.  Select **Knowledge Question** for **Related Table** and click **Done**.
 
-7.  Click **Save Entity**. It is a good idea to save your changes as you make
+7.  Click **Save Table**. It is a good idea to save your changes as you make
     them.
 
 ### Task 2 – Knowledge Assessment to Knowledge Test Result Relationship
 
 In this task, you will create a One-to-Many relationship between the Knowledge
-Assessment and Knowledge Test Result entities.
+Assessment and Knowledge Test Result Tables.
 
 1.  Make sure you have the **Relationship** tab selected.
 
 2.  Click **Add Relationship** and select **One-to-Many**.
 
-3.  Select **Knowledge Test Result** for **Related Entity** and click **General**.
+3.  Select **Knowledge Test Result** for **Related Table** and click **General**.
 
 4.  The relationship names must be unique. Change the **Relationship Name** to
     **KnowledgeAssessment_KnowledgeResult**.
 
 5.  Click **Done**.
 
-6.  Click **Save Entity**.
+6.  Click **Save Table**.
 
 7.  From the navigation menu, click **Common Data Services Default Solution**.
 
