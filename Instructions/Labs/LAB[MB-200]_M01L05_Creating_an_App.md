@@ -182,7 +182,7 @@ things simple here and just add a basic header to the app.
 
 1.  Select the **Insert** tab.
 
-2.  Click **Label**.
+2.  Click **Textlabel**.
 
 3.  A label will be added to the screen. Select the label.
 
