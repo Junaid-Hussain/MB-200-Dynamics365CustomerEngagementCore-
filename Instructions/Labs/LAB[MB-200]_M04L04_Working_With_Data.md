@@ -180,7 +180,7 @@ create a new record.
 
 22.  Select the **takeAssessmentScreen**.
 
-23.  Go to the **Insert** tab, navigate to **Icons** in the top menu, and select **Left.**
+23.  Go to the **Insert** tab, navigate to **Icons** in the top menu scroll down, and select **Left.**
 
 24.  Place the icon on the left side of the header.
 
@@ -193,7 +193,7 @@ create a new record.
 
 27.  Select the **takeAssessmentScreen**.
 
-28.  Click **Insert**, navigate to **Icons** in the top menu, and select the **Emoji - Smile** icon.
+28.  Click **Insert**, navigate to **Icons** in the top menu scroll down, and select the **Emoji - Smile** icon.
 
 29.  Place the icon in the right side of the header and to the right of the User
     Name.
