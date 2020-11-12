@@ -102,7 +102,7 @@ take the assessment.
     end of the number. If you have issues with the formula, try typing it out
     manually instead of copying and pasting.
 
-    ThisItem.'Days Remaining' & " Days remaining"
+    ThisItem.'Days Remaining' & "Days Remaining" 
 
 1.  Depending on your test data you may have some items that currently just say
     Days remaining and some that have a number (e.g., "6 Days remaining").
@@ -147,8 +147,8 @@ practices you will be scoring and storing the results.
     you have issues with the formula, try typing it out manually instead of
     copying and pasting.
 
-    Filter('Knowledge Questions', 'Knowledge Assessment'.'Knowledge Assessment' =
-    knowledgeAssessmentList.Selected.'Knowledge Assessment' )
+    Filter('Knowledge Questions', 'Knowledge Assessment'.'Knowledge Assessment'  = knowledgeAssessmentList.Selected.'Knowledge Assessment' ) 
+
 
 7. Resize the **assessmentQuestionList** until takes all the space below the
     header.
@@ -185,7 +185,7 @@ practices you will be scoring and storing the results.
 
 19. Select the **Text** property of the new checkbox and from the **fx** equation bar at the top, set it to **Answer 1**.
 
-    ThisItem.'Answer 1'
+    TThisItem.'Answer 1'
 
 20. By using the ThisItem. syntax you are referencing a data field from the
     current record.
@@ -198,15 +198,13 @@ practices you will be scoring and storing the results.
     the snippet below. This snippet will add the points of the check answer to a
     Collection name UserAnswers.
 
-    Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'),
-    Points:ThisItem.'Answer 1 Points'})
+    Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'), Points:ThisItem.'Answer 1 Points'})
 
 23. Set the **OnUnCheck** property to the snippet below. This snippet will
     remove the points of the uncheck answer form the Collection when the user
     unchecks the answer.
 
-    Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge
-    Question')))
+    Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Question')))
 
 24. Select **takeAssessmentScreen**.
 
@@ -218,7 +216,7 @@ practices you will be scoring and storing the results.
 26. In the left control tree, select the checkBox and rename the checkbox
     **answer1Selected**.
 
-27. With **answer1Selected** still selected, go to the **Insert** tab and select **Check box** again. We are going to add the additional answer checkboxes and do a similar setup for each.
+27. With **answer1Selected** still selected, go to the **Insert** tab and select **Check box** again. We are going to add the additional answer     checkboxes and do a similar setup for each.
 
 28. Move the new checkbox below the **answer1Selected** checkbox.
 
@@ -231,16 +229,14 @@ practices you will be scoring and storing the results.
 31. Set the **OnCheck** property to the snippet below. This snippet will add the
     points of the check answer to the Collection.
     
-    Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'),
-    Points:ThisItem.'Answer 2 Points'})
+    Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'), Points:ThisItem.'Answer 2 Points'})
 
 32. Set the **OnUnCheck** property to the snippet below. This snippet will
     remove the points of the uncheck answer form the Collection.
 
-    Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge
-    Question')))
+    Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Question')))
 
-33.  Rename the checkbox **answer2Selected**.
+33. Rename the checkbox **answer2Selected**.
 
 34. With **answer2Selected** still selected, go to the **Insert** tab and select **Check box**.
 
@@ -250,54 +246,50 @@ practices you will be scoring and storing the results.
 
     ThisItem.'Answer 3'
 
-37.  Set the **Width** property to **300**.
+37. Set the **Width** property to **300**.
 
-38.  Set the **OnCheck** property to the snippet below. This snippet will add the
+38. Set the **OnCheck** property to the snippet below. This snippet will add the
     points of the check answer to the Collection.
 
-    Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'),
-    Points:ThisItem.'Answer 3 Points'})
+    Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'), Points:ThisItem.'Answer 3 Points'})
     
-39.  Set the **OnUnCheck** property to the snippet below. This snippet will
+39. Set the **OnUnCheck** property to the snippet below. This snippet will
     remove the points of the uncheck answer form the Collection.
 
-    Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge
-    Question')))
+    Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Question')))
 
-40.  Rename the checkbox **answer3Selected**.
+40. Rename the checkbox **answer3Selected**.
 
-41.  With **answer3Selected** still selected, go to the **Insert** tab and select **Check box**.
+41. With **answer3Selected** still selected, go to the **Insert** tab and select **Check box**.
 
-42.  Move the new check box below the **answer3Selected** checkbox.
+42. Move the new check box below the **answer3Selected** checkbox.
 
-43.  Select the **Text** property of the new checkbox and set it to **Answer 4**.
+43. Select the **Text** property of the new checkbox and set it to **Answer 4**.
 
     ThisItem.'Answer 4'
 
-44.  Set the **Width** property to **300**.
+44. Set the **Width** property to **300**.
 
-45.  Set the **OnCheck** property to the snippet below. This snippet will add the
+45. Set the **OnCheck** property to the snippet below. This snippet will add the
     points of the check answer to the Collection.
     
-    Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'),
-    Points:ThisItem.'Answer 4 Points'})
+    Collect(UserAnswers, {Question:GUID(ThisItem.'Knowledge Question'), Points:ThisItem.'Answer 4 Points'})
 
-46.  Set the **OnUnCheck** property to the snippet below. This snippet will
+46. Set the **OnUnCheck** property to the snippet below. This snippet will
     remove the points of the uncheck answer form the Collection.
 
-    Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge
-    Question')))
+    Remove(UserAnswers, LookUp(UserAnswers, Question = GUID(ThisItem.'Knowledge Question')))
     
-47.  Rename the checkbox **answer4Selected**.
+47. Rename the checkbox **answer4Selected**.
 
-48.  Select **testAssessmentScreen**.
+48. Select **testAssessmentScreen**.
 
-49.  Go to the **Insert** tab and click **Button**.
+49. Go to the **Insert** tab and click **Button**.
 
-50.  Drag and place the button below the **assessmentQuestionList**.
+50. Drag and place the button below the **assessmentQuestionList**.
 
-51.  Select the button and set the **Text** property to **Score Assessment**.
+51. Select the button and set the **Text** property to **Score Assessment**.
 
-52.  Make the button larger until the text doesn’t wrap.
+52. Make the button larger until the text doesn’t wrap.
 
 53. Click **File** and **Save**.
