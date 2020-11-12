@@ -36,6 +36,8 @@ to the app navigation.
 
 5.  Select the **Knowledge Admin** model-driven application and click **Edit.**
 
+6.  Click the pen icon on the **Site map** to open up the site map designer. 
+
 7.  Drag **Area** from the **Components** tab and place it to the right of the
     **Administration** area.
 
