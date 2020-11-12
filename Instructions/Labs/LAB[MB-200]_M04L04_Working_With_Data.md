@@ -146,7 +146,7 @@ create a new record.
 
 12. Select the **Title** field. In the **Advanced** pane, select **unlock.**
 
-13. Select the **Default** property and set it to the **Title** of the selected
+13. Click on **more options** to reveal the **Default** property and set it to the **Title** of the selected
     **Knowledge assessment**.
 
     knowledgeAssessmentList.Selected.Title
