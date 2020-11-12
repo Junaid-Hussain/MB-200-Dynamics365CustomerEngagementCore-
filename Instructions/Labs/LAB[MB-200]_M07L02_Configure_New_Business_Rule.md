@@ -20,7 +20,7 @@ fields without needing custom code.
 Exercise 1 - Prepare the solution
 ----------------------------------
 
-### Task 1 – Add Fields to Knowledge Question
+### Task 1 – Add Columns to Knowledge Question
 
 1.  Navigate to <https://make.powerapps.com>
 
@@ -30,14 +30,14 @@ Exercise 1 - Prepare the solution
 
 4.  Click to open the **Common Data Services Default Solution.** 
 
-5.  Click to open the **Knowledge Question** entity.
+5.  Click to open the **Knowledge Question** Table.
 
-6.  Select the **Fields** tab and click **+ Add Field**.
+6.  Select the **Columns** tab and click **+ Add Column**.
 
-7.  Enter **Question Type** for **Display Name** and select **Option Set** for
+7.  Enter **Question Type** for **Display Name** and select **Choice** for
     **Data Type**.
 
-8.  Click on the **Option Set** dropdown and click **+ New Option Set**.
+8.  Click on the **Choice** dropdown and click **+ New choice**.
 
 9.  Enter **Simple** and click **Add New Item**.
 
@@ -45,18 +45,18 @@ Exercise 1 - Prepare the solution
 
 11. From the **Required** dropdown, select **Required.**
 
-12. Click **Done.** Then click **Save entity.**
+12. Click **Done.** Then click **Save Table.**
 
-13. Click **+ Add Field**.
+13. Click **+ Add Column**.
 
 14. Enter **Scenario Description** for **Display Name**, select **Text Area**
     for **Data Type**, and click **Done**.
 
-15. Click **Save Entity**.
+15. Click **Save Table**.
 
-### Task 2 – Add Fields to Knowledge Question Form
+### Task 2 – Add Tables to Knowledge Question Form
 
-1.  Make sure you still have the **Knowledge Question** entity selected.
+1.  Make sure you still have the **Knowledge Question** Table selected.
 
 2.  Select the **Forms** tab and click to open the **Main** form.
 
@@ -97,7 +97,7 @@ Exercise 2 – Create Business Rule
 
 4.  Click to open the **Common Data Services Default Solution.**
 
-5.  Click to open the **Knowledge Question** entity.
+5.  Click to open the **Knowledge Question** Table.
 
 6.  Select the **Business Rules** tab and click **Add Business Rule**.
 
