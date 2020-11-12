@@ -21,7 +21,7 @@ in the data-modeling practice.
 Exercise 1 – Edit the Knowledge Assessment View 
 ------------------------------------------------
 
-In this exercise, you will edit the view for the Knowledge Assessment entity. By
+In this exercise, you will edit the view for the Knowledge Assessment table. By
 default, the auto generated views only show the primary attribute and created on
 date.
 
@@ -35,7 +35,7 @@ date.
 
 4.  Open the **Common Data Services Default Solution**.
 
-5.  Open the **Knowledge Assessment** entity.
+5.  Open the **Knowledge Assessment** Table.
 
 6.  Select the **Views** tab.
 
@@ -143,11 +143,9 @@ view needs.
 
 7.  Click on the **dropdown** button of the **Created On** column header.
 
-8.  Locate the **Filter by** section and click **Edit filters.** In the pop-up, click **+Add** and select **+Add row.**
+8.  Locate the **Filter by** section and select **This month** in the first dropdown.
 
-9.  In the first dropdown, select **Created on**. In the second dropdown, select **This Month**. Make sure the box for this row is checked.
-
-10. Click **OK**.
+10. Click **Apply**.
 
 11. Click **Save**.
 
