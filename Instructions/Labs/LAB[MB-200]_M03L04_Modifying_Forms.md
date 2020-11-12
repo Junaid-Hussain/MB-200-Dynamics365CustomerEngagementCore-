@@ -21,17 +21,17 @@ in the data-modeling practice.
 Exercise 1 – Edit the Knowledge Assessment Form 
 ------------------------------------------------
 
-In this exercise, you will edit the form for the Knowledge Assessment entity.
-There are two places you can edit this from, either from the Solutions > Entity > Forms list, or via the App Designer. If you are already in App
+In this exercise, you will edit the form for the Knowledge Assessment Table.
+There are two places you can edit this from, either from the Solutions > Table > Forms list, or via the App Designer. If you are already in App
 Designer start, there.
 
 ### Task 1 – Enable Notes on the Knowledge Assessment entity
 
-Initially when the entity was created notes were not enabled. Since then the
+Initially when the Table was created notes were not enabled. Since then the
 client Fabrikam has determined that they like to be able to track notes against
 the knowledge assessments. We are going to make this change before getting into
 the form editor, because this is the easiest way to perform these configuration steps. The same is true, for
-example, if you need to add any fields: you should always try to add the fields
+example, if you need to add any columns: you should always try to add the columns
 before jumping into the editor.
 
 1.  Navigate to <https://make.powerapps.com>
@@ -42,16 +42,16 @@ before jumping into the editor.
 
 4.  Open the **Common Data Service Default Solution**.
 
-5.  Click on the **Knowledge Assessment** entity.
+5.  Click on the **Knowledge Assessment** Table.
 
 6.  Click **Settings** in the command bar.
 
 7.  Check the **Enable Attachments** checkbox. This enables notes and files for
-    the entity.
+    the table.
 
 8.  Click **Done**. Confirm the changes by clicking **Okay.**
 
-9.  Click **Save Entity**.
+9.  Click **Save Table**.
 
 ### Task 2 – Edit the Knowledge Assessment form
 
