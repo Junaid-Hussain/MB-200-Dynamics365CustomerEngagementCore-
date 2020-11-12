@@ -99,7 +99,7 @@ To customize your form:
 
 17. Select the new section of the **General** tab.
 
-18. Select the **Insert** tab and then select **Control.**
+18. Select the **Insert** tab located at the top and then select **Control.**
 
 19. Click **Timeline**. Timeline is located below the IFRAME.
 
@@ -122,7 +122,7 @@ To customize your form:
 25. Add the **Difficulty** field to the **General** section and place it below
     the **End Date** field.
 
-26. Select the **Insert** tab.
+26. Select the **Insert** tab located at the top.
 
 27. Click **1 Tab** and then click **1 column.** A new tab will be added to the form.
 
@@ -207,6 +207,8 @@ In this exercise, you will edit the form for the Knowledge Question entity.
 24. **DON’T** close the app designer.
 
 ### Task 2 – Test Your Work
+
+1.  Make sure you are on the App designer page
 
 1.  Click **Play**.
 
