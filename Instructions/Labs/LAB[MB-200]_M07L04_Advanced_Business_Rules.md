@@ -171,6 +171,8 @@ Exercise 2 – Create Business Rule
 15. Select the action, enter **Show Points Error Message** for **Display Name**,
     select **Question** for **Field**, enter **At least one answer must have
     points more than zero**, and click **Apply**.
+    
+16. Leave the rest of the setting default.
 
 16. Click **Save**.
 
