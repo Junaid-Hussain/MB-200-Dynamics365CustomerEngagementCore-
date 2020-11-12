@@ -30,9 +30,9 @@ Exercise 1 – Prepare the Solution
 
 4.  Click to open the **Common Data Services Default Solution**.
 
-5.  Click to open the **Knowledge Question** entity.
+5.  Click to open the **Knowledge Question** Table.
 
-6.  Select the **Fields** tab and click **+ Add Field**.
+6.  Select the **Columns** tab and click **+ Add Column**.
 
 7.  Enter **Question Points** for **Display Name** and select **Whole Number**
     for **Data Type**.
@@ -60,7 +60,7 @@ Exercise 1 – Prepare the Solution
 
 ### Task 2 – Add Field to Knowledge Question Form
 
-1.  Make sure you still have the **Knowledge Question** entity selected.
+1.  Make sure you still have the **Knowledge Question** Table selected.
 
 2.  Select the **Forms** tab and click to open the **Main** form.
 
@@ -130,7 +130,7 @@ Exercise 2 – Create Business Rule
 
 ### Task 1 – Create Question Points Business Rule
 
-1.  Click to open the **Knowledge Question** entity.
+1.  Click to open the **Knowledge Question** Table.
 
 2.  Select the **Business Rules** tab and click **Add Business Rule**.
 
