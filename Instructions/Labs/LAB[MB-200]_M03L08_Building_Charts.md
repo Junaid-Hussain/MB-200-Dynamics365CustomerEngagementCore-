@@ -34,7 +34,7 @@ In this exercise, you will create a chart using the Knowledge Test Result data.
 
 4.  Open the **Common Data Services Default Solution**.
 
-5.  Click on the **Knowledge Test Result** entity.
+5.  Click on the **Knowledge Test Result** Table.
 
 6.  Select the **Charts** tab.
 
@@ -71,7 +71,7 @@ input some data to test your chart.
 
 3.  Open **Common Data Services Default Solution**.
 
-4.  Click on the **Knowledge Test Result** entity.
+4.  Click on the **Knowledge Test Result** Table.
 
 5.  Select the **Forms** tab.
 
